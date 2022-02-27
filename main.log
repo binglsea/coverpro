@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  27 FEB 2022 07:36
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  27 FEB 2022 07:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1884,7 +1884,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 第一章
-(./chap1/ch1.tex) [1
+(./ch1.tex) [1
 
 
 ]
@@ -1938,8 +1938,8 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44395 strings out of 476919
- 876490 string characters out of 5821839
+ 44393 strings out of 476919
+ 876454 string characters out of 5821839
  1732084 words of memory out of 5000000
  63625 multiletter control sequences out of 15000+600000
  467224 words of font info for 143 fonts, out of 8000000 for 9000
