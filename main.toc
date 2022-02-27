@@ -2,66 +2,58 @@
 \defcounter {refsection}{0}\relax 
 \vspace {3mm}\leftline {\bf \large 序言}\vspace {3mm}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{第一部分\hspace {1em}\begin {lishu}数学：表达美和创造美\end {lishu}}{1}{part.1}%
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}预备}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第一章\hspace {.3em}}数学：表达美和创造美}{2}{chapter.1}%
+\contentsline {section}{\numberline {.1}万物皆数?}{1}{section.0.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {I.1}万物皆数?}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {.1.1}一切从0开始}{1}{subsection.0.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {I.1.1}一切从0开始}{2}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {.1.2}有理数与无理数都不能局限于有限}{3}{subsection.0.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {I.1.2}有理数与无理数都不能局限于有限}{4}{subsection.1.1.2}%
+\contentsline {section}{\numberline {.2}数的进位制}{3}{section.0.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {I.2}数的进位制}{4}{section.1.2}%
+\contentsline {section}{习题}{4}{section*.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{习题}{5}{section*.3}%
+\contentsline {section}{\numberline {.3}偏爱有理数}{4}{section.0.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {I.3}偏爱有理数}{5}{section.1.3}%
+\contentsline {section}{\numberline {.4}尺寸}{4}{section.0.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {I.4}尺寸}{5}{section.1.4}%
+\contentsline {section}{习题}{6}{section*.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{习题}{7}{section*.4}%
+\contentsline {section}{\numberline {.5}汉字的数字化}{6}{section.0.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {I.5}汉字的数字化}{7}{section.1.5}%
+\contentsline {subsection}{\numberline {.5.1}BG 码与统一码 Unicode}{6}{subsection.0.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {I.5.1}BG 码与统一码 Unicode}{7}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {.5.2}utf-8}{6}{subsection.0.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {I.5.2}utf-8}{7}{subsection.1.5.2}%
+\contentsline {section}{\numberline {.6}颜色}{7}{section.0.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {I.6}颜色}{8}{section.1.6}%
+\contentsline {subsection}{\numberline {.6.1}彩虹、日光和调色板}{7}{subsection.0.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {I.6.1}彩虹、日光和调色板}{8}{subsection.1.6.1}%
+\contentsline {section}{\numberline {.7}美离不开图}{8}{section.0.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {I.7}美离不开图}{9}{section.1.7}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}Python 入门}{11}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{第二部分\hspace {1em}\begin {lishu}Python 编程\end {lishu}}{12}{part.2}%
+\contentsline {section}{\numberline {.1}关于 Python}{11}{section.0.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第二章\hspace {.3em}}Python 入门}{13}{chapter.2}%
+\contentsline {section}{\numberline {.2}安装 Python 开发环境软件集 Anaconda}{11}{section.0.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {II.1}关于 Python}{13}{section.2.1}%
+\contentsline {section}{\numberline {.3}初识 Spyder}{13}{section.0.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {II.2}安装 Python 开发环境软件集 Anaconda}{13}{section.2.2}%
+\contentsline {section}{\numberline {.4}初识 Jupyter}{14}{section.0.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {II.3}初识 Spyder}{15}{section.2.3}%
+\contentsline {section}{\numberline {.5}常用进位制}{14}{section.0.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {II.4}初识 Jupyter}{16}{section.2.4}%
+\contentsline {section}{习题}{14}{section*.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {II.5}常用进位制}{16}{section.2.5}%
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}Python 应用}{17}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{习题}{16}{section*.16}%
+\contentsline {section}{\numberline {.1}Jieba}{17}{section.0.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}Python 应用}{19}{chapter.3}%
+\contentsline {section}{\numberline {.2}Some graphs}{17}{section.0.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {II.1}Jieba}{19}{section.2.1}%
+\contentsline {subsection}{\numberline {.2.1}一些数学公式的几何解释}{17}{subsection.0.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{第三部分\hspace {1em}\begin {lishu}PostScript 编程作图\end {lishu}}{20}{part.3}%
+\contentsline {section}{\numberline {.3}A List}{19}{section.0.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {III.1}Some graphs}{21}{section.3.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {III.1.1}一些数学公式的几何解释}{21}{subsection.3.1.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {III.2}A List}{23}{section.3.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {part}{第四部分\hspace {1em}\begin {lishu}Python 作图\end {lishu}}{24}{part.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{名词索引}{25}{section*.21}%
+\contentsline {chapter}{名词索引}{21}{section.0.3}%
