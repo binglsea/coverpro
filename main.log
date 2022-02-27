@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  27 FEB 2022 08:07
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  27 FEB 2022 08:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1948,24 +1948,16 @@ runsystem(makeindex main.idx)...executed safely (allowed).
 
 
 ] (./main.aux)
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 7EEAD560C6B99A271536E6517074CAE9;1610.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
  44408 strings out of 476919
- 876565 string characters out of 5821839
- 1733066 words of memory out of 5000000
+ 876535 string characters out of 5821839
+ 1733037 words of memory out of 5000000
  63631 multiletter control sequences out of 15000+600000
  467224 words of font info for 143 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
