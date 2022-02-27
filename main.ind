@@ -18,7 +18,10 @@
 
   \indexspace
 
+  \item 元, element, 1
+  \item 势, power, 1
   \item 图形用户界面, Graphic User Interface, 2
+  \item 基数, cardinal, 1
 
   \indexspace
 
@@ -29,5 +32,9 @@
 
   \item 脚本, Script, 2
   \item 解释器, Interpreter, 2
+
+  \indexspace
+
+  \item 集, set, 1
 
 \end{theindex}
