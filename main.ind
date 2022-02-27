@@ -1,59 +1,33 @@
 \begin{theindex}
 
-  \item $\aleph_0$, 自然数集的势, 2
-  \item $\mathbb{N}$, 自然数的集合, 1
-  \item \texttt{array}, 组元, 2
-  \item 0-based, 基于0的, 2
+  \item Anaconda, 2
 
   \indexspace
 
-  \item Anaconda, 11
+  \item IDE, 集成开发环境, 2
+  \item IDLE, 集成开发学习环境, 2
+  \item IntelliJ, 3
 
   \indexspace
 
-  \item HTML 超文本标记语言, 7, 8
+  \item Jupyter, 2
 
   \indexspace
 
-  \item IDE, 集成开发环境, 11
-  \item IDLE, 集成开发学习环境, 11
-  \item IntelliJ, 12
+  \item Spyder, 2
 
   \indexspace
 
-  \item Jupyter, 11
+  \item 图形用户界面, Graphic User Interface, 2
 
   \indexspace
 
-  \item Spyder, 11
-  \item SVG, Scalable Vector Graphics, 7
+  \item 终端, Terminal, 2
+  \item 编译器, Compiler, 2
 
   \indexspace
 
-  \item tag, 标签, 7
-
-  \indexspace
-
-  \item 列表, \texttt{list}, 2
-  \item 势, Cardinality, 2
-  \item 图形用户界面, Graphic User Interface, 11
-  \item 基数, Cardinal, 2
-  \item 序数, Ordinal, 3
-  \item 序数, Ordinal number, 2
-
-  \indexspace
-
-  \item 有理数, Rational number, 1
-
-  \indexspace
-
-  \item 皮亚诺公设, Peano Postulate, 1
-  \item 终端, Terminal, 11
-  \item 编译器, Compiler, 11
-
-  \indexspace
-
-  \item 脚本, Script, 11
-  \item 解释器, Interpreter, 11
+  \item 脚本, Script, 2
+  \item 解释器, Interpreter, 2
 
 \end{theindex}

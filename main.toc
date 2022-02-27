@@ -4,56 +4,32 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第一章\hspace {.3em}}预备}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {.1}万物皆数?}{1}{section.0.1}%
+\contentsline {section}{\numberline {1.1}记号、术语与基本事实}{1}{section.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {.1.1}一切从0开始}{1}{subsection.0.1.1}%
+\contentsline {section}{\numberline {1.2}空间与覆盖}{1}{section.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {.1.2}有理数与无理数都不能局限于有限}{3}{subsection.0.1.2}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}Python 入门}{2}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {.2}数的进位制}{3}{section.0.2}%
+\contentsline {section}{\numberline {2.1}关于 Python}{2}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{习题}{4}{section*.3}%
+\contentsline {section}{\numberline {2.2}安装 Python 开发环境软件集 Anaconda}{2}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {.3}偏爱有理数}{4}{section.0.3}%
+\contentsline {section}{\numberline {2.3}初识 Spyder}{4}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {.4}尺寸}{4}{section.0.4}%
+\contentsline {section}{\numberline {2.4}初识 Jupyter}{5}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{习题}{6}{section*.4}%
+\contentsline {section}{\numberline {2.5}常用进位制}{5}{section.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {.5}汉字的数字化}{6}{section.0.5}%
+\contentsline {section}{习题}{5}{section*.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {.5.1}BG 码与统一码 Unicode}{6}{subsection.0.5.1}%
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}Python 应用}{8}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {.5.2}utf-8}{6}{subsection.0.5.2}%
+\contentsline {section}{\numberline {3.1}Jieba}{8}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {.6}颜色}{7}{section.0.6}%
+\contentsline {section}{\numberline {3.2}Some graphs}{8}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {.6.1}彩虹、日光和调色板}{7}{subsection.0.6.1}%
+\contentsline {subsection}{\numberline {3.2.1}一些数学公式的几何解释}{8}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {.7}美离不开图}{8}{section.0.7}%
+\contentsline {section}{\numberline {3.3}A List}{10}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第二章\hspace {.3em}}Python 入门}{11}{chapter.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {.1}关于 Python}{11}{section.0.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {.2}安装 Python 开发环境软件集 Anaconda}{11}{section.0.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {.3}初识 Spyder}{13}{section.0.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {.4}初识 Jupyter}{14}{section.0.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {.5}常用进位制}{14}{section.0.5}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{习题}{14}{section*.16}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}Python 应用}{17}{chapter.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {.1}Jieba}{17}{section.0.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {.2}Some graphs}{17}{section.0.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {.2.1}一些数学公式的几何解释}{17}{subsection.0.2.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {.3}A List}{19}{section.0.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{名词索引}{21}{section.0.3}%
+\contentsline {chapter}{名词索引}{12}{section.3.3}%

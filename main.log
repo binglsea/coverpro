@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  26 FEB 2022 22:22
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  26 FEB 2022 22:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1641,12 +1641,6 @@ Package csquotes Info: ... none found.
 
 (./main.aux
 
-LaTeX Warning: Label `a_paper_py' multiply defined.
-
-
-LaTeX Warning: Label `fig:1.4.3' multiply defined.
-
-
 LaTeX Warning: Label `fig:III.1.3' multiply defined.
 
 )
@@ -1894,20 +1888,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 第一章
-(./chap1/ch1.tex
-
-LaTeX Warning: Reference `partII' on page 1 undefined on input line 10.
-
-) (./chap1/numbers.tex
-
-LaTeX Warning: Citation 'HuaL' on page 1 undefined on input line 17.
+(./chap1/ch1.tex) [1
 
 
-LaTeX Warning: Citation 'FeiH1' on page 1 undefined on input line 18.
+]
+第二章
+(./chap2/py_intro.tex
+LaTeX Font Info:    Trying to load font information for OT2+lmr on input line 8
+.
+LaTeX Font Info:    No file OT2lmr.fd. on input line 8.
 
 
-LaTeX Warning: Citation 'derWaerden' on page 1 undefined on input line 18.
+LaTeX Font Warning: Font shape `OT2/lmr/m/n' undefined
+(Font)              using `OT2/cmr/m/n' instead on input line 8.
 
+) (./chap2/py_install.tex
 
 Package fontspec Warning: Font "STFangsong" does not contain requested Script
 (fontspec)                "CJK".
@@ -1924,8 +1919,8 @@ Package fontspec Info: Could not resolve font "STFangsong/B" (it probably
 Package fontspec Info: Could not resolve font "STFangsong/I" (it probably
 (fontspec)             doesn't exist).
 
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-3.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 5
+.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1940,111 +1935,34 @@ Package fontspec Info: Font family 'STFangsong(0)' created for font
 (fontspec)             <->"STFangsong/OT:language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
-
-
-LaTeX Warning: Citation 'HalmosP' on page 1 undefined on input line 26.
-
-
-LaTeX Warning: Citation 'KelleyJ' on page 1 undefined on input line 26.
-
-
-LaTeX Warning: Citation 'JiangJi' on page 1 undefined on input line 26.
-
-[1
-
-
-]
-
-LaTeX Warning: Citation 'HalmosP' on page 2 undefined on input line 37.
-
-LaTeX Font Info:    Font shape `TU/SongtiSCLight(0)/m/sl' in size <12.045> not 
-available
-(Font)              Font shape `TU/SongtiSCLight(0)/m/it' tried instead on inpu
-t line 50.
-[2]
-Missing character: There is no • ("2022) in font ec-lmr12!
-) (./chap1/bases.tex [3]) (./chap1/rationals.tex) (./chap1/sizes.tex
-[4] (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
-5.
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmss.fd
-File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
-16.
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ts1lmss.fd
-File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [5])
-(./chap1/chars.tex
-Missing character: There is no ǔ ("1D4) in font ec-lmr12!
-) (./chap1/colors.tex
-Underfull \vbox (badness 3919) has occurred while \output is active []
-
- [6]
-File: code//eps/rainbow_light_spectrum.eps Graphic file (type eps)
-<code//eps/rainbow_light_spectrum.eps>
-File: code//png/safari_color_picker.png Graphic file (type bmp)
-<code//png/safari_color_picker.png>
-
-[7]
-File: code//eps/html_colors.eps Graphic file (type eps)
-<code//eps/html_colors.eps>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `fig:1.4.4' on page 8 undefined on input line 61.
-
-File: code//eps/html_16colors.eps Graphic file (type eps)
-<code//eps/html_16colors.eps>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (./chap1/graphs.tex
-File: code//jpg/gougu.jpg Graphic file (type bmp)
-<code//jpg/gougu.jpg>
-File: code//eps/gougu.eps Graphic file (type eps)
-<code//eps/gougu.eps>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: code//jpg/icm2002.jpeg Graphic file (type bmp)
-<code//jpg/icm2002.jpeg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Missing character: There is no ， (U+FF0C) in font [lmroman12-regular]:mapping=t
-ex-text;!
-) [8] [9] [10]
-第二章
-(./chap2/py_intro.tex
-LaTeX Font Info:    Trying to load font information for OT2+lmr on input line 8
-.
-LaTeX Font Info:    No file OT2lmr.fd. on input line 8.
-
-
-LaTeX Font Warning: Font shape `OT2/lmr/m/n' undefined
-(Font)              using `OT2/cmr/m/n' instead on input line 8.
-
-) (./chap2/py_install.tex [11
+ [2
 
 ]
 File: code//png/anaconda_navig.png Graphic file (type bmp)
 <code//png/anaconda_navig.png>
-) (./chap2/spyder1.tex
+)
+(./chap2/spyder1.tex
 File: code//png/spyder_ide.png Graphic file (type bmp)
 <code//png/spyder_ide.png>
 
 Underfull \vbox (badness 2922) has occurred while \output is active []
 
- [12]
-(./chap2/ch2.1.py.tex [13])) (./chap2/jupyter1.tex
+LaTeX Font Info:    Font shape `TU/SongtiSCLight(0)/m/sl' in size <12.045> not 
+available
+(Font)              Font shape `TU/SongtiSCLight(0)/m/it' tried instead on inpu
+t line 11.
+ [3]
+(./chap2/ch2.1.py.tex
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 3
+.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [4]))
+(./chap2/jupyter1.tex
 File: code//png/jupyter_launch.png Graphic file (type bmp)
 <code//png/jupyter_launch.png>
 ) (./chap2/nadic.tex
@@ -2065,7 +1983,7 @@ Overfull \hbox (3.01915pt too wide) in paragraph at lines 16--17
 [][] 
  []
 
-[14] [15]) [16]
+[5] [6]) [7]
 第三章
 (./chap3/jieba.tex
 Overfull \hbox (5.13573pt too wide) in paragraph at lines 10--14
@@ -2075,7 +1993,7 @@ url) txt = f.read().decode('gb2312')
 
 ) (./ps/3.1.tex
 
-LaTeX Warning: Citation 'PSLF3' on page 17 undefined on input line 3.
+LaTeX Warning: Citation 'PSLF3' on page 8 undefined on input line 3.
 
 File: code//eps/ps.1.1.eps Graphic file (type eps)
 <code//eps/ps.1.1.eps>
@@ -2100,57 +2018,63 @@ File: lstlang2.sty 2020/03/24 1.8d listings language file
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang3.sty
 File: lstlang3.sty 2020/03/24 1.8d listings language file
-) [17
+) [8
 
 ]
-[18]) (./ref/reference.tex
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
+63.
 
-LaTeX Warning: Citation 'HuaL' on page 19 undefined on input line 4.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ts1lmss.fd
+File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [9])
+(./ref/reference.tex
 
-
-LaTeX Warning: Citation 'ZhongEr1' on page 19 undefined on input line 6.
-
-
-LaTeX Warning: Citation 'ZhongEr2' on page 19 undefined on input line 8.
-
-
-LaTeX Warning: Citation 'LivioM' on page 19 undefined on input line 10.
+LaTeX Warning: Citation 'HuaL' on page 10 undefined on input line 4.
 
 
-LaTeX Warning: Citation 'LivioM2' on page 19 undefined on input line 12.
+LaTeX Warning: Citation 'ZhongEr1' on page 10 undefined on input line 6.
 
 
-LaTeX Warning: Citation 'FeiH1' on page 19 undefined on input line 14.
+LaTeX Warning: Citation 'ZhongEr2' on page 10 undefined on input line 8.
 
 
-LaTeX Warning: Citation 'FeiH2' on page 19 undefined on input line 15.
+LaTeX Warning: Citation 'LivioM' on page 10 undefined on input line 10.
 
 
-LaTeX Warning: Citation 'FeiH3' on page 19 undefined on input line 15.
+LaTeX Warning: Citation 'LivioM2' on page 10 undefined on input line 12.
 
 
-LaTeX Warning: Citation 'AM69' on page 19 undefined on input line 17.
+LaTeX Warning: Citation 'FeiH1' on page 10 undefined on input line 14.
 
 
-LaTeX Warning: Citation 'HalmosP' on page 19 undefined on input line 19.
+LaTeX Warning: Citation 'FeiH2' on page 10 undefined on input line 15.
 
 
-LaTeX Warning: Citation 'KelleyJ' on page 19 undefined on input line 21.
+LaTeX Warning: Citation 'FeiH3' on page 10 undefined on input line 15.
 
 
-LaTeX Warning: Citation 'JiangJi' on page 19 undefined on input line 23.
+LaTeX Warning: Citation 'AM69' on page 10 undefined on input line 17.
 
-[19]
 
-LaTeX Warning: Citation 'derWaerden' on page 20 undefined on input line 25.
+LaTeX Warning: Citation 'HalmosP' on page 10 undefined on input line 19.
 
-) [20]
 
-LaTeX Warning: Empty bibliography on input line 175.
+LaTeX Warning: Citation 'KelleyJ' on page 10 undefined on input line 21.
+
+
+LaTeX Warning: Citation 'JiangJi' on page 10 undefined on input line 23.
+
+[10]
+
+LaTeX Warning: Citation 'derWaerden' on page 11 undefined on input line 25.
+
+) [11]
+
+LaTeX Warning: Empty bibliography on input line 168.
 
 runsystem(makeindex main.idx)...executed safely (allowed).
 
-(./main.ind) [21
+(./main.ind) [12
 
 
 
@@ -2166,7 +2090,7 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2EBA6DF5958CDD4D5AFF3AF5520FA04D;2087.
+(rerunfilecheck)             Checksum: 91AE2DFF2EB5FA56568C836859016CE8;1554.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -2177,12 +2101,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45798 strings out of 476919
- 915448 string characters out of 5821839
- 1768721 words of memory out of 5000000
- 64875 multiletter control sequences out of 15000+600000
- 512643 words of font info for 179 fonts, out of 8000000 for 9000
+ 45490 strings out of 476919
+ 899178 string characters out of 5821839
+ 1747675 words of memory out of 5000000
+ 64607 multiletter control sequences out of 15000+600000
+ 504426 words of font info for 169 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,12n,104p,1185b,2030s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,7n,104p,1185b,2162s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (24 pages).
+Output written on main.pdf (15 pages).
