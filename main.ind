@@ -1,0 +1,59 @@
+\begin{theindex}
+
+  \item $\aleph_0$, 自然数集的势, 3
+  \item $\mathbb{N}$, 自然数的集合, 2
+  \item \texttt{array}, 组元, 3
+  \item 0-based, 基于0的, 3
+
+  \indexspace
+
+  \item Anaconda, 13
+
+  \indexspace
+
+  \item HTML 超文本标记语言, 8, 9
+
+  \indexspace
+
+  \item IDE, 集成开发环境, 13
+  \item IDLE, 集成开发学习环境, 13
+  \item IntelliJ, 14
+
+  \indexspace
+
+  \item Jupyter, 13
+
+  \indexspace
+
+  \item Spyder, 13
+  \item SVG, Scalable Vector Graphics, 8
+
+  \indexspace
+
+  \item tag, 标签, 8
+
+  \indexspace
+
+  \item 列表, \texttt{list}, 3
+  \item 势, Cardinality, 3
+  \item 图形用户界面, Graphic User Interface, 13
+  \item 基数, Cardinal, 3
+  \item 序数, Ordinal, 4
+  \item 序数, Ordinal number, 3
+
+  \indexspace
+
+  \item 有理数, Rational number, 2
+
+  \indexspace
+
+  \item 皮亚诺公设, Peano Postulate, 3
+  \item 终端, Terminal, 13
+  \item 编译器, Compiler, 13
+
+  \indexspace
+
+  \item 脚本, Script, 13
+  \item 解释器, Interpreter, 13
+
+\end{theindex}

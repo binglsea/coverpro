@@ -1,0 +1,36 @@
+closepath — Þ —
+Closes the current path with a straight line to the last moveto point
+lineto x y Þ —
+Continue the path with line to (x,y)
+moveto x y Þ —
+Set the current point to (x,y)
+newpath — Þ —
+Clear the current path
+rlineto x y Þ —
+Relative lineto (currentpoint + (x,y))
+rmoveto x y Þ —
+Relative moveto
+Painting Operators
+fill — Þ —
+Fill current path with the current color
+setgray n Þ —
+Set the current color
+setlinewidth n Þ —
+Set the current line width
+stroke — Þ —
+Paint the current path with the current color and line width
+Output Operators
+showpage — Þ —
+Transfer the current page to the output device
+findfont key Þ fdict
+Return dictionary for named font
+scalefont fdict n Þ fdict
+Return new scaled font dictionary
+setfont fdict Þ —
+Set current font
+show str Þ —
+Print str on the current page
+stringwidth str Þ x y
+Return width of str
+46 Chapter
+
