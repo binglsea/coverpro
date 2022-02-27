@@ -6,7 +6,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}记号、术语与基本事实}{1}{section.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}空间与覆盖}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.2}弱覆盖性质}{1}{section.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}可扩型空间}{1}{section.1.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第二章\hspace {.3em}}仿紧空间与次亚紧空间}{2}{chapter.2}%
 \defcounter {refsection}{0}\relax 
