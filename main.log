@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  27 FEB 2022 07:53
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  27 FEB 2022 08:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1889,11 +1889,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 第二章
-[2
+(./ch2.tex) [2
 
 ]
 第三章
-[3
+(./ch3.tex) [3
 
 ]
 第四章
@@ -1909,7 +1909,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 147.
 
-[4
+(./ch4.tex) [4
 
 ]
 
@@ -1927,7 +1927,7 @@ runsystem(makeindex main.idx)...executed safely (allowed).
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AF84DDE9A156B06F7FF6E24837444AF1;833.
+(rerunfilecheck)             Checksum: 89D5C51E9044EB6A58FE5B99D6571F03;1753.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1938,10 +1938,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44393 strings out of 476919
- 876454 string characters out of 5821839
- 1732190 words of memory out of 5000000
- 63625 multiletter control sequences out of 15000+600000
+ 44408 strings out of 476919
+ 876565 string characters out of 5821839
+ 1733220 words of memory out of 5000000
+ 63631 multiletter control sequences out of 15000+600000
  467224 words of font info for 143 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  101i,6n,104p,1185b,844s stack positions out of 5000i,500n,10000p,200000b,80000s

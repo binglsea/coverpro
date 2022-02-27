@@ -12,8 +12,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第二章\hspace {.3em}}仿紧空间与次亚紧空间}{2}{chapter.2}%
 \defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}次亚紧空间}{2}{section.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}亚紧空间}{2}{section.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}仿紧空间}{2}{section.2.3}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第三章\hspace {.3em}}正规覆盖与集体正规空间}{3}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}记号、术语与基本事实}{3}{section.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}弱覆盖性质}{3}{section.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}可扩型空间}{3}{section.3.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第四章\hspace {.3em}}$\lambda $完满正规与次仿紧空间}{4}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{名词索引}{5}{chapter.4}%
+\contentsline {section}{\numberline {4.1}记号、术语与基本事实}{4}{section.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}弱覆盖性质}{4}{section.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}可扩型空间}{4}{section.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{名词索引}{5}{section.4.3}%
