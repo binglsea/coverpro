@@ -8,28 +8,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}空间与覆盖}{1}{section.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第二章\hspace {.3em}}Python 入门}{2}{chapter.2}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}仿紧空间与次亚紧空间}{2}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}关于 Python}{2}{section.2.1}%
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}正规覆盖与集体正规空间}{3}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}安装 Python 开发环境软件集 Anaconda}{2}{section.2.2}%
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}$\lambda $完满正规与次仿紧空间}{4}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}初识 Spyder}{4}{section.2.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}初识 Jupyter}{5}{section.2.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}常用进位制}{5}{section.2.5}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{习题}{5}{section*.8}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}Python 应用}{8}{chapter.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Jieba}{8}{section.3.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Some graphs}{8}{section.3.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}一些数学公式的几何解释}{8}{subsection.3.2.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}A List}{10}{section.3.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{名词索引}{12}{section.3.3}%
+\contentsline {chapter}{名词索引}{5}{chapter.4}%
