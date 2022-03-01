@@ -44,9 +44,36 @@ $A$内某个元的像. 既是单射又是满射则称为一个双射.
 $[A]^{<\omega} = \bigcup_{n<\omega}[A]^n$.
 
 \subsection{集族}\label{ch1.1.1}
-设
+设$\Delta$是以序数为元的一个集.
+符号$\{D_\alpha : \alpha\in\Delta\}$称为集$X$的一个子集\begin{kaishu}族\end{kaishu}或
+$X$内的一个\begin{kaishu}集族\end{kaishu}是指存在
+一个函数$f:\Delta \to \mathscr{P}(X)$
+使得$\forall \alpha \in \Delta, f(\alpha)=D_\alpha$.
+$\Delta$叫这个集族的指标集. $\mathscr{P}(X)$
+的每子集$\mathscr{A}$就是一个集族.
+因为设$|\mathscr{A}|=\lambda$且设$f: \lambda\to \mathscr{A}$是
+一个双射.令$A_\alpha = f(\alpha)$, 则$\mathscr{A}=\{A_\alpha:\alpha\in\lambda\}$.
+
+现设$\mathscr{D}=\{D_\alpha:\alpha\in\Delta\}$是$X$的一个子集族.我们把
+$|\Delta|$称为族$\mathscr{D}$的势.设$E\subset X$.下列记号是常用的.
+
+$\mathscr{D}|_E= \{D_\alpha\cap E: \alpha\in\Delta\}$.
+
+$(\mathscr{D})_E= \{D_\alpha: \alpha\in\Delta, D_\alpha\cap E \ne\phi\}$,
+st$(E, \mathscr{D}) = \bigcup(\mathscr{D})_E$.
+
+设$x\in X$. $(\mathscr{D})_x= \{D_\alpha: \alpha\in\Delta, x\in D_\alpha$,
+st$(x, \mathscr{D}) = \bigcup(\mathscr{D})_x$.
+
+若$\Gamma\subset\Delta$, 则集族$\{D_\alpha : \alpha\in\Gamma\}$称$\mathscr{D}$的一个子族.当$\Delta$是空集时,我们认为所有的族$\{D_\alpha : \alpha\in\phi\}$皆等于单元集$\{\phi\}$.
+
+与集族类似,以序数$\beta$为定义域的函数
+$x: \beta\to X$称集$X$内的的一个序列或点列, 记为$x=\{x_\alpha : \alpha\in\beta\}$.
+此处$x_\alpha=x(\alpha)$称一个$\beta$序列. $\omega$序列也记为
+$(x_0, x_1, \dots)$. 0 序列是$\phi$.为了免与开区间混淆, $(x_0, x_1)$也常记为$<x_0, x_1>$.
 
 \subsection{空间与覆盖}\label{ch1.1.2}
+拓扑空间简称为空间.不附加任何分离公理.正规、正则空间也不必是$T_1$的.
 
 \subsection{内部保持族与半开覆盖}\label{ch1.1.3}
 
