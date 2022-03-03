@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  2 MAR 2022 16:50
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  2 MAR 2022 19:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1937,18 +1937,17 @@ Package fontspec Info: Font family 'SongtiSCLight(1)' created for font 'Songti
 LaTeX Font Warning: Font shape `TU/SongtiSCLight(1)/m/it' undefined
 (Font)              using `TU/SongtiSCLight(1)/m/n' instead on input line 114.
 
-)
 LaTeX Font Info:    Font shape `TU/SongtiSCLight(0)/m/sl' in size <12.045> not 
 available
 (Font)              Font shape `TU/SongtiSCLight(0)/m/it' tried instead on inpu
-t line 145.
- [2]
+t line 142.
+[2]) [3]
 第二章
-(./ch2.tex) [3
+(./ch2.tex) [4
 
 ]
 第三章
-(./ch3.tex) [4
+(./ch3.tex) [5
 
 ]
 第四章
@@ -1997,7 +1996,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 10.
 
-) [5
+) [6
 
 ]
 
@@ -2005,7 +2004,7 @@ LaTeX Warning: Empty bibliography on input line 159.
 
 runsystem(makeindex main.idx)...executed safely (allowed).
 
-(./main.ind) [6
+(./main.ind) [7
 
 
 
@@ -2025,12 +2024,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44498 strings out of 476919
- 878284 string characters out of 5821839
- 1736700 words of memory out of 5000000
- 63704 multiletter control sequences out of 15000+600000
+ 44520 strings out of 476919
+ 879879 string characters out of 5821839
+ 1738702 words of memory out of 5000000
+ 63726 multiletter control sequences out of 15000+600000
  475686 words of font info for 154 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  101i,6n,104p,1185b,844s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (9 pages).
+Output written on main.pdf (10 pages).

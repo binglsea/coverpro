@@ -10,34 +10,34 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.1.2}空间与覆盖}{2}{subsection.1.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.3}内部保持族与半开覆盖}{2}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.3}内部保持族与半开覆盖}{3}{subsection.1.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.4}函数开集}{2}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.1.4}函数开集}{3}{subsection.1.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}弱覆盖性质}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.2}弱覆盖性质}{3}{section.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}可扩型空间}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.3}可扩型空间}{3}{section.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第二章\hspace {.3em}}仿紧空间与次亚紧空间}{3}{chapter.2}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}仿紧空间与次亚紧空间}{4}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}次亚紧空间}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.1}次亚紧空间}{4}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}亚紧空间}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.2}亚紧空间}{4}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}仿紧空间}{3}{section.2.3}%
+\contentsline {section}{\numberline {2.3}仿紧空间}{4}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}正规覆盖与集体正规空间}{4}{chapter.3}%
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}正规覆盖与集体正规空间}{5}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}正规覆盖}{4}{section.3.1}%
+\contentsline {section}{\numberline {3.1}正规覆盖}{5}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}集体正规空间}{4}{section.3.2}%
+\contentsline {section}{\numberline {3.2}集体正规空间}{5}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}$\lambda $完满正规与次仿紧空间}{5}{chapter.4}%
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}$\lambda $完满正规与次仿紧空间}{6}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}次仿紧空间}{5}{section.4.1}%
+\contentsline {section}{\numberline {4.1}次仿紧空间}{6}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}$\lambda $完满正规空间}{5}{section.4.2}%
+\contentsline {section}{\numberline {4.2}$\lambda $完满正规空间}{6}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}正规 $\lambda $强仿紧空间}{5}{section.4.3}%
+\contentsline {section}{\numberline {4.3}正规 $\lambda $强仿紧空间}{6}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{名词索引}{6}{section.4.3}%
+\contentsline {chapter}{名词索引}{7}{section.4.3}%
