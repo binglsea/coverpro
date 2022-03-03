@@ -87,6 +87,8 @@
 \usepackage{amsthm}
 \newtheorem{definition}{定义}
 \newtheorem*{definition*}{定义}
+\newtheorem{note}{注释}
+\newtheorem*{note*}{注释}
 \newtheorem{theorem}{定理}
 \newtheorem*{theorem*}{定理}
 \newtheorem{lemma}{引理}
@@ -96,6 +98,7 @@
 \renewcommand{\proof}{\color{gray}\oldproof}
 % counter controlling
 \usepackage{chngcntr}
+\counterwithin{note}{section}
 \counterwithin{figure}{section}
 \counterwithin{equation}{section}
 \counterwithin{definition}{section}
