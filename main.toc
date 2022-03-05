@@ -40,4 +40,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}正规 $\lambda $强仿紧空间}{6}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{名词索引}{7}{section.4.3}%
+\contentsline {chapter}{名词索引}{9}{chapter*.3}%

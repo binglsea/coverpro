@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  1 MAR 2022 21:42
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  2 MAR 2022 22:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1616,10 +1616,11 @@ Package: amsthm 2020/05/29 v2.20.6
 \dth@everypar=\toks53
 )
 \c@definition=\count529
-\c@theorem=\count530
-\c@lemma=\count531
-\c@corollary=\count532
-\c@example=\count533
+\c@note=\count530
+\c@theorem=\count531
+\c@lemma=\count532
+\c@corollary=\count533
+\c@example=\count534
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/chngcntr/chngcntr.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
@@ -1633,7 +1634,7 @@ Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
 Package: xunicode-addon 2020/10/19 v3.8.6 addon file for xunicode
 \l__xunadd_tmp_coffin=\box126
 \l__xunadd_circle_coffin=\box127
-\l_xunadd_slot_int=\count534
+\l_xunadd_slot_int=\count535
 )
 (/usr/local/texlive/2021/texmf-dist/tex/xelatex/xunicode/xunicode.sty
 File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
@@ -1796,7 +1797,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count535
+\c@section@level=\count536
 )
 LaTeX Info: Redefining \ref on input line 2.
 LaTeX Info: Redefining \pageref on input line 2.
@@ -1832,7 +1833,7 @@ Package biblatex Info: ... file 'ch1.bbl' not found.
 No file ch1.bbl.
 Package biblatex Info: Reference section=0 on input line 2.
 Package biblatex Info: Reference segment=0 on input line 2.
-\c@lstlisting=\count536
+\c@lstlisting=\count537
 
 Package fontspec Warning: Font "Kaiti SC" does not contain requested Script
 (fontspec)                "CJK".
@@ -1887,8 +1888,45 @@ t line 74.
  [1
 
 
-] [2]
-(./ch1.aux)
+]
+
+Package fontspec Warning: Font "Songti SC Light" does not contain requested
+(fontspec)                Script "CJK".
+
+
+Package fontspec Info: Could not resolve font "Songti SC Bold/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "Songti SC Light/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'SongtiSCLight(1)' created for font 'Songti
+(fontspec)             SC Light' with options [Script={CJK},BoldFont={Songti
+(fontspec)             SC Bold}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Songti SC
+(fontspec)             Light/OT:language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Songti SC
+(fontspec)             Bold/OT:language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Songti SC
+(fontspec)             Light/BI/OT:language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+
+LaTeX Font Warning: Font shape `TU/SongtiSCLight(1)/m/it' undefined
+(Font)              using `TU/SongtiSCLight(1)/m/n' instead on input line 114.
+
+[2] (./ch1.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `ch1.out' has not changed.
 (rerunfilecheck)             Checksum: C4829232658D062C043E05DDB031FD63;295.
 Package logreq Info: Writing requests to 'ch1.run.xml'.
@@ -1896,11 +1934,11 @@ Package logreq Info: Writing requests to 'ch1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44343 strings out of 476919
- 875632 string characters out of 5821839
- 1738821 words of memory out of 5000000
- 63592 multiletter control sequences out of 15000+600000
- 445781 words of font info for 95 fonts, out of 8000000 for 9000
+ 44402 strings out of 476919
+ 878071 string characters out of 5821839
+ 1738883 words of memory out of 5000000
+ 63644 multiletter control sequences out of 15000+600000
+ 453065 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  121i,5n,121p,1224b,844s stack positions out of 5000i,500n,10000p,200000b,80000s
 
