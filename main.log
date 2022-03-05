@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  4 MAR 2022 17:42
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  4 MAR 2022 20:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1940,8 +1940,11 @@ LaTeX Font Warning: Font shape `TU/SongtiSCLight(1)/m/it' undefined
 LaTeX Font Info:    Font shape `TU/SongtiSCLight(0)/m/sl' in size <12.045> not 
 available
 (Font)              Font shape `TU/SongtiSCLight(0)/m/it' tried instead on inpu
-t line 144.
-[2]) [3]
+t line 148.
+[2]
+Missing character: There is no 的 (U+7684) in font [lmroman12-regular]:mapping=t
+ex-text;!
+) [3]
 第二章
 (./ch2.tex) [4
 
