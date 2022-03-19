@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  19 MAR 2022 10:00
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  19 MAR 2022 10:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2007,27 +2007,27 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Missing character: There is no ⑧ ("2467) in font ec-lmr12!
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.177 Huang Haoran (#
-                      7 18)
+l.186 \noindent Huang Haoran (#
+                                7 18)
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 Missing character: There is no ≥ ("2265) in font ec-lmr12!
-[9]
+[9] [10]
 Missing character: There is no • ("2022) in font ec-lmr12!
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.431 [_
+l.467 [_
         1951 Uber Funktionen, die auf einer abgeschlossenen Menge stetig sind.
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! You can't use `macro parameter character #' in math mode.
-l.485 ^^IWu Lisheng (E AJ#
+l.521 ^^IWu Lisheng (E AJ#
                           )
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2037,7 +2037,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.489 ^^I
+l.525 ^^I
          
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2125,7 +2125,7 @@ ex-text;!
 Missing character: There is no 期 (U+671F) in font [lmroman12-regular]:mapping=t
 ex-text;!
 
-Overfull \hbox (98.30106pt too wide) in paragraph at lines 280--489
+Overfull \hbox (98.30106pt too wide) in paragraph at lines 392--525
 \T1/lmr/m/n/12.045 [$[]\OT1/cmr/m/n/12.045 951\OML/cmm/m/it/12.045 UberFunktion
 en; dieaufeinerabgeschlossenenMengestetigsind:Journ:furdiereineandangew:Math:\O
 T1/cmr/m/n/12.045 145\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 9 \OMS/cmsy/m/n
@@ -2133,7 +2133,7 @@ T1/cmr/m/n/12.045 145\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 9 \OMS/cmsy/m/n
  []
 
 
-Overfull \hbox (476.596pt too wide) in paragraph at lines 280--489
+Overfull \hbox (476.596pt too wide) in paragraph at lines 392--525
 \OT1/cmr/m/n/12.045 14\OML/cmm/m/it/12.045 :Tukey:J:W:\OT1/cmr/m/n/12.045 [1940
 ]\OML/cmm/m/it/12.045 Convergenceanduniformityintopology; Ann:ofMath:Studies:Pr
 inceton:Urysohn; P:L\OT1/cmr/m/n/12.045 1925]\OML/cmm/m/it/12.045 berdieMchtigk
@@ -2142,7 +2142,7 @@ eitderzusammenhangendenMengen; Math:Ann:I\OT1/cmr/m/n/12.045 94\OML/cmm/m/it/12
  []
 
 
-Overfull \hbox (48.07138pt too wide) in paragraph at lines 280--489
+Overfull \hbox (48.07138pt too wide) in paragraph at lines 392--525
 \OT1/cmr/m/n/12.045 295\OML/cmm/m/it/12.045 :VaughanIE:\OT1/cmr/m/n/12.045 [197
 0]\OML/cmm/m/it/12.045 Linearlyorderedcollectionsandparacompactness; Proc:Amer;
  MathSoc; \OT1/cmr/m/n/12.045 24\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 186 
@@ -2150,7 +2150,7 @@ Overfull \hbox (48.07138pt too wide) in paragraph at lines 280--489
  []
 
 
-Overfull \hbox (200.63164pt too wide) in paragraph at lines 280--489
+Overfull \hbox (200.63164pt too wide) in paragraph at lines 392--525
 \OT1/cmr/m/n/12.045 192\OML/cmm/m/it/12.045 :WangGuojun\OT1/cmr/m/n/12.045 (\OM
 L/cmm/m/it/12.045 IE\OT1/cmr/m/n/12.045 (2)\OML/cmm/m/it/12.045 C\OT1/cmr/m/n/1
 2.045 19887\OML/cmm/m/it/12.045 I \OMS/cmsy/m/n/12.045 ^^@ \OML/cmm/m/it/12.045
@@ -2162,7 +2162,7 @@ Fund:Math:; \OT1/cmr/m/n/12.045 55\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 12
  []
 
 
-Overfull \hbox (2.17232pt too wide) in paragraph at lines 280--489
+Overfull \hbox (2.17232pt too wide) in paragraph at lines 392--525
 \OT1/cmr/m/n/12.045 136\OML/cmm/m/it/12.045 :\OT1/cmr/m/n/12.045 [1981]\OML/cmm
 /m/it/12.045 Therationallinepartitionseveryselt \OMS/cmsy/m/n/12.045 ^^@ \OML/c
 mm/m/it/12.045 densemetrizablespace; LOpolobyAppl:; \OT1/cmr/m/n/12.045 12\OML/
@@ -2170,7 +2170,7 @@ cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 331 \OMS/cmsy/m/n/12.045 ^^@
  []
 
 
-Overfull \hbox (65.03836pt too wide) in paragraph at lines 280--489
+Overfull \hbox (65.03836pt too wide) in paragraph at lines 392--525
 \OT1/cmr/m/n/12.045 332\OML/cmm/m/it/12.045 :WatsonWas:\OT1/cmr/m/n/12.045 [198
 2]\OML/cmm/m/it/12.045 Locallvcompactnormalspacesintheconstructioleuniverse; Ca
 nad:IMath:; \OT1/cmr/m/n/12.045 34\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 10
@@ -2178,14 +2178,14 @@ nad:IMath:; \OT1/cmr/m/n/12.045 34\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 10
  []
 
 
-Overfull \hbox (103.18983pt too wide) in paragraph at lines 280--489
+Overfull \hbox (103.18983pt too wide) in paragraph at lines 392--525
 \OT1/cmr/m/n/12.045 1096\OML/cmm/m/it/12.045 :wickedElle:andWorrellarsTam\OT1/c
 mr/m/n/12.045 [1979]\OML/cmm/m/it/12.045 Acoveringpropertvwhichimpliesisocompac
 tness:LopologyHrOC::\OT1/cmr/m/n/12.045 213 \OMS/cmsy/m/n/12.045 ^^@
  []
 
 
-Overfull \hbox (409.29515pt too wide) in paragraph at lines 280--489
+Overfull \hbox (409.29515pt too wide) in paragraph at lines 392--525
 \OT1/cmr/m/n/12.045 224\OML/cmm/m/it/12.045 :\OT1/cmr/m/n/12.045 1966\OML/cmm/m
 /it/12.045 Acharacterizationofmetacompactspaces; Portugal:Math:; \OT1/cmr/m/n/1
 2.045 25\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 1/1 \OMS/cmsy/m/n/12.045 ^^@
@@ -2196,7 +2196,7 @@ t/12.045 :\OT1/cmr/m/n/12.045 175 \OMS/cmsy/m/n/12.045 ^^@
  []
 
 
-Overfull \hbox (1129.58139pt too wide) in paragraph at lines 280--489
+Overfull \hbox (1129.58139pt too wide) in paragraph at lines 392--525
 \OT1/cmr/m/n/12.045 179\OML/cmm/m/it/12.045 :\OT1/cmr/m/n/12.045 [1967]\OML/cmm
 /m/it/12.045 SomepropertiesoffullynormalcyandtheirrelationstoCechcomdeteness:No
 ticesAmer:Math:DOC:; \OT1/cmr/m/n/12.045 14\OML/cmm/m/it/12.045 :\OT1/cmr/m/n/1
@@ -2210,7 +2210,7 @@ nad:I:Math:\OT1/cmr/m/n/12.045 17\OML/cmm/m/it/12.045 :\OT1/cmr/m/n/12.045 820
  []
 
 
-Overfull \hbox (211.03354pt too wide) in paragraph at lines 280--489
+Overfull \hbox (211.03354pt too wide) in paragraph at lines 392--525
 \OT1/cmr/m/n/12.045 830\OML/cmm/m/it/12.045 :\OT1/cmr/m/n/12.045 [1979]\OML/cmm
 /m/it/12.045 Acoveringpropertywhichimpliesisocompactness; Proc:Math:Soc:; \OT1/
 cmr/m/n/12.045 79\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 331 \OMS/cmsy/m/n/1
@@ -2220,15 +2220,12 @@ cmr/m/n/12.045 79\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 331 \OMS/cmsy/m/n/1
 cmsy/m/n/12.045 ^^@
  []
 
-
-Underfull \vbox (badness 6236) has occurred while \output is active []
-
- [10]
+[11]
 Missing character: There is no † ("2020) in font ec-lmr12!
 Missing character: There is no • ("2022) in font ec-lmr12!
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.507 Yang Shoulian and Williams S. W. (#
+l.543 Yang Shoulian and Williams S. W. (#
                                          74)
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2236,7 +2233,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Misplaced alignment tab character &.
-l.511 Certain subsets of products of &
+l.547 Certain subsets of products of &
                                       -refinaole spaces are realcompact,
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2248,7 +2245,7 @@ might try typing `S' now just to see what is salvageable.
 ! You can't use `macro parameter character #' in horizontal mode.
 <recently read> ##
                   
-l.513 Zhong Ning(£#
+l.549 Zhong Ning(£#
                     7)
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2267,13 +2264,13 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[11]
+[12]
 
 LaTeX Warning: Empty bibliography on input line 162.
 
 runsystem(makeindex main.idx)...executed safely (allowed).
 
-(./main.ind) [12
+(./main.ind) [13
 
 
 
@@ -2293,12 +2290,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44659 strings out of 476919
- 889646 string characters out of 5821839
+ 44621 strings out of 476919
+ 886870 string characters out of 5821839
  1739729 words of memory out of 5000000
- 63863 multiletter control sequences out of 15000+600000
+ 63825 multiletter control sequences out of 15000+600000
  475686 words of font info for 154 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,6n,104p,1185b,844s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,7n,104p,1185b,844s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (15 pages).
+Output written on main.pdf (16 pages).
