@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  19 MAR 2022 10:45
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  19 MAR 2022 10:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2007,225 +2007,67 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Missing character: There is no ⑧ ("2467) in font ec-lmr12!
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.189 \noindent Huang Haoran (#
+l.193 \noindent Huang Haoran (#
                                 7 18)
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
+[9]
 Missing character: There is no ≥ ("2265) in font ec-lmr12!
-[9] [10]
-Missing character: There is no • ("2022) in font ec-lmr12!
+ [10] [11]
+Overfull \hbox (7.10344pt too wide) in paragraph at lines 458--465
+[]\T1/lmr/m/n/12.045 [1970] Meta-com-pact spaces and well-ordered open cov-er-i
+ngs, No-tices Amer Math. Soc..18,230
+ []
 
+Missing character: There is no • ("2022) in font ec-lmr12!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.471 [_
+l.532 [_
         1951 Uber Funktionen, die auf einer abgeschlossenen Menge stetig sind.
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-! You can't use `macro parameter character #' in math mode.
-l.525 ^^IWu Lisheng (E AJ#
-                          )
+! Missing $ inserted.
+<inserted text> 
+                $
+l.534 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (122.39105pt too wide) in paragraph at lines 532--534
+[]\T1/lmr/m/n/12.045 [$[]\OT1/cmr/m/n/12.045 951\OML/cmm/m/it/12.045 UberFunkti
+onen; dieaufeinerabgeschlossenenMengestetigsind:Journ:furdiereineandangew:Math:
+\OT1/cmr/m/n/12.045 145\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 9 \OMS/cmsy/m
+/n/12.045 ^^@
+ []
+
+[12]
+Overfull \hbox (10.96492pt too wide) in paragraph at lines 550--563
+[]\T1/lmr/m/n/12.045 Wang Guo-jun (I E(2) C19887 I-fuzzy \TU/SongtiSCLight(1)/m
+/n/12.045 拓 扑 空 间 论\T1/lmr/m/n/12.045 , \TU/SongtiSCLight(1)/m/n/12.045 陕 西 师 范
+ 大 学 出 版 社．| \T1/lmr/m/n/12.045 Wang Shutang(ER*)
+ []
+
+! You can't use `macro parameter character #' in horizontal mode.
+<recently read> ##
+                  
+l.598 Wu Lisheng (E AJ#
+                       )
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.529 ^^I
-         
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Missing character: There is no Ü ("DC) in font cmmi12!
-Missing character: There is no ä ("E4) in font cmmi12!
-Missing character: There is no 拓 (U+62D3) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 扑 (U+6251) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 空 (U+7A7A) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 间 (U+95F4) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 论 (U+8BBA) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 陕 (U+9655) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 西 (U+897F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 师 (U+5E08) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 范 (U+8303) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 大 (U+5927) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 学 (U+5B66) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 出 (U+51FA) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 版 (U+7248) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 社 (U+793E) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no ． (U+FF0E) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 关 (U+5173) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 于 (U+4E8E) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 有 (U+6709) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 限 (U+9650) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 到 (U+5230) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 一 (U+4E00) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 伪 (U+4F2A) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 开 (U+5F00) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 映 (U+6620) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 射 (U+5C04) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 的 (U+7684) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 一 (U+4E00) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 点 (U+70B9) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 注 (U+6CE8) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 记 (U+8BB0) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no ， (U+FF0C) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 苏 (U+82CF) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 州 (U+5DDE) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 大 (U+5927) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 学 (U+5B66) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 学 (U+5B66) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 报 (U+62A5) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no ， (U+FF0C) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 第 (U+7B2C) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no 期 (U+671F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-Overfull \hbox (98.30106pt too wide) in paragraph at lines 396--529
-\T1/lmr/m/n/12.045 [$[]\OT1/cmr/m/n/12.045 951\OML/cmm/m/it/12.045 UberFunktion
-en; dieaufeinerabgeschlossenenMengestetigsind:Journ:furdiereineandangew:Math:\O
-T1/cmr/m/n/12.045 145\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 9 \OMS/cmsy/m/n
-/12.045 ^^@
- []
-
-
-Overfull \hbox (476.596pt too wide) in paragraph at lines 396--529
-\OT1/cmr/m/n/12.045 14\OML/cmm/m/it/12.045 :Tukey:J:W:\OT1/cmr/m/n/12.045 [1940
-]\OML/cmm/m/it/12.045 Convergenceanduniformityintopology; Ann:ofMath:Studies:Pr
-inceton:Urysohn; P:L\OT1/cmr/m/n/12.045 1925]\OML/cmm/m/it/12.045 berdieMchtigk
-eitderzusammenhangendenMengen; Math:Ann:I\OT1/cmr/m/n/12.045 94\OML/cmm/m/it/12
-.045 ; \OT1/cmr/m/n/12.045 262 \OMS/cmsy/m/n/12.045 ^^@
- []
-
-
-Overfull \hbox (48.07138pt too wide) in paragraph at lines 396--529
-\OT1/cmr/m/n/12.045 295\OML/cmm/m/it/12.045 :VaughanIE:\OT1/cmr/m/n/12.045 [197
-0]\OML/cmm/m/it/12.045 Linearlyorderedcollectionsandparacompactness; Proc:Amer;
- MathSoc; \OT1/cmr/m/n/12.045 24\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 186 
-\OMS/cmsy/m/n/12.045 ^^@
- []
-
-
-Overfull \hbox (200.63164pt too wide) in paragraph at lines 396--529
-\OT1/cmr/m/n/12.045 192\OML/cmm/m/it/12.045 :WangGuojun\OT1/cmr/m/n/12.045 (\OM
-L/cmm/m/it/12.045 IE\OT1/cmr/m/n/12.045 (2)\OML/cmm/m/it/12.045 C\OT1/cmr/m/n/1
-2.045 19887\OML/cmm/m/it/12.045 I \OMS/cmsy/m/n/12.045 ^^@ \OML/cmm/m/it/12.045
- fuzzy[][][][][]; [][][][][][][][][][]WangShutang\OT1/cmr/m/n/12.045 (\OML/cmm/
-m/it/12.045 ER\OMS/cmsy/m/n/12.045 ^^C\OT1/cmr/m/n/12.045 )19647\OML/cmm/m/it/1
-2.045 Remarksonc; \OMS/cmsy/m/n/12.045 ^^@\OML/cmm/m/it/12.045 additivespaces; 
-Fund:Math:; \OT1/cmr/m/n/12.045 55\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 12
-5 \OMS/cmsy/m/n/12.045 ^^@
- []
-
-
-Overfull \hbox (2.17232pt too wide) in paragraph at lines 396--529
-\OT1/cmr/m/n/12.045 136\OML/cmm/m/it/12.045 :\OT1/cmr/m/n/12.045 [1981]\OML/cmm
-/m/it/12.045 Therationallinepartitionseveryselt \OMS/cmsy/m/n/12.045 ^^@ \OML/c
-mm/m/it/12.045 densemetrizablespace; LOpolobyAppl:; \OT1/cmr/m/n/12.045 12\OML/
-cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 331 \OMS/cmsy/m/n/12.045 ^^@
- []
-
-
-Overfull \hbox (65.03836pt too wide) in paragraph at lines 396--529
-\OT1/cmr/m/n/12.045 332\OML/cmm/m/it/12.045 :WatsonWas:\OT1/cmr/m/n/12.045 [198
-2]\OML/cmm/m/it/12.045 Locallvcompactnormalspacesintheconstructioleuniverse; Ca
-nad:IMath:; \OT1/cmr/m/n/12.045 34\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 10
-91 \OMS/cmsy/m/n/12.045 ^^@
- []
-
-
-Overfull \hbox (103.18983pt too wide) in paragraph at lines 396--529
-\OT1/cmr/m/n/12.045 1096\OML/cmm/m/it/12.045 :wickedElle:andWorrellarsTam\OT1/c
-mr/m/n/12.045 [1979]\OML/cmm/m/it/12.045 Acoveringpropertvwhichimpliesisocompac
-tness:LopologyHrOC::\OT1/cmr/m/n/12.045 213 \OMS/cmsy/m/n/12.045 ^^@
- []
-
-
-Overfull \hbox (409.29515pt too wide) in paragraph at lines 396--529
-\OT1/cmr/m/n/12.045 224\OML/cmm/m/it/12.045 :\OT1/cmr/m/n/12.045 1966\OML/cmm/m
-/it/12.045 Acharacterizationofmetacompactspaces; Portugal:Math:; \OT1/cmr/m/n/1
-2.045 25\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 1/1 \OMS/cmsy/m/n/12.045 ^^@
- \OT1/cmr/m/n/12.045 174\OML/cmm/m/it/12.045 :\OT1/cmr/m/n/12.045 [1966\OML/cmm
-/m/it/12.045 a\OT1/cmr/m/n/12.045 ]\OML/cmm/m/it/12.045 TheClosedcontinuonsimag
-esormetacompacttonologicaspacesPortugal:Math:\OT1/cmr/m/n/12.045 25\OML/cmm/m/i
-t/12.045 :\OT1/cmr/m/n/12.045 175 \OMS/cmsy/m/n/12.045 ^^@
- []
-
-
-Overfull \hbox (1129.58139pt too wide) in paragraph at lines 396--529
-\OT1/cmr/m/n/12.045 179\OML/cmm/m/it/12.045 :\OT1/cmr/m/n/12.045 [1967]\OML/cmm
-/m/it/12.045 SomepropertiesoffullynormalcyandtheirrelationstoCechcomdeteness:No
-ticesAmer:Math:DOC:; \OT1/cmr/m/n/12.045 14\OML/cmm/m/it/12.045 :\OT1/cmr/m/n/1
-2.045 555\OML/cmm/m/it/12.045 :\OT1/cmr/m/n/12.045 [1968]\OML/cmm/m/it/12.045 P
-aracompactnessasarelaxationoffullnormalcy\OT1/cmr/m/n/12.045 ; \OML/cmm/m/it/12
-.045 NoticesAmelMath:Soc:\OT1/cmr/m/n/12.045 15\OML/cmm/m/it/12.045 ; \OT1/cmr/
-m/n/12.045 661\OML/cmm/m/it/12.045 :WorrellIr:J:M:andWickeH:H:\OT1/cmr/m/n/12.0
-45 [1965]\OML/cmm/m/it/12.045 Charcterizationsofdevelopabletopologicalspace; Ca
-nad:I:Math:\OT1/cmr/m/n/12.045 17\OML/cmm/m/it/12.045 :\OT1/cmr/m/n/12.045 820 
-\OMS/cmsy/m/n/12.045 ^^@
- []
-
-
-Overfull \hbox (211.03354pt too wide) in paragraph at lines 396--529
-\OT1/cmr/m/n/12.045 830\OML/cmm/m/it/12.045 :\OT1/cmr/m/n/12.045 [1979]\OML/cmm
-/m/it/12.045 Acoveringpropertywhichimpliesisocompactness; Proc:Math:Soc:; \OT1/
-cmr/m/n/12.045 79\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 331 \OMS/cmsy/m/n/1
-2.045 ^^@ \OT1/cmr/m/n/12.045 334\OML/cmm/m/it/12.045 :WuLisheng\OT1/cmr/m/n/12
-.045 (\OML/cmm/m/it/12.045 EAJ\OT1/cmr/m/n/12.045 )[1984][][][][][][][][][][][]
-[][][][][][][][][][][][][]1[]\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 8 \OMS/
-cmsy/m/n/12.045 ^^@
- []
-
-[11]
 Missing character: There is no † ("2020) in font ec-lmr12!
 Missing character: There is no • ("2022) in font ec-lmr12!
-
 ! You can't use `macro parameter character #' in horizontal mode.
-l.547 Yang Shoulian and Williams S. W. (#
+l.628 Yang Shoulian and Williams S. W. (#
                                          74)
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2233,7 +2075,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Misplaced alignment tab character &.
-l.551 Certain subsets of products of &
+l.633 Certain subsets of products of &
                                       -refinaole spaces are realcompact,
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2245,7 +2087,7 @@ might try typing `S' now just to see what is salvageable.
 ! You can't use `macro parameter character #' in horizontal mode.
 <recently read> ##
                   
-l.553 Zhong Ning(£#
+l.636 Zhong Ning(£#
                     7)
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2264,13 +2106,13 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[12]
+[13]
 
 LaTeX Warning: Empty bibliography on input line 162.
 
 runsystem(makeindex main.idx)...executed safely (allowed).
 
-(./main.ind) [13
+(./main.ind) [14
 
 
 
@@ -2298,4 +2140,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  101i,7n,104p,1185b,844s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (16 pages).
+Output written on main.pdf (17 pages).
