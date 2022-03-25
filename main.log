@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  19 MAR 2022 10:59
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  24 MAR 2022 21:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2017,7 +2017,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 [9]
 Missing character: There is no ≥ ("2265) in font ec-lmr12!
  [10] [11]
-Overfull \hbox (7.10344pt too wide) in paragraph at lines 458--465
+Overfull \hbox (7.10344pt too wide) in paragraph at lines 465--472
 []\T1/lmr/m/n/12.045 [1970] Meta-com-pact spaces and well-ordered open cov-er-i
 ngs, No-tices Amer Math. Soc..18,230
  []
@@ -2026,7 +2026,7 @@ Missing character: There is no • ("2022) in font ec-lmr12!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.532 [_
+l.540 [_
         1951 Uber Funktionen, die auf einer abgeschlossenen Menge stetig sind.
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2034,13 +2034,13 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.534 
+l.542 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (122.39105pt too wide) in paragraph at lines 532--534
+Overfull \hbox (122.39105pt too wide) in paragraph at lines 540--542
 []\T1/lmr/m/n/12.045 [$[]\OT1/cmr/m/n/12.045 951\OML/cmm/m/it/12.045 UberFunkti
 onen; dieaufeinerabgeschlossenenMengestetigsind:Journ:furdiereineandangew:Math:
 \OT1/cmr/m/n/12.045 145\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 9 \OMS/cmsy/m
@@ -2048,53 +2048,13 @@ onen; dieaufeinerabgeschlossenenMengestetigsind:Journ:furdiereineandangew:Math:
  []
 
 [12]
-Overfull \hbox (10.96492pt too wide) in paragraph at lines 550--563
-[]\T1/lmr/m/n/12.045 Wang Guo-jun (I E(2) C19887 I-fuzzy \TU/SongtiSCLight(1)/m
-/n/12.045 拓 扑 空 间 论\T1/lmr/m/n/12.045 , \TU/SongtiSCLight(1)/m/n/12.045 陕 西 师 范
- 大 学 出 版 社．| \T1/lmr/m/n/12.045 Wang Shutang(ER*)
+Overfull \hbox (4.1122pt too wide) in paragraph at lines 566--570
+[]\T1/lmr/m/n/12.045 [1981] The ra-tio-nal line par-ti-tions ev-ery selt-dense 
+metriz-able space, LOpolo by Appl.,12,331-
  []
 
-! You can't use `macro parameter character #' in horizontal mode.
-<recently read> ##
-                  
-l.598 Wu Lisheng (E AJ#
-                       )
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-Missing character: There is no † ("2020) in font ec-lmr12!
 Missing character: There is no • ("2022) in font ec-lmr12!
-! You can't use `macro parameter character #' in horizontal mode.
-l.628 Yang Shoulian and Williams S. W. (#
-                                         74)
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Misplaced alignment tab character &.
-l.633 Certain subsets of products of &
-                                      -refinaole spaces are realcompact,
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! You can't use `macro parameter character #' in horizontal mode.
-<recently read> ##
-                  
-l.636 Zhong Ning(£#
-                    7)
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-)
+[13])
 ! Missing } inserted.
 <inserted text> 
                 }
@@ -2106,13 +2066,13 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[13]
+[14]
 
 LaTeX Warning: Empty bibliography on input line 162.
 
 runsystem(makeindex main.idx)...executed safely (allowed).
 
-(./main.ind) [14
+(./main.ind) [15
 
 
 
@@ -2140,4 +2100,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  101i,7n,104p,1185b,844s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (17 pages).
+Output written on main.pdf (18 pages).
