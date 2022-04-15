@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  24 MAR 2022 21:14
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  14 APR 2022 22:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2001,13 +2001,38 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 ) [6
 
-] (./ref.tex [7
+] (./ref.tex
+Overfull \hbox (1.97716pt too wide) in paragraph at lines 5--8
+[][] 
+ []
+
+
+Overfull \hbox (1.97716pt too wide) in paragraph at lines 12--15
+[][] 
+ []
+
+
+Overfull \hbox (1.97716pt too wide) in paragraph at lines 18--21
+[][] 
+ []
+
+
+Overfull \hbox (1.97716pt too wide) in paragraph at lines 25--28
+[][] 
+ []
+
+
+Overfull \hbox (1.97716pt too wide) in paragraph at lines 31--34
+[][] 
+ []
+
+[7
 
 ] [8]
 Missing character: There is no ⑧ ("2467) in font ec-lmr12!
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.193 \noindent Huang Haoran (#
+l.202 \noindent Huang Haoran (#
                                 7 18)
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2017,7 +2042,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 [9]
 Missing character: There is no ≥ ("2265) in font ec-lmr12!
  [10] [11]
-Overfull \hbox (7.10344pt too wide) in paragraph at lines 465--472
+Overfull \hbox (7.10344pt too wide) in paragraph at lines 474--481
 []\T1/lmr/m/n/12.045 [1970] Meta-com-pact spaces and well-ordered open cov-er-i
 ngs, No-tices Amer Math. Soc..18,230
  []
@@ -2026,7 +2051,7 @@ Missing character: There is no • ("2022) in font ec-lmr12!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.540 [_
+l.549 [_
         1951 Uber Funktionen, die auf einer abgeschlossenen Menge stetig sind.
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2034,13 +2059,13 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.542 
+l.551 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (122.39105pt too wide) in paragraph at lines 540--542
+Overfull \hbox (122.39105pt too wide) in paragraph at lines 549--551
 []\T1/lmr/m/n/12.045 [$[]\OT1/cmr/m/n/12.045 951\OML/cmm/m/it/12.045 UberFunkti
 onen; dieaufeinerabgeschlossenenMengestetigsind:Journ:furdiereineandangew:Math:
 \OT1/cmr/m/n/12.045 145\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 9 \OMS/cmsy/m
@@ -2048,25 +2073,13 @@ onen; dieaufeinerabgeschlossenenMengestetigsind:Journ:furdiereineandangew:Math:
  []
 
 [12]
-Overfull \hbox (4.1122pt too wide) in paragraph at lines 566--570
+Overfull \hbox (4.1122pt too wide) in paragraph at lines 575--579
 []\T1/lmr/m/n/12.045 [1981] The ra-tio-nal line par-ti-tions ev-ery selt-dense 
 metriz-able space, LOpolo by Appl.,12,331-
  []
 
 Missing character: There is no • ("2022) in font ec-lmr12!
-[13])
-! Missing } inserted.
-<inserted text> 
-                }
-l.156 \subfile{ref.tex}
-                       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[14]
+[13]) [14]
 
 LaTeX Warning: Empty bibliography on input line 162.
 
@@ -2098,6 +2111,6 @@ Here is how much of TeX's memory you used:
  63825 multiletter control sequences out of 15000+600000
  475686 words of font info for 154 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,7n,104p,1185b,844s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,8n,104p,1185b,844s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on main.pdf (18 pages).
