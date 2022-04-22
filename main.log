@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  21 APR 2022 18:12
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  21 APR 2022 21:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1935,12 +1935,12 @@ Package fontspec Info: Font family 'SongtiSCLight(1)' created for font 'Songti
 
 
 LaTeX Font Warning: Font shape `TU/SongtiSCLight(1)/m/it' undefined
-(Font)              using `TU/SongtiSCLight(1)/m/n' instead on input line 114.
+(Font)              using `TU/SongtiSCLight(1)/m/n' instead on input line 116.
 
 LaTeX Font Info:    Font shape `TU/SongtiSCLight(0)/m/sl' in size <12.045> not 
 available
 (Font)              Font shape `TU/SongtiSCLight(0)/m/it' tried instead on inpu
-t line 148.
+t line 150.
 [2]) [3]
 第二章
 (./ch2.tex) [4
@@ -2102,11 +2102,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44621 strings out of 476919
- 886870 string characters out of 5821839
+ 44637 strings out of 476919
+ 887150 string characters out of 5821839
  1739729 words of memory out of 5000000
- 63825 multiletter control sequences out of 15000+600000
- 475686 words of font info for 154 fonts, out of 8000000 for 9000
+ 63835 multiletter control sequences out of 15000+600000
+ 490214 words of font info for 160 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  101i,8n,104p,1185b,844s stack positions out of 5000i,500n,10000p,200000b,80000s
 

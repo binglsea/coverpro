@@ -43,6 +43,7 @@ $A$内某个元的像. 既是单射又是满射则称为一个双射.
 记$[A]^0=\{\phi\}$. 对$n\ge1, [A]^n = \{S\subset A: |S| = n\}$.
 $[A]^{<\omega} = \bigcup_{n<\omega}[A]^n$.
 
+%----------------
 \subsection{集族}\label{ch1.1.1}
 设$\Delta$是以序数为元的一个集.
 符号$\{D_\alpha : \alpha\in\Delta\}$称为集$X$的一个子集\begin{kaishu}族\end{kaishu}或
@@ -72,6 +73,7 @@ $x: \beta\to X$称集$X$内的的一个序列或点列, 记为$x=\{x_\alpha : \a
 此处$x_\alpha=x(\alpha)$称一个$\beta$序列. $\omega$序列也记为
 $(x_0, x_1, \dots)$. 0 序列是$\phi$.为了免与开区间混淆, $(x_0, x_1)$也常记为$<x_0, x_1>$.
 
+%----------------
 \subsection{空间与覆盖}\label{ch1.1.2}
 拓扑空间简称为空间.不附加任何分离公理.正规、正则空间也不必是$T_1$的.此后的,凡$X$,$Y$皆表空间.
 设$x\in X$, 记
@@ -162,14 +164,26 @@ $(iii)$ 设$n\ge 1$, 称$\mathscr{D}$在$X$内是局部有限的$(n$局部有限
 如果$\forall x\in X \exists W\in $ top$(x) (|\Delta(W)| \le n)$.
 此处$\Delta(W)= \{\alpha\in \Delta: W\cap D_\alpha \ne \phi\}$
 
+%----------------
 \subsection{内部保持族与半开覆盖}\label{ch1.1.3}
 \begin{definition}
-	$X$ 的子集族 $\mathscr{D}=\{D_\alpha:\alpha\in\Delta\}$称为内部保的(Junnila)
-(或闭包保的),如果$\forall B\subset \Delta$,
+$X$ 的子集族 $\mathscr{D}=\{D_\alpha:\alpha\in\Delta\}$称为内部保持的\textnormal{(Junnila)}
+\textnormal{(}或闭包保持的\textnormal{)},如果$\forall B\subset \Delta$,
+$$(\bigcap_{\alpha\in B}D_\alpha)^\circ=\bigcap_{\alpha\in B}D_\alpha^\circ, 
+\qquad\textnormal{(}\textrm{或} \quad
+\overline{\bigcup_{\alpha\in B}D_\alpha} = 
+\bigcup_{\alpha\in B}\overline{D_\alpha}\,\,
+).$$
 \end{definition}
-
-
+熟知每个局部有限族是闭包保持的,由下面的事实知,每个点有限的或上升的开覆盖是内部保持的.
+%----------------
 \subsection{函数开集}\label{ch1.1.4}
+\begin{definition}
+	$X$在的子集$A$称函数开的,或是一个补零集,如果存在一个连醐$f:X\rightarrow [0,1]$使用$A=f^{-1}(0,1]=\{x\in X: 0<f(x)\le 1\}$.
+\end{definition}
+易见,对于任意的$a, 0\le a\le1$, 形如$f^{-1}(a,1]$或$f^{-1}[0,a)$的集皆是函数开集.由 Engelking[1977]知,两个函数开集之交是函数开的,可数多个函数开集的并是函数开的,
+$X$的子集族称为函数开的,如果它的每个元是函数开集.
+设$\mathscr{U}$是$X$内的一个函数开的局部有限族,则$\bigcup \mathscr{U}$是函数开集.
 
 %----------------
 \section{弱覆盖性质}\label{ch1.2}
