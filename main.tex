@@ -33,6 +33,7 @@
 \usepackage{cutwin}
 \usepackage{animate}
 \usepackage{tikz}
+\usepackage{mathrsfs}
 
 \usepackage{fancyhdr}
 %\pagestyle{fancy}
@@ -86,6 +87,8 @@
 \usepackage{amsthm}
 \newtheorem{definition}{定义}
 \newtheorem*{definition*}{定义}
+\newtheorem{note}{注释}
+\newtheorem*{note*}{注释}
 \newtheorem{theorem}{定理}
 \newtheorem*{theorem*}{定理}
 \newtheorem{lemma}{引理}
@@ -95,6 +98,7 @@
 \renewcommand{\proof}{\color{gray}\oldproof}
 % counter controlling
 \usepackage{chngcntr}
+\counterwithin{note}{section}
 \counterwithin{figure}{section}
 \counterwithin{equation}{section}
 \counterwithin{definition}{section}
@@ -147,6 +151,9 @@
 
 \chapter{$\lambda$完满正规与次仿紧空间}\label{chap4}
 \subfile{ch4.tex}
+
+\chapter*{参考文献}\label{chap5}
+\subfile{ref.tex}
 
 
 
