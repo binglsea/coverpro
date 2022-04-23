@@ -63,7 +63,7 @@ $\mathscr{D}|_E= \{D_\alpha\cap E: \alpha\in\Delta\}$.
 $(\mathscr{D})_E= \{D_\alpha: \alpha\in\Delta, D_\alpha\cap E \ne\phi\}$,
 st$(E, \mathscr{D}) = \bigcup(\mathscr{D})_E$.
 
-设$x\in X$. $(\mathscr{D})_x= \{D_\alpha: \alpha\in\Delta, x\in D_\alpha$,
+设$x\in X$. $(\mathscr{D})_x= \{D_\alpha: \alpha\in\Delta, x\in D_\alpha\}$,
 st$(x, \mathscr{D}) = \bigcup(\mathscr{D})_x$.
 
 若$\Gamma\subset\Delta$, 则集族$\{D_\alpha : \alpha\in\Gamma\}$称$\mathscr{D}$的一个子族.当$\Delta$是空集时,我们认为所有的族$\{D_\alpha : \alpha\in\phi\}$皆等于单元集$\{\phi\}$.
@@ -77,15 +77,15 @@ $(x_0, x_1, \dots)$. 0 序列是$\phi$.为了免与开区间混淆, $(x_0, x_1)$
 \subsection{空间与覆盖}\label{ch1.1.2}
 拓扑空间简称为空间.不附加任何分离公理.正规、正则空间也不必是$T_1$的.此后的,凡$X$,$Y$皆表空间.
 设$x\in X$, 记
-	top$(x) = \{W: W$是$X$的开集, 使得$ x\in W\}$.
-此即$x$的邻域系.设$A\subset X$, $A^\circ$与$\overline{A}$分别表示$A$ 在$X$中的内部和闭包.
+$\textrm{top}(x) = \{W: W$是$X$的开集, 使得$ x\in W\}$.
+此即$x$的开邻域系.设$A\subset X$, $A^\circ$与$\overline{A}$分别表示$A$ 在$X$中的内部和闭包.
 设$\mathscr{D}=\{D_\alpha:\alpha\in\Delta\}$是$X$的一个子集族,则记
 $\mathscr{D}^\circ=\{D^\circ_\alpha:\alpha\in\Delta\}$,
 $\overline{\mathscr{D}}=\{\overline{D}_\alpha:\alpha\in\Delta\}$.当$\bigcup\mathscr{D} = X$
 时,称$\mathscr{D}$是$X$的一个覆盖.二覆盖之间的一个基本关系叫加细.
 设$\mathscr{V}=\{V_\beta:\beta\in\Gamma\}$是$X$的另一子集族,
 称$\mathscr{V}$加细$\mathscr{D}$,如果$\forall\beta\in\Gamma$, 
-$\exists \delta(\beta)\in\Delta, V_\beta\subset D_{\delta(\beta)}$.
+$\exists\, \delta (\beta)\in\Delta, V_\beta\subset D_{\delta(\beta)}$.
 称$\mathscr{V}$垫于$\mathscr{D}$,如果$\mathscr{V}$加细$\mathscr{D}$
 且$\forall B\subset\Gamma$, 
 $\overline{\bigcup_{\beta\in B}V_\beta}\subset \bigcup_{\beta\in B}D_{\delta(\beta)}$.
