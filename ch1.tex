@@ -124,12 +124,11 @@ $\mathscr{V}=\{V_\beta: \beta\in\lambda\}$的开覆盖有一个开收缩.
 \end{note}
 
 \begin{definition}
-	$(i)$
-	集族$\mathscr{D}=\{D_\alpha: \alpha<\lambda\}$是上升的,
+\textnormal{(i)} 集族$\mathscr{D}=\{D_\alpha: \alpha<\lambda\}$是上升的,
 如果
 $\forall\alpha, \beta \,(\alpha < \beta < \lambda \Rightarrow D_\alpha \subset D_\beta )$.
 
-$(ii)$ 集族$\mathscr{D}=\{D_\alpha: \alpha\in\Delta\}$是定向的,
+\textnormal{(ii)}  集族$\mathscr{D}=\{D_\alpha: \alpha\in\Delta\}$是定向的,
 如果
 $\forall\alpha, \beta\in\Delta\,\exists \gamma\in \Delta\,
 (D_\alpha \bigcup D_\beta \subset D_\gamma)$.
@@ -144,10 +143,12 @@ $\Leftrightarrow \mathscr{D}^F$ 加细$\mathscr{D}$.
 \begin{definition}
 设$\mathscr{D}=\{D_\alpha: \alpha\in \Delta\}$是$X$内的子集族.
 
-\textnormal{(i)} $\mathscr{D}$在$X$内是星形有限的$($非交的$)$, 如果$\forall\beta\in\Delta, |\Delta_\beta| < \omega$ $(|\Delta_\beta| \le 1)$, 此处
+\textnormal{(i)} $\mathscr{D}$在$X$内是星形有限的\textnormal{(}非交的
+的\textnormal{)}, 如果$\forall\beta\in\Delta, |\Delta_\beta| < \omega$ $(|\Delta_\beta| \le 1)$, 此处
 $\Delta_\beta = \{\alpha\in\Delta: D_\alpha\bigcap D_\beta \ne \phi\}$.
  
-\textnormal{(ii)} $\mathscr{D}$在$x\in X$处是点有限的 $($点非交的$)$, 如果$|\Delta(x)| < \omega$ $(|\Delta(x)| \le 1)$, 此处
+\textnormal{(ii)} $\mathscr{D}$在$x\in X$处是点有限的
+\textnormal{(}点非交的\textnormal{)},如果$|\Delta(x)| < \omega$ $(|\Delta(x)| \le 1)$, 此处
 $\Delta(x) = \{\alpha\in\Delta: x\in D_\alpha\}$.
 称$\mathscr{D}$在$X$内是点有限的 
 \textnormal{(}点非交的\textnormal{)}, 如果$\mathscr{D}$在$X$的每一点处是点有限的\textnormal{(}点非交的\textnormal{)}.
@@ -157,12 +158,13 @@ $\Delta(x) = \{\alpha\in\Delta: x\in D_\alpha\}$.
 1) $\mathscr{D}$在$X$内是非交的$\Leftrightarrow$$\mathscr{D}$在$X$内是点非交的.
 
 2)若 $\mathscr{D}$在$X$内是非交的, 则
-$$\forall \alpha,\beta\in\Delta (\mathscr{D}_\alpha \ne \mathscr{D}_\beta
-\Rightarrow\mathscr{D}_\alpha\bigcap\mathscr{D}_\beta = \phi).$$
+$$\forall \alpha,\beta\in\Delta \,(D_\alpha \ne D_\beta
+\Rightarrow D_\alpha\cap D_\beta = \phi).$$
 
 {\kaishu
 (iii) 设$n\ge 1$, 称$\mathscr{D}$在$X$内是局部有限的($n$局部有限的),
-如果$\forall x\in X\, \exists\, W\in\textrm{top}(x)\, (|\Delta(W)| \le n)$.
+如果
+$$\forall x\in X\, \exists\,W\in\textrm{top}(x), |\Delta(W)| \le \omega\,\,\, (|\Delta(W)| \le n).$$
 此处$\Delta(W)= \{\alpha\in \Delta: W\cap D_\alpha \ne \phi\}$.
 称$\mathscr{D}$在$X$内是有界局部有限的(离散的),如果存在$n\ge 1$, 
 $\mathscr{D}$在$X$內是$n$局部有限(1局部有限)的.
