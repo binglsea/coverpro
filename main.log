@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  24 APR 2022 07:54
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  24 APR 2022 08:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1943,13 +1943,13 @@ LaTeX Font Info:    Font shape `TU/SongtiSCLight(0)/m/sl' in size <12.045> not
 available
 (Font)              Font shape `TU/SongtiSCLight(0)/m/it' tried instead on inpu
 t line 150.
-[2] [3]) [4]
+[2] [3] [4]) [5]
 第二章
-(./ch2.tex) [5
+(./ch2.tex) [6
 
 ]
 第三章
-(./ch3.tex) [6
+(./ch3.tex) [7
 
 ]
 第四章
@@ -1998,7 +1998,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 10.
 
-) [7
+) [8
 
 ] (./ref.tex
 Overfull \hbox (1.97716pt too wide) in paragraph at lines 5--8
@@ -2025,9 +2025,9 @@ Overfull \hbox (1.97716pt too wide) in paragraph at lines 31--34
 [][] 
  []
 
-[8
+[9
 
-] [9]
+] [10]
 Missing character: There is no ⑧ ("2467) in font ec-lmr12!
 
 ! You can't use `macro parameter character #' in horizontal mode.
@@ -2038,9 +2038,9 @@ I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-[10]
+[11]
 Missing character: There is no ≥ ("2265) in font ec-lmr12!
- [11] [12]
+ [12] [13]
 Overfull \hbox (7.10344pt too wide) in paragraph at lines 474--481
 []\T1/lmr/m/n/12.045 [1970] Meta-com-pact spaces and well-ordered open cov-er-i
 ngs, No-tices Amer Math. Soc..18,230
@@ -2071,20 +2071,20 @@ onen; dieaufeinerabgeschlossenenMengestetigsind:Journ:furdiereineandangew:Math:
 /n/12.045 ^^@
  []
 
-[13]
+[14]
 Overfull \hbox (4.1122pt too wide) in paragraph at lines 575--579
 []\T1/lmr/m/n/12.045 [1981] The ra-tio-nal line par-ti-tions ev-ery selt-dense 
 metriz-able space, LOpolo by Appl.,12,331-
  []
 
 Missing character: There is no • ("2022) in font ec-lmr12!
-[14]) [15]
+[15]) [16]
 
 LaTeX Warning: Empty bibliography on input line 166.
 
 runsystem(makeindex main.idx)...executed safely (allowed).
 
-(./main.ind) [16
+(./main.ind) [17
 
 
 
@@ -2104,12 +2104,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44684 strings out of 476919
- 889685 string characters out of 5821839
- 1739859 words of memory out of 5000000
- 63882 multiletter control sequences out of 15000+600000
+ 44685 strings out of 476919
+ 889696 string characters out of 5821839
+ 1739896 words of memory out of 5000000
+ 63883 multiletter control sequences out of 15000+600000
  490214 words of font info for 160 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  101i,8n,104p,1185b,844s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (19 pages).
+Output written on main.pdf (20 pages).

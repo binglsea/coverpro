@@ -270,16 +270,46 @@ $X$的覆盖$\mathscr{D}$是半开的$\Leftrightarrow \forall A\subset X, \overl
 %----------------
 \subsection{函数开集}\label{ch1.1.4}
 \begin{definition}
-	$X$在的子集$A$称\underline{函数开的},或是一个\underline{补零集},如果存在一个连续函数$f:X\rightarrow [0,1]$使用$A=f^{-1}(0,1]=\{x\in X: 0<f(x)\le 1\}$.
+	$X$在的子集$A$称\underline{函数开的},或是一个\underline{补零集},如果存在一个连续函数$f:X\rightarrow [0,1]$使得$A=f^{-1}(0,1]=\{x\in X: 0<f(x)\le 1\}$.
 \end{definition}
 
-易见,对于任意的$a, 0\le a\le1$, 形如$f^{-1}(a,1]$或$f^{-1}[0,a)$的集皆是函数开集.由 Engelking[1977]知,两个函数开集之交是函数开的,可数多个函数开集的并是函数开的,
+易见,对于任意的$a, 0\le a\le1$, 形如$f^{-1}(a,1]$或$f^{-1}[0,a)$的集皆是函数开集.由 Engelking[1977]知,两个函数开集之交是函数开的,可数多个函数开集的并是函数开的.
 $X$的子集族称为函数开的,如果它的每个元是函数开集.
 设$\mathscr{U}$是$X$内的一个函数开的局部有限族,则$\bigcup \mathscr{U}$是函数开集.
+完全(perfect)正规空间内的每个开集是函数开集.因为伪度量空间是完全正规的,我们有下到的
+
+\begin{fact}
+伪度量空间的每个开集是函数开集. $\square$
+\end{fact}
 
 %----------------
+%----------------
 \section{弱覆盖性质}\label{ch1.2}
+仿紧空间的自然推广是亚紧(metacompact)空间.
+$T_2$仿紧空间的推广是次仿紧空间.
+作为这三者的最有意义的公共推广是次亚紧空间.
+我们把次亚紧空间,和比它弱而又能应用于分解定理的覆盖性质称为弱覆盖性质.
+本节介绍它们的定义和相互关系.下面首先介绍 Worrell 与Wicke [1965] 引入的次亚紧空间(他们原文中称为$\theta$可细空间)及刻画命题\ref{prop1.2.1}.
 
+
+\begin{definition}
+\textnormal{(i)} $X$的子集族的一个序列$\{\mathscr{E}_n\}$称为一个
+\underline{$\theta$序列},
+如果$\forall x\in X$, $ \exists m < \omega$ 使得$\{\mathscr{E}_n\}$在点$x$是点有限的.
+$X$的开覆盖$\mathscr{U}$称为一个 \underline{$\theta$覆盖},如果$\mathscr{U}$有由一列开加细所组成的$\theta$序列.
+
+\textnormal{(ii)}
+
+\textnormal{(iii)}
+\end{definition}
+
+\begin{proposition}\label{prop1.2.1}
+$X$的一个开覆盖$\mathscr{U}$是$\theta$覆盖 $\Leftrightarrow$
+$X$ 有可数闭覆盖$\{F_n\}$使得$\forall n < \omega, \mathscr{U}|_{F_n}$在子空间${F_n}$内有点有限的开加细.
+	
+\end{proposition}
+
+%----------------
 %----------------
 \section{可扩型空间}\label{ch1.3}
 	
