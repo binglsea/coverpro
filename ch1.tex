@@ -222,8 +222,8 @@ $\forall C\subset\Delta$,
 %----------------
 \subsection{内部保持族与半开覆盖}\label{ch1.1.3}
 \begin{definition}
-$X$ 的子集族 $\mathscr{D}=\{D_\alpha:\alpha\in\Delta\}$称为内部保持的\textnormal{(Junnila)}
-\textnormal{(}或闭包保持的\textnormal{)},如果$\forall B\subset \Delta$,
+$X$ 的子集族 $\mathscr{D}=\{D_\alpha:\alpha\in\Delta\}$称为\underline{内部保持的}\textnormal{(Junnila)}
+\textnormal{(}或\underline{闭包保持的}\textnormal{)},如果$\forall B\subset \Delta$,
 $$(\bigcap_{\alpha\in B}D_\alpha)^\circ=\bigcap_{\alpha\in B}D_\alpha^\circ, 
 \qquad\textnormal{(}\textrm{或} \quad
 \overline{\bigcup_{\alpha\in B}D_\alpha} = 
@@ -251,17 +251,17 @@ $\{X\backslash D_\alpha: \alpha\in\Delta \}$
 $B$是以序数为元的集.设$\forall \beta\in B$, $\Delta_\beta\subset \Delta$.则集族
 $\{\bigcap_{\alpha\in\Delta_\beta}U_\alpha: \beta\in B\}$与
 $\{\bigcup_{\alpha\in\Delta_\beta}U_\alpha: \beta\in B\}$
-皆是$X$內的内部保持开集族.\quad$\square$
+皆是$X$內的内部保持开集族. $\square$
 \end{fact}
 
 \begin{definition}
-\textnormal{(Junnila)} $X$的覆盖$\mathscr{D}$是半开的,如果
+\textnormal{(Junnila)} $X$的覆盖$\mathscr{D}$是\underline{半开的},如果
 $\forall x\in X, x\in(\textnormal{st}(x, \mathscr{D}))^\circ$, 即, 
 $\textnormal{st}(x, \mathscr{D})\in\textnormal{top}(x)$.
 \end{definition}
 
 \begin{fact}
-$X$的覆盖$\mathscr{D}$是半开的$\Leftrightarrow \forall A\subset X, \overline{A} \subset\textnormal{st}(A, \mathscr{D}).\quad\square$
+$X$的覆盖$\mathscr{D}$是半开的$\Leftrightarrow \forall A\subset X, \overline{A} \subset\textnormal{st}(A, \mathscr{D})$. $\square$
 \end{fact}
 
 由上述事实知,每个闭包保持闭覆盖是半开的,开覆盖显然是半开的.
@@ -270,8 +270,9 @@ $X$的覆盖$\mathscr{D}$是半开的$\Leftrightarrow \forall A\subset X, \overl
 %----------------
 \subsection{函数开集}\label{ch1.1.4}
 \begin{definition}
-	$X$在的子集$A$称函数开的,或是一个补零集,如果存在一个连醐$f:X\rightarrow [0,1]$使用$A=f^{-1}(0,1]=\{x\in X: 0<f(x)\le 1\}$.
+	$X$在的子集$A$称\underline{函数开的},或是一个\underline{补零集},如果存在一个连续函数$f:X\rightarrow [0,1]$使用$A=f^{-1}(0,1]=\{x\in X: 0<f(x)\le 1\}$.
 \end{definition}
+
 易见,对于任意的$a, 0\le a\le1$, 形如$f^{-1}(a,1]$或$f^{-1}[0,a)$的集皆是函数开集.由 Engelking[1977]知,两个函数开集之交是函数开的,可数多个函数开集的并是函数开的,
 $X$的子集族称为函数开的,如果它的每个元是函数开集.
 设$\mathscr{U}$是$X$内的一个函数开的局部有限族,则$\bigcup \mathscr{U}$是函数开集.
