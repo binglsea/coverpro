@@ -201,7 +201,22 @@ $\mathscr{D}$,则$\mathscr{D}$,有局部有限开收缩.
 结论也成立.
 \end{fact}
 
-证明.
+证明. (i) 和 (ii) 的基本证法同(iii).下面我们只证(iii).
+设$\mathscr{D}$有一个垫状加细$\mathscr{W}=\{W_\beta: \beta\in\Gamma\}$.
+$\forall\beta\in\Gamma\,\exists \delta(\beta)\in \Delta$满足$W_\beta\subset D_{\delta(\beta)}$并使得
+$\forall B\subset\Gamma, \overline{\bigcup_{\beta\in B}W_\beta}\subset 
+	\bigcup_{\beta\in B}D_{\delta(\beta)}$.
+$\forall \alpha\in \Delta$,令
+$V_\alpha=\bigcup\{W_\beta: \beta\in\Gamma, \delta(\beta) = \alpha\}$.
+$\forall C\subset\Delta$,
+
+\begin{equation}
+\begin{aligned}
+\overline{\bigcup_{\alpha\in C}V_\alpha}
+	&= \overline{\bigcup \{W_\beta: \beta\in\Gamma, \delta(\beta)=\alpha, \alpha\in C\}}   \\
+	&\subset\bigcup \{D_{\delta(\beta)}: \beta\in\Gamma, \delta(\beta)=\alpha, \alpha\in C\} = \bigcup_{\alpha\in C}D_\alpha. \quad\square
+\end{aligned}
+\end{equation}
 
 
 %----------------
@@ -220,7 +235,36 @@ $$(\bigcap_{\alpha\in B}D_\alpha)^\circ=\bigcap_{\alpha\in B}D_\alpha^\circ,
 $\{X\backslash D_\alpha: \alpha\in\Delta \}$
 是闭包保持的.
 
+\begin{fact}
+设$\mathscr{U}=\{U_\alpha:\alpha\in\Delta\}$是$X$的开集族,则下列各条等价.
 
+\textnormal{(i)} $\mathscr{U}$是内部保持的.
+
+\textnormal{(ii)} $\forall x\in\bigcup\mathscr{U}$, $\bigcap(\mathscr{U})_x$是开集.
+
+\textnormal{(iii)} $\forall B\subset\Delta$, $\bigcap_{\alpha\in B}U_\alpha$是开集.
+\end{fact}
+证明. 由定义可直接推出. $\square$
+
+\begin{fact}
+设$\mathscr{U}=\{U_\alpha:\alpha\in\Delta\}$是$X$的一个内部保持开集族.
+$B$是以序数为元的集.设$\forall \beta\in B$, $\Delta_\beta\subset \Delta$.则集族
+$\{\bigcap_{\alpha\in\Delta_\beta}U_\alpha: \beta\in B\}$与
+$\{\bigcup_{\alpha\in\Delta_\beta}U_\alpha: \beta\in B\}$
+皆是$X$內的内部保持开集族.\quad$\square$
+\end{fact}
+
+\begin{definition}
+\textnormal{(Junnila)} $X$的覆盖$\mathscr{D}$是半开的,如果
+$\forall x\in X, x\in(\textnormal{st}(x, \mathscr{D}))^\circ$, 即, 
+$\textnormal{st}(x, \mathscr{D})\in\textnormal{top}(x)$.
+\end{definition}
+
+\begin{fact}
+$X$的覆盖$\mathscr{D}$是半开的$\Leftrightarrow \forall A\subset X, \overline{A} \subset\textnormal{st}(A, \mathscr{D}).\quad\square$
+\end{fact}
+
+由上述事实知,每个闭包保持闭覆盖是半开的,开覆盖显然是半开的.
 
 
 %----------------
