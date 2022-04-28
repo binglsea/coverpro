@@ -298,12 +298,12 @@ $T_2$仿紧空间的推广是次仿紧空间.
 如果$\forall x\in X$, $ \exists m < \omega$ 使得$\{\mathscr{E}_n\}$在点$x$是点有限的.
 $X$的开覆盖$\mathscr{U}$称为一个 \underline{$\theta$覆盖},如果$\mathscr{U}$有由一列开加细所组成的$\theta$序列.
 
-\textnormal{(ii)} 设$\lambda\ge\omega$. $X$是$\lambda$ \underline{次亚紧的},
+\textnormal{(ii)} 设$\lambda\ge\omega$. $X$是 \underline{$\lambda$次亚紧的},
 如果$X$的每个势$\le\lambda$的开覆盖是$\theta$覆盖.
 $\omega$次亚紧空间常称可数次亚紧的.
 
 
-\textnormal{(iii)} 设$\lambda\ge\ 2$. $X$是$\lambda$ \underline{次仿紧的}\textnormal{[Bur69]},
+\textnormal{(iii)} 设$\lambda\ge\ 2$. $X$是 \underline{$\lambda$次仿紧的}\textnormal{[Bur69]},
 如果$X$的每个势$\le\lambda$的开覆盖有$\sigma$离散闭加细.
 $\omega$次亚紧空间常称可数次亚紧的.
 \end{definition}
@@ -316,16 +316,19 @@ $X$ 有可数闭覆盖$\{F_n\}$使得$\forall n < \omega, \mathscr{U}|_{F_n}$在
 \end{proposition}
 
 证明. ($\Rightarrow$) 设$\mathscr{U}$是$\theta$覆盖.则$\mathscr{U}$
-有一列开加细$\mathscr{V}_n = \{V_{n,\alpha}: \alpha\in \Delta_n\}$,
+有一列开加细$\mathscr{V}_n = \{V_{n, \alpha}: \alpha\in \Delta_n\}$,
 $n<\omega$,它们构成一个$\theta$序列.
 对$m,n<\omega$, 令
 $$F_{m,n}=\{x\in X: |\{\alpha\in\Delta_m: x\in V_{m,\alpha}\}|\le n\}, n\ge 1; F_{m,0} = \phi.$$
+则$\{F_{m,n}\}$是$X$的可数闭覆盖,并且$\mathscr{V}_m|_{F_{m,n}}$是$\mathscr{U}|_{F_{m,n}}$
+在子空间$F_{m,n}$内的点有限开加细.
 
 ($\Leftarrow$) 设$\mathscr{U} = \{ U_\alpha: \alpha\in\Delta\}$
 
 \begin{corollary}
-	$X$是$\lambda$次亚紧的$\Leftrightarrow$对于$X$的每个势$\ne\lambda$
-	的开覆盖$\mathscr{U}$,$X$有可数闭覆盖
+$X$是$\lambda$次亚紧的$\Leftrightarrow$对于$X$的每个势$\le\lambda$
+的开覆盖$\mathscr{U}$, $X$有可数闭覆盖$\{F_n\}$,
+使得每个$\mathscr{U}|_{F_n}$在子空间内有点有限的开加细.
 \end{corollary}
 
 Smith[1975]首先给出次亚紧空间的下列有用的推广.
