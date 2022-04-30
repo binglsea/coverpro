@@ -295,7 +295,7 @@ $T_2$仿紧空间的推广是次仿紧空间.
 \begin{definition}
 \textnormal{(i)} $X$的子集族的一个序列$\{\mathscr{E}_n:n<\omega\}$称为一个
 \underline{$\theta$序列},
-如果$\forall x\in X$, $ \exists m < \omega$ 使得$\mathscr{E}_m$在点$x$是点有限的.
+如果$\forall x\in X$, $ \exists m < \omega$ 使得$x\in\cup \mathscr{E}_m$,且$\mathscr{E}_m$在点$x$是点有限的.
 $X$的开覆盖$\mathscr{U}$称为一个 \underline{$\theta$覆盖},如果$\mathscr{U}$有由一列开加细所组成的$\theta$序列.
 
 \textnormal{(ii)} 设$\lambda\ge\omega$. $X$是 \underline{$\lambda$次亚紧的},
@@ -323,11 +323,11 @@ $$F_{m,n}=\{x\in X: |\{\alpha\in\Delta_m: x\in V_{m,\alpha}\}|\le n\}, n\ge 1; F
 则$\{F_{m,n}:m,n<\omega\}$是$X$的可数闭覆盖,并且$\mathscr{V}_m|_{F_{m,n}}$是$\mathscr{U}|_{F_{m,n}}$
 在子空间$F_{m,n}$内的点有限开加细.
 
-($\Leftarrow$) 设$\mathscr{U} = \{ U_\alpha: \alpha\in\Delta\}$是$X$的开覆盖,且有可数闭覆盖
-$\{F_n:n<\omega\}$.它有命题所说的性质,即$\mathscr{U}|_{F_n}$在子空间$F_n$上有点有限的开加细
+($\Leftarrow$) 设$\mathscr{U} = \{ U_\alpha: \alpha\in\Delta\}$是$X$的开覆盖.且设可数闭覆盖
+$\{F_n:n<\omega\}$有命题所说的性质,即$\mathscr{U}|_{F_n}$在子空间$F_n$上有点有限的开加细
 $\mathscr{V}_n$.不妨设$\mathscr{V}_n=\{V_{n,\alpha}:\alpha\in\Delta\}$使得
 $V_{n,\alpha}\subset U_\alpha\cap F_n$.取$X$的开集$V_{n,\alpha}^\prime$使得
-$V_{n,\alpha}^\prime=V_{n,\alpha}\cap F_n$.$\forall n<\omega$, 令
+$V_{n,\alpha}=V_{n,\alpha}^\prime\cap F_n$.$\forall n<\omega$, 令
 $$\mathscr{G}_n=\{V_{n,\alpha}^\prime\cap U_\alpha:\alpha\in\Delta\}
 \cup\{(V_{m,\alpha}^\prime\backslash F_n)\cap U_\alpha: m\ne n, \alpha\in\Delta\}.$$
 容易验证每个$\mathscr{G}_n$是的$\mathscr{U}$开加细,
@@ -347,7 +347,7 @@ $X$的开覆盖$\mathscr{U}$称为\underline{弱$\overline{\theta}$覆盖},如�
 \textnormal{(i)} 对每点$x\in X$,存在$n<\omega$使得$\mathscr{G}_n$在$x$是点有限的,且
 $(\mathscr{G}_n)_x \ne \phi$.
 
-\textnormal{(ii)} $\mathscr{G}^* =\{\cup \mathscr{G}_n: n<\omega\}$是$X$的点有限开覆盖.
+\textnormal{(ii)} $\mathscr{G}^* =\{\bigcup \mathscr{G}_n: n<\omega\}$是$X$的点有限开覆盖.
 
 上面的$\mathscr{G}$称为$\mathscr{U}$的一个\underline{弱$\overline{\theta}$加细}.
 设$\lambda\ge\omega$, 称$X$是 \underline{$\lambda$弱$\overline{\theta}$加细}的,
@@ -355,8 +355,31 @@ $(\mathscr{G}_n)_x \ne \phi$.
 \end{definition}
 
 稍后,刘应明在[Liu77]提出了一类具有$\sigma$相对离散结构的空间,叫狭义拟仿紧空间.
-据[Smith80]说, Chabber 研究了具有$\sigma$相对局部有限结构的空间.
+据[Smith80]说, Chabber 研究了具有$\sigma$相对局部有限结构的空间,称为具$b_1$性质的空间.
+该文接着引入$B(LF,\omega^2)$可细空间作为这两类空间及
+弱$\overline{\theta}$可细空间的共同推广.本作者删去$B(LF,\omega^2)$可细空间定义中的条件
+ (ii), 称它为$L\omega^2$可细空间,并把它应用到$\lambda$完满正规的空间的分解定理中.
+ 作者还曾在 Jiang[1987a] 中引入过更弱$b_2^*$的性质(本书$\S$\ref{ch2.2} 中改称$A\omega^2$可细空间),并应用它建立了仿紧和亚紧空间的分解定理.
 
+\begin{definition}
+\textnormal{([Smi80], [PS89a])}	让性质$P$
+\end{definition}
+
+\begin{corollary}
+前述各类弱覆盖性质有下列蕴涵关系\textnormal{:}
+
+\vspace{.3cm}
+\begin{tabular}{ccccccccc}
+次亚紧 & $\longrightarrow$ & 狭义拟仿紧&$\longrightarrow$&$B(D, \omega^2)$可细&
+   $\longrightarrow$ & $B(LF, \omega^2)$ & $\longrightarrow$ & $B(C, \omega^2)$ \\
+   & & $\Big\downarrow$ & & $\Big\downarrow$  & & $\Big\downarrow$ &&$\Big\downarrow$ \\
+ & & 弱$\overline{\theta}$可细&$\longrightarrow$&$D\omega^2$ 可细&
+$\longrightarrow$ & $L\omega^2$ & $\longrightarrow$ & $C\omega^2$ \\
+ \end{tabular}
+
+\end{corollary}
+
+一个自然的问题是上面这些竖箭头是否可逆向?
 
 %----------------
 %----------------
