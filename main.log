@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  1 MAY 2022 08:34
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  1 MAY 2022 15:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2001,27 +2001,37 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 ) [9
 
 ] (./ref.tex
-Overfull \hbox (1.97716pt too wide) in paragraph at lines 5--8
+Overfull \hbox (7.54195pt too wide) in paragraph at lines 5--8
 [][] 
  []
 
 
-Overfull \hbox (1.97716pt too wide) in paragraph at lines 12--15
+Overfull \hbox (7.53754pt too wide) in paragraph at lines 12--15
 [][] 
  []
 
 
-Overfull \hbox (1.97716pt too wide) in paragraph at lines 18--21
+Overfull \hbox (7.53754pt too wide) in paragraph at lines 16--19
 [][] 
  []
 
 
-Overfull \hbox (1.97716pt too wide) in paragraph at lines 25--28
+Overfull \hbox (8.03178pt too wide) in paragraph at lines 22--25
 [][] 
  []
 
 
-Overfull \hbox (1.97716pt too wide) in paragraph at lines 31--34
+Overfull \hbox (10.16309pt too wide) in paragraph at lines 28--31
+[][] 
+ []
+
+
+Overfull \hbox (10.16309pt too wide) in paragraph at lines 32--35
+[][] 
+ []
+
+
+Overfull \hbox (8.36401pt too wide) in paragraph at lines 38--41
 [][] 
  []
 
@@ -2031,26 +2041,27 @@ Overfull \hbox (1.97716pt too wide) in paragraph at lines 31--34
 Missing character: There is no ⑧ ("2467) in font ec-lmr12!
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.202 \noindent Huang Haoran (#
+l.178 \noindent Huang Haoran (#
                                 7 18)
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-[12]
 Missing character: There is no ≥ ("2265) in font ec-lmr12!
- [13] [14]
-Overfull \hbox (7.10344pt too wide) in paragraph at lines 474--481
+[12] [13]
+Overfull \hbox (7.10344pt too wide) in paragraph at lines 450--457
 []\T1/lmr/m/n/12.045 [1970] Meta-com-pact spaces and well-ordered open cov-er-i
 ngs, No-tices Amer Math. Soc..18,230
  []
 
+[14]
 Missing character: There is no • ("2022) in font ec-lmr12!
+
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.549 [_
+l.525 [_
         1951 Uber Funktionen, die auf einer abgeschlossenen Menge stetig sind.
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2058,33 +2069,34 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.551 
+l.527 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (122.39105pt too wide) in paragraph at lines 549--551
+Overfull \hbox (122.39105pt too wide) in paragraph at lines 525--527
 []\T1/lmr/m/n/12.045 [$[]\OT1/cmr/m/n/12.045 951\OML/cmm/m/it/12.045 UberFunkti
 onen; dieaufeinerabgeschlossenenMengestetigsind:Journ:furdiereineandangew:Math:
 \OT1/cmr/m/n/12.045 145\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 9 \OMS/cmsy/m
 /n/12.045 ^^@
  []
 
-[15]
-Overfull \hbox (4.1122pt too wide) in paragraph at lines 575--579
+
+Overfull \hbox (4.1122pt too wide) in paragraph at lines 551--555
 []\T1/lmr/m/n/12.045 [1981] The ra-tio-nal line par-ti-tions ev-ery selt-dense 
 metriz-able space, LOpolo by Appl.,12,331-
  []
 
+[15]
 Missing character: There is no • ("2022) in font ec-lmr12!
-[16]) [17]
+) [16]
 
-LaTeX Warning: Empty bibliography on input line 166.
+LaTeX Warning: Empty bibliography on input line 167.
 
 runsystem(makeindex main.idx)...executed safely (allowed).
 
-(./main.ind) [18
+(./main.ind) [17
 
 
 
@@ -2112,4 +2124,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  101i,12n,104p,1185b,844s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (21 pages).
+Output written on main.pdf (20 pages).
