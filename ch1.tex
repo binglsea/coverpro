@@ -354,14 +354,14 @@ $(\mathscr{G}_n)_x \ne \phi$.
 \end{definition}
 
 稍后,刘应明在[Liu77]提出了一类具有$\sigma$相对离散结构的空间,叫狭义拟仿紧空间.
-据[Smith80]说, Chabber 研究了具有$\sigma$相对局部有限结构的空间,称为具$b_1$性质的空间.
+据[Smith80]说, Chaber 研究了具有$\sigma$相对局部有限结构的空间,称为具$b_1$性质的空间.
 该文接着引入$B(LF,\omega^2)$可细空间作为这两类空间及
 弱$\overline{\theta}$可细空间的共同推广.本作者删去$B(LF,\omega^2)$可细空间定义中的条件
- (ii), 称它为$L\omega^2$可细空间,并把它应用到$\lambda$完满正规的空间的分解定理中.
- 作者还曾在 Jiang[1987a] 中引入过更弱$b_2^*$的性质(本书$\S$\ref{ch2.2} 中改称$A\omega^2$可细空间),并应用它建立了仿紧和亚紧空间的分解定理.
+ (ii), 称它为$L\omega^2$可细空间,并把它应用到$\lambda$完满正规空间的分解定理中.
+ 作者还曾在 Jiang[1987a] 中引入过更弱的$b_2^*$性质(本书$\S$\ref{ch2.2} 中改称$A\omega^2$可细空间),并应用它建立了仿紧和亚紧空间的分解定理.
 
 \begin{definition}\label{def1.2.3}
-\textnormal{([Smi80], [PS89a])}	让性质$P$代表离散$(D)$,局部有限的$(LF)$和闭的$(C)$.设
+\textnormal{([Smi80], [PS89a])}	让性质$P$代表离散的$(D)$,局部有限的$(LF)$和闭的$(C)$.设
 $\delta$是可数序数.空间$X$是
 \underline{$B(P,\delta)$可细的},如果$X$的每个开覆盖$\mathscr{U}$有一个符合以下条件的加细
 $\mathscr{E}=\bigcup_{\beta<\delta}\mathscr{E}_\beta$.
@@ -371,7 +371,7 @@ $X\backslash\bigcup_{\mu<\beta}(\bigcup\mathscr{E}_\mu)$内的相对$P$的闭子
 
 \textnormal{(ii)} 对每个$\bigcup_{\mu<\beta}(\bigcup\mathscr{E}_\mu)$是闭集.
 
-对于的$P=C$情形,还要求每个$\mathscr{E}_\beta)$是$\mathscr{U}$的1-1部分加细.
+对于的$P=C$情形,还要求每个$\mathscr{E}_\beta$是$\mathscr{U}$的\textnormal{1-1}部分加细.
 
 上面的$\mathscr{E}$称为$\mathscr{U}$一个$B(P,\delta)$加细.
 \end{definition}
@@ -387,7 +387,7 @@ $X\backslash\bigcup_{\mu<\beta}(\bigcup\mathscr{E}_\mu)$内的相对$P$的闭子
 	$X$是狭义拟仿紧空间$\Leftrightarrow$ $X$是$B(D,\omega)$可细的.
 \end{fact}
 
-这是因在定义\ref{def1.2.3} 中,当$\delta=\omega$时,从条件 (i) 可推出 (ii).
+这是因为在定义\ref{def1.2.3} 中,当$\delta=\omega$时,从条件 (i) 可推出 (ii).
 但当$\delta>\omega$时条件(ii) 不可省略.作者在分解定理的应用中发现,
 条件(ii) 不是必需的.去掉它而引入下面的
 
@@ -400,9 +400,44 @@ $X\backslash\bigcup_{\mu<\beta}(\bigcup\mathscr{E}_\mu)$内的相对$P$的闭子
 	\textnormal{(ii)} $X$的开覆盖$\mathscr{U}=\{U_\alpha:\alpha\in\Delta\}$称为一个
 	\underline{$D\delta$覆盖}, \textnormal{(}\underline{$L\delta$覆盖}, 
 	\underline{$C\delta$覆盖}\textnormal{)},如果$\mathscr{U}$有一个加细
-   $\mathscr{F}=\bigcup_{\beta<\delta}\mathscr{F}_\beta$使得
+   $\mathscr{F}=\bigcup_{\beta<\delta}\mathscr{F}_\beta$使得$\forall\beta<\delta$,
+   $\mathscr{F}_\beta=\{F_{\beta,\alpha}: \alpha\in\Delta\}$
+   是子空间$X\backslash\bigcup_{\mu<\beta}(\bigcup\mathscr{F}_\mu)$内的离散
+   \textnormal{(}局部有限,接合\textnormal{)}的闭子集族,并且
+   	$\forall\alpha, F_{\beta,\alpha}\subset U_\alpha$.
+   	这个$\mathscr{F}$称为$\mathscr{U}$的$D\delta$加细.
+   	
+   	空间$X$称为\underline{$\lambda$-$D\delta$可细的},如果$X$的每个势$\le\lambda$的开覆盖
+   	是$D\delta$覆盖.类似地定义$\lambda$-$L\delta$可细空间等.
 \end{definition}
 
+\begin{proposition}
+	设$\mathscr{U}=\{U(\alpha): \alpha\in\Delta\}$是$X$的开覆盖,则下列各条件等价.
+\end{proposition}
+
+
+下一结果首先发表在[Smi80],后来[Zhu84],[Lon86]也独立得到.
+
+\begin{theorem}
+	每个 $D\omega$ 覆盖是弱$\overline{\theta}$覆盖.
+	于是$\lambda$狭义仿紧空间是$\lambda$弱$\overline{\theta}$可细的.
+\end{theorem}
+
+证明.
+
+\begin{theorem}
+	\textnormal{([Liu77])} 每个点有限开覆盖是 $D\omega$覆盖. $\lambda$亚紧空间$\lambda$
+	是狭义拟仿紧的.
+\end{theorem}
+
+证明.
+
+
+\begin{theorem}
+	\textnormal{([Zhu84, [Lon86])} 每个$\theta$覆盖是 $D\omega$覆盖. 每个 $\lambda$次亚紧空间是$\lambda$狭义拟仿紧的.
+\end{theorem}
+
+证明.
 
 前述各类弱覆盖性质有下列蕴涵关系\textnormal{:}
 
@@ -417,7 +452,7 @@ $\longrightarrow$ & $L\omega^2$ & $\longrightarrow$ & $C\omega^2$ \\
 
 \vspace{.3cm}
 
-一个自然的问题是上面这些竖箭头是否可逆向?
+一个自然的问题是上面这些竖箭头是否可逆向?我猜测皆不可逆值得关注的是
 
 %----------------
 %----------------
