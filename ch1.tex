@@ -349,7 +349,7 @@ $(\mathscr{G}_n)_x \ne \phi$.
 \textnormal{(ii)} $\mathscr{G}^* =\{\bigcup \mathscr{G}_n: n<\omega\}$是$X$的点有限开覆盖.
 
 上面的$\mathscr{G}$称为$\mathscr{U}$的一个\underline{弱$\overline{\theta}$加细}.
-设$\lambda\ge\omega$, 称$X$是 \underline{$\lambda$弱$\overline{\theta}$加细}的,
+设$\lambda\ge\omega$, 称$X$是 \underline{$\lambda$弱$\overline{\theta}$可细}的,
 如果$X$的每个势$\le\lambda$的开覆盖是弱$\overline{\theta}$覆盖.
 \end{definition}
 
@@ -392,7 +392,7 @@ $X\backslash\bigcup_{\mu<\beta}(\bigcup\mathscr{E}_\mu)$内的相对$P$的闭子
 条件(ii) 不是必需的.去掉它而引入下面的
 
 \begin{definition}
-	下面$\omega^2=\omega\cdot\omega$表序数的积.$\delta\in\{\omega,\omega^2\}, \lambda\ge\omega$.
+	下面$\omega^2=\omega\cdot\omega$表序数积. $\delta\in\{\omega,\omega^2\}, \lambda\ge\omega$.
 	
 	\textnormal{(i)} $X$的子集族$\mathscr{B}$称为\underline{接合的},如果
 	$\overline{\bigcup\mathscr{B}}=\bigcup\{\overline{B}: B\in\mathscr{B}\}$.
@@ -405,7 +405,8 @@ $X\backslash\bigcup_{\mu<\beta}(\bigcup\mathscr{E}_\mu)$内的相对$P$的闭子
    是子空间$X\backslash\bigcup_{\mu<\beta}(\bigcup\mathscr{F}_\mu)$内的离散
    \textnormal{(}局部有限,接合\textnormal{)}的闭子集族,并且
    	$\forall\alpha, F_{\beta,\alpha}\subset U_\alpha$.
-   	这个$\mathscr{F}$称为$\mathscr{U}$的$D\delta$加细.
+   	这个$\mathscr{F}$称为$\mathscr{U}$的$D\delta$加细\textnormal{(}
+   	$L\delta$加细, $C\delta$加细\textnormal{)}.
    	
    	空间$X$称为\underline{$\lambda$-$D\delta$可细的},如果$X$的每个势$\le\lambda$的开覆盖
    	是$D\delta$覆盖.类似地定义$\lambda$-$L\delta$可细空间等.
@@ -413,8 +414,30 @@ $X\backslash\bigcup_{\mu<\beta}(\bigcup\mathscr{E}_\mu)$内的相对$P$的闭子
 
 \begin{proposition}
 	设$\mathscr{U}=\{U(\alpha): \alpha\in\Delta\}$是$X$的开覆盖,则下列各条件等价.
+	
+	\textnormal{(i)} $\mathscr{U}$是一个$L\delta$覆盖.
+	
+	\textnormal{(ii)}  $\mathscr{U}$有一个加细$\mathscr{E}=\bigcup_{\beta<\delta}\mathscr{E}_\beta$
+	使得$\forall\beta<\delta$, $\mathscr{E}_\beta$是子空间
+	$X\backslash\bigcup_{\mu<\beta}(\bigcup\mathscr{E}_\mu)$内的局部有限闭集族.
+	
+	\textnormal{(iii)} $\mathscr{U}$有一个加细$\mathscr{P}=\bigcup_{\beta<\delta}\mathscr{P}_\beta$
+	使得$\forall\beta<\delta$, $\mathscr{P}_\beta|_{(X\backslash\bigcup_{\mu<\beta}(\bigcup\mathscr{P}_\mu))}$
+	是子空间
+	$X\backslash\bigcup_{\mu<\beta}(\bigcup\mathscr{P}_\mu)$内的局部有限闭集族.
 \end{proposition}
+证明. (i) $\Rightarrow$ (ii) $\Rightarrow$ (iii)是和平凡的.
 
+(iii) $\Rightarrow$ (i). 设$\mathscr{U}$有一个
+$\square$
+
+\begin{corollary}
+	\textnormal{(i)}  $D\delta$覆盖$\Rightarrow L\delta \Rightarrow C\delta$.
+	
+	\textnormal{(i)} 
+	
+	\textnormal{(i)} 
+\end{corollary}
 
 下一结果首先发表在[Smi80],后来[Zhu84],[Lon86]也独立得到.
 
@@ -457,7 +480,14 @@ $\longrightarrow$ & $L\omega^2$ & $\longrightarrow$ & $C\omega^2$ \\
 %----------------
 %----------------
 \section{可扩型空间}\label{ch1.3}
-本节介绍各类可扩型性质,包集体正规性的概念和所需的性质.
-它们主要应用于各类覆盖性质的分解定理.
-	
+本节介绍各类可扩型性质,包括集体正规的概念和所需的性质.
+它们主要应用于各类覆盖性质的分解定理.集体正规空间是 Bing[1975]为了研究空间的可度量性而引入的. Katetov [1958]的研究首先涉及可扩性质.可扩空间的定义和系统研究则始于
+Krajewski[1977].
+
+\begin{definition}
+	\textnormal{(i)} 设
+\end{definition}
+
+
+
 \end{document} 
