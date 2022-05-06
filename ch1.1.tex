@@ -1,0 +1,285 @@
+\documentclass[main.tex]{subfiles}
+\begin{document}
+	
+覆盖性质有一类型的刻画是把它们分解成另两类较弱的拓扑性质的和.
+其中一类是可扩型性质，另一类是较弱的其它覆盖性质.
+例如,一个拓扑空间是仿紧的当且仅当它是可扩的和次亚紧的.
+我们把这种类型的刻画叫分解定理.本章第2节介绍用于各种
+分解定理的弱覆盖性质.第3节则介绍用作另一分解因子的可扩型性质.
+它们的应用将在后面的章节中介绍.
+	
+%----------------
+\section{记号、术语与基本事实}\label{ch1.1}
+集合简称\begin{kaishu}集\end{kaishu}\index{集, set},集的元素
+简称\begin{kaishu}元\end{kaishu}\index{元, element}.本书中的全称量词“对每一个”
+或符号“$\forall$”经常省略.倒如, “对每一个
+$\alpha\in\Delta$, $A_\alpha \subset B_\alpha$”,
+常简述为“$A_\alpha \subset B_\alpha$”.
+但存在量词$\exists$不可省略.等号
+“=”的基本用法是,它两端的集具有相同的元.
+我们还赋与它一种广义的用法, 让$P, Q$表示由若干字母组成的符号,则
+$P=Q$可以表示$P$是$Q$的一个名称(暂用的或专用的).
+例如$A=\{x,y\}$,这里$A$是右边那个无序对的暂用名称.
+$\mathbb{R} = \{x: x$ 是一个实数\}表示我们总用$\mathbb{R}$表示实数
+直线並赋予区间拓扑.
+$\phi=\{u: u\ne u\}$表示唯一的\begin{kaishu}空集\end{kaishu}\index{空集,  empty set}.
+$P$也可以是$Q$的一个缩写或简记. 如$\mathscr{P}(X)=\{A:A\subset X\}$, 叫$X$的幂集.
+$(x, y) = \{ \{x\}, \{x, y\}\}$ 叫一个\begin{kaishu}有序对\end{kaishu}\index{有序对, ordered pair}. 
+当 $A\ne \phi$且$B\ne \phi$时, $A\times B = \{(x, y): x\in A, y\in B\}$.
+$B^A = \{f\subset A\times B: f$ 是从 $A$ 到 $B$ 内的一个函数\}.
+$A\times \phi = \phi$. $B^\phi = \{\phi\}$.
+映射与函数同义.  若$f\in B^A$, 常记 $f: A\to B$. 称 $f$ 是一个
+单射或者$1$-$1$的, 如果$A$内不同的元在  $f$下有不同的像.
+称为$f$是一个满射或到上的,如果$B$的每个元皆是
+$A$内某个元的像. 既是单射又是满射则称为一个双射.
+设$C\subset A$, 则 $A\vert{}_C = f\cap (C\times B)$ 叫 $f$
+在$C$上的\begin{kaishu}限制\end{kaishu}\index{限制, restriction}.
+
+我们用$\alpha, \beta, \gamma$等表示序数. $\alpha = \{\beta: \beta < \alpha\}$. $\beta \in \alpha \Leftrightarrow\beta<\alpha$. 基数是
+初始序数,用$\kappa,\lambda$ 等表示. $\omega = \{0, 1, 2, \dots\}$ 表
+最小无限基数.它的元,即自然数,用$m, n, i , k$等表示.
+对$n>0, n = \{0,1,2, \dots, n-1\}$. 我们用$|A|$表示$A$ 
+的\begin{kaishu}势\end{kaishu}\index{势, power}或\begin{kaishu}基数\end{kaishu}\index{基数, cardinal}.
+记$[A]^0=\{\phi\}$. 对$n\ge1, [A]^n = \{S\subset A: |S| = n\}$.
+$[A]^{<\omega} = \bigcup_{n<\omega}[A]^n$.
+
+%----------------
+\subsection{集族}\label{ch1.1.1}
+设$\Delta$是以序数为元的一个集.
+符号$\{D_\alpha : \alpha\in\Delta\}$称为集$X$的一个子集\begin{kaishu}族\end{kaishu}或
+$X$内的一个\begin{kaishu}集族\end{kaishu}是指存在
+一个函数$f:\Delta \to \mathscr{P}(X)$
+使得$\forall \alpha \in \Delta, f(\alpha)=D_\alpha$.
+$\Delta$叫这个集族的指标集. $\mathscr{P}(X)$
+的每子集$\mathscr{A}$就是一个集族.
+因为设$|\mathscr{A}|=\lambda$且设$f: \lambda\to \mathscr{A}$是
+一个双射.令$A_\alpha = f(\alpha)$, 则$\mathscr{A}=\{A_\alpha:\alpha\in\lambda\}$.
+
+现设$\mathscr{D}=\{D_\alpha:\alpha\in\Delta\}$是$X$的一个子集族.我们把
+$|\Delta|$称为族$\mathscr{D}$的势.设$E\subset X$.下列记号是常用的.
+
+$\mathscr{D}|_E= \{D_\alpha\cap E: \alpha\in\Delta\}$.
+
+$(\mathscr{D})_E= \{D_\alpha: \alpha\in\Delta, D_\alpha\cap E \ne\phi\}$,
+st$(E, \mathscr{D}) = \bigcup(\mathscr{D})_E$.
+
+设$x\in X$. $(\mathscr{D})_x= \{D_\alpha: \alpha\in\Delta, x\in D_\alpha\}$,
+st$(x, \mathscr{D}) = \bigcup(\mathscr{D})_x$.
+
+若$\Gamma\subset\Delta$, 则集族$\{D_\alpha : \alpha\in\Gamma\}$称$\mathscr{D}$的一个子族.当$\Delta$是空集时,我们认为所有的族$\{D_\alpha : \alpha\in\phi\}$皆等于单元集$\{\phi\}$.
+
+与集族类似,以序数$\beta$为定义域的函数
+$x: \beta\to X$称集$X$内的的一个序列或点列, 记为$x=\{x_\alpha : \alpha\in\beta\}$.
+此处$x_\alpha=x(\alpha)$称一个$\beta$序列. $\omega$序列也记为
+$(x_0, x_1, \dots)$. 0 序列是$\phi$.为了免与开区间混淆, $(x_0, x_1)$也常记为$<x_0, x_1>$.
+
+%----------------
+\subsection{空间与覆盖}\label{ch1.1.2}
+拓扑空间简称为空间.不附加任何分离公理.正规、正则空间也不必是$T_1$的.此后的,凡$X$,$Y$皆表空间.
+设$x\in X$, 记
+$\textrm{top}(x) = \{W: W$是$X$的开集, 使得$ x\in W\}$.
+此即$x$的开邻域系.设$A\subset X$, $A^\circ$与$\overline{A}$分别表示$A$ 在$X$中的内部和闭包.
+设$\mathscr{D}=\{D_\alpha:\alpha\in\Delta\}$是$X$的一个子集族,则记
+$\mathscr{D}^\circ=\{D^\circ_\alpha:\alpha\in\Delta\}$,
+$\overline{\mathscr{D}}=\{\overline{D}_\alpha:\alpha\in\Delta\}$.当$\bigcup\mathscr{D} = X$
+时,称$\mathscr{D}$是$X$的一个覆盖.二覆盖之间的一个基本关系叫加细.
+设$\mathscr{V}=\{V_\beta:\beta\in\Gamma\}$是$X$的另一子集族,
+称$\mathscr{V}$加细$\mathscr{D}$,如果$\forall\beta\in\Gamma$, 
+$\exists\, \delta (\beta)\in\Delta, V_\beta\subset D_{\delta(\beta)}$.
+称$\mathscr{V}$垫于$\mathscr{D}$,如果$\mathscr{V}$加细$\mathscr{D}$
+且$\forall B\subset\Gamma$, 
+$\overline{\bigcup_{\beta\in B}V_\beta}\subset \bigcup_{\beta\in B}D_{\delta(\beta)}$.
+若$\mathscr{V}$加细$\mathscr{D}$
+($\mathscr{V}$垫于$\mathscr{D}$),
+则称$\mathscr{V}$是$\mathscr{D}$的一个部分加细(部分垫状加细).
+若进一步合条件$\bigcup\mathscr{V}=\bigcup\mathscr{D}$,
+则称$\mathscr{V}$是$\mathscr{D}$的一个加细(垫状加细).
+称$\mathscr{W}$是$\mathscr{D}$的一个收缩(精确加细),
+如果$\mathscr{W}=\{W_\alpha: \alpha\in\Delta\}$使得
+$\forall\alpha\in \Delta, \overline{W_\alpha}\subset D_\alpha$
+($W_\alpha\subset D_\alpha$)且
+$\bigcup\mathscr{W}  = \bigcup \mathscr{D}$.
+称$\mathscr{W}$是$\mathscr{D}$的精确垫状加细,
+如果$\bigcup\mathscr{W}  = \bigcup \mathscr{D}$且
+对每个$B\subset \Delta$, 
+$\overline{\bigcup_{\alpha\in B}W_\alpha}  = \bigcup_{\alpha\in B}D_\alpha$.
+族$\mathscr{D}$称为开的(闭的),如果它每个元是$X$的开(闭)子集.
+
+\begin{definition}
+设$\lambda \ge2$. $X$是$\lambda$可缩的,如果$X$的每个势$\le \lambda$
+的开覆盖有一个开收缩, $\omega$可缩常称为可数可缩.
+\end{definition}
+$\lambda$可缩空间显然是正规的.并且$X$是$\lambda$可缩的当且仅当它的
+每个势$\le \lambda$的开覆盖有一个闭收缩.
+
+\begin{note}\begin{songti}
+前一定义中的“势$\le \lambda$”与“势$= \lambda$”等价.换言之,
+$X$是$\lambda$可缩的 $\Leftrightarrow X$的每一个形如
+$\mathscr{V}=\{V_\beta: \beta\in\lambda\}$的开覆盖有一个开收缩. 
+
+事实上, 若$\mathscr{U}=\{U_\alpha: \alpha\in\Delta\}$
+是合条件$|\Delta|\le\lambda$的开覆盖.设$f: \Delta\to\lambda$
+是双射
+\end{songti}
+\end{note}
+
+\begin{definition}
+\textnormal{(i)} 集族$\mathscr{D}=\{D_\alpha: \alpha<\lambda\}$是上升的,
+如果
+$\forall\alpha, \beta \,(\alpha < \beta < \lambda \Rightarrow D_\alpha \subset D_\beta )$.
+
+\textnormal{(ii)}  集族$\mathscr{D}=\{D_\alpha: \alpha\in\Delta\}$是定向的,
+如果
+$\forall\alpha, \beta\in\Delta\,\exists \gamma\in \Delta\,
+(D_\alpha \bigcup D_\beta \subset D_\gamma)$.
+对此$\mathscr{D}$, 我们记
+$\mathscr{D}^F = \{\bigcup_{\alpha\in S} D_\alpha: S\in [\Delta]^{<\omega}\}$,
+易见$\mathscr{D}^F$总是定向的.并且$\mathscr{D}$是定向
+$\Leftrightarrow \mathscr{D}^F$ 加细$\mathscr{D}$.
+\end{definition}
+二集$A$与$B$是相交的如果$A\bigcap B\ne \phi$, 
+是非交的如果$A\bigcap B=\phi$.
+
+\begin{definition}
+设$\mathscr{D}=\{D_\alpha: \alpha\in \Delta\}$是$X$内的子集族.
+
+\textnormal{(i)} $\mathscr{D}$在$X$内是星形有限的\textnormal{(}非交的
+的\textnormal{)}, 如果$\forall\beta\in\Delta, |\Delta_\beta| < \omega$ $(|\Delta_\beta| \le 1)$, 此处
+$\Delta_\beta = \{\alpha\in\Delta: D_\alpha\bigcap D_\beta \ne \phi\}$.
+ 
+\textnormal{(ii)} $\mathscr{D}$在$x\in X$处是点有限的
+\textnormal{(}点非交的\textnormal{)},如果$|\Delta(x)| < \omega$ $(|\Delta(x)| \le 1)$, 此处
+$\Delta(x) = \{\alpha\in\Delta: x\in D_\alpha\}$.
+称$\mathscr{D}$在$X$内是点有限的 
+\textnormal{(}点非交的\textnormal{)}, 如果$\mathscr{D}$在$X$的每一点处是点有限的\textnormal{(}点非交的\textnormal{)}.
+\end{definition}
+易见:
+
+1) $\mathscr{D}$在$X$内是非交的$\Leftrightarrow$$\mathscr{D}$在$X$内是点非交的.
+
+2)若 $\mathscr{D}$在$X$内是非交的, 则
+$$\forall \alpha,\beta\in\Delta \,(D_\alpha \ne D_\beta
+\Rightarrow D_\alpha\cap D_\beta = \phi).$$
+
+{\kaishu
+(iii) 设$n\ge 1$, 称$\mathscr{D}$在$X$内是局部有限的($n$局部有限的),
+如果
+$$\forall x\in X\, \exists\,W\in\textrm{top}(x), |\Delta(W)| \le \omega\,\,\, (|\Delta(W)| \le n).$$
+此处$\Delta(W)= \{\alpha\in \Delta: W\cap D_\alpha \ne \phi\}$.
+称$\mathscr{D}$在$X$内是有界局部有限的(离散的),如果存在$n\ge 1$, 
+$\mathscr{D}$在$X$內是$n$局部有限(1局部有限)的.
+}
+
+\begin{fact}
+$\mathscr{D}=\{D_\alpha: \alpha\in \Delta\}$是$X$内的离散闭集族
+$\Leftrightarrow\bigcup\mathscr{D}$闭于$X$ 
+且$\mathscr{D}$在每一点$x\in\bigcup\mathscr{D}$处是离散的.
+\end{fact}
+证明. ($\Leftarrow)$是平凡的.
+($\Rightarrow$). 设$\bigcup\mathscr{D}$是闭集,且$\mathscr{D}$在每点
+$x\in\bigcup\mathscr{D}$处是离散的,则显然$\mathscr{D}$是离散的.
+只需再证它的任意元$D_\alpha$是闭集.设$x\in\overline{D_\alpha}$,则
+$\exists\beta\in\Delta \, (x\in D_\beta)$.
+依前一定义(iii) 的记号,存$x$的邻域$W$使得$|\Delta(W)|\le 1$. 
+因$W\cap D_\alpha \ne \phi$且$x\in W\cap D_\beta$, 则
+$\alpha = \beta, x\in D_\alpha$.
+$\square$
+
+\begin{fact}
+设$\mathscr{D}=\{D_\alpha: \alpha\in \Delta\}$是$X$的覆盖.
+
+\textnormal{(i)} 若$\mathscr{D}$有局部有限开加细,则$\mathscr{D}$有局部有限的精确开加细.
+
+\textnormal{(ii)} 若$X$有局部有限开覆$\mathscr{V}$使得$\mathscr{\overline{V}}$加细
+$\mathscr{D}$,则$\mathscr{D}$,有局部有限开收缩.
+
+\textnormal{(iii)} 若$\mathscr{D}$有垫状加细,则$\mathscr{D}$有精确的垫状加细.
+
+其次,在前两条中,若将“局部有限”改为“离散”,结论仍真.
+或将“开”加细\textnormal{(}覆盖\textnormal{)}改为“闭”亦真.
+甚至改变为后面将介绍的“函数开\textnormal{(}集\textnormal{)}“或“半开覆盖”,
+结论也成立.
+\end{fact}
+
+证明. (i) 和 (ii) 的基本证法同(iii).下面我们只证(iii).
+设$\mathscr{D}$有一个垫状加细$\mathscr{W}=\{W_\beta: \beta\in\Gamma\}$.
+$\forall\beta\in\Gamma\,\exists \delta(\beta)\in \Delta$满足$W_\beta\subset D_{\delta(\beta)}$并使得
+$\forall B\subset\Gamma, \overline{\bigcup_{\beta\in B}W_\beta}\subset 
+	\bigcup_{\beta\in B}D_{\delta(\beta)}$.
+$\forall \alpha\in \Delta$,令
+$V_\alpha=\bigcup\{W_\beta: \beta\in\Gamma, \delta(\beta) = \alpha\}$.
+$\forall C\subset\Delta$,
+
+\begin{equation}
+\begin{aligned}
+\overline{\bigcup_{\alpha\in C}V_\alpha}
+	&= \overline{\bigcup \{W_\beta: \beta\in\Gamma, \delta(\beta)=\alpha, \alpha\in C\}}   \\
+	&\subset\bigcup \{D_{\delta(\beta)}: \beta\in\Gamma, \delta(\beta)=\alpha, \alpha\in C\} = \bigcup_{\alpha\in C}D_\alpha. \quad\square
+\end{aligned}
+\end{equation}
+
+
+%----------------
+\subsection{内部保持族与半开覆盖}\label{ch1.1.3}
+\begin{definition}
+$X$ 的子集族 $\mathscr{D}=\{D_\alpha:\alpha\in\Delta\}$称为\underline{内部保持的}\textnormal{(Junnila)}
+\textnormal{(}或\underline{闭包保持的}\textnormal{)},如果$\forall B\subset \Delta$,
+$$(\bigcap_{\alpha\in B}D_\alpha)^\circ=\bigcap_{\alpha\in B}D_\alpha^\circ, 
+\qquad\textnormal{(}\textrm{或} \quad
+\overline{\bigcup_{\alpha\in B}D_\alpha} = 
+\bigcup_{\alpha\in B}\overline{D_\alpha}\,\,
+).$$
+\end{definition}
+熟知每个局部有限族是闭包保持的,由下面的事实知,每个点有限的或上升的开覆盖是内部保持的.
+显然,$\mathscr{D}$是内部保持的,当且仅当集族
+$\{X\backslash D_\alpha: \alpha\in\Delta \}$
+是闭包保持的.
+
+\begin{fact}
+设$\mathscr{U}=\{U_\alpha:\alpha\in\Delta\}$是$X$的开集族,则下列各条等价.
+
+\textnormal{(i)} $\mathscr{U}$是内部保持的.
+
+\textnormal{(ii)} $\forall x\in\bigcup\mathscr{U}$, $\bigcap(\mathscr{U})_x$是开集.
+
+\textnormal{(iii)} $\forall B\subset\Delta$, $\bigcap_{\alpha\in B}U_\alpha$是开集.
+\end{fact}
+证明. 由定义可直接推出. $\square$
+
+\begin{fact}
+设$\mathscr{U}=\{U_\alpha:\alpha\in\Delta\}$是$X$的一个内部保持开集族.
+$B$是以序数为元的集.设$\forall \beta\in B$, $\Delta_\beta\subset \Delta$.则集族
+$\{\bigcap_{\alpha\in\Delta_\beta}U_\alpha: \beta\in B\}$与
+$\{\bigcup_{\alpha\in\Delta_\beta}U_\alpha: \beta\in B\}$
+皆是$X$內的内部保持开集族. $\square$
+\end{fact}
+
+\begin{definition}
+\textnormal{(Junnila)} $X$的覆盖$\mathscr{D}$是\underline{半开的},如果
+$\forall x\in X, x\in(\textnormal{st}(x, \mathscr{D}))^\circ$, 即, 
+$\textnormal{st}(x, \mathscr{D})\in\textnormal{top}(x)$.
+\end{definition}
+
+\begin{fact}
+$X$的覆盖$\mathscr{D}$是半开的$\Leftrightarrow \forall A\subset X, \overline{A} \subset\textnormal{st}(A, \mathscr{D})$. $\square$
+\end{fact}
+
+由上述事实知,每个闭包保持闭覆盖是半开的,开覆盖显然是半开的.
+
+
+%----------------
+\subsection{函数开集}\label{ch1.1.4}
+\begin{definition}
+	$X$在的子集$A$称\underline{函数开的},或是一个\underline{补零集},如果存在一个连续函数$f:X\rightarrow [0,1]$使得$A=f^{-1}(0,1]=\{x\in X: 0<f(x)\le 1\}$.
+\end{definition}
+
+易见,对于任意的$a, 0\le a\le1$, 形如$f^{-1}(a,1]$或$f^{-1}[0,a)$的集皆是函数开集.由 Engelking[1977]知,两个函数开集之交是函数开的,可数多个函数开集的并是函数开的.
+$X$的子集族称为函数开的,如果它的每个元是函数开集.
+设$\mathscr{U}$是$X$内的一个函数开的局部有限族,则$\bigcup \mathscr{U}$是函数开集.
+完全(perfect)正规空间内的每个开集是函数开集.因为伪度量空间是完全正规的,我们有下到的
+
+\begin{fact}
+伪度量空间的每个开集是函数开集. $\square$
+\end{fact}
+
+\end{document} 
