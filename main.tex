@@ -89,6 +89,8 @@
 \newtheorem*{definition*}{定义}
 \newtheorem{note}{注释}
 \newtheorem*{note*}{注释}
+\newtheorem{fact}{事实}
+\newtheorem{proposition}{命题}
 \newtheorem{theorem}{定理}
 \newtheorem*{theorem*}{定理}
 \newtheorem{lemma}{引理}
@@ -99,6 +101,8 @@
 % counter controlling
 \usepackage{chngcntr}
 \counterwithin{note}{section}
+\counterwithin{fact}{section}
+\counterwithin{proposition}{section}
 \counterwithin{figure}{section}
 \counterwithin{equation}{section}
 \counterwithin{definition}{section}
@@ -152,6 +156,7 @@
 \chapter{$\lambda$完满正规与次仿紧空间}\label{chap4}
 \subfile{ch4.tex}
 
+\newpage
 \chapter*{参考文献}\label{chap5}
 \subfile{ref.tex}
 

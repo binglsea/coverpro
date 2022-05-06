@@ -3,43 +3,67 @@
 \noindent Alexandroff, P.
 
 \begin{tabular}{l p{145mm}}
-[Ale24] & Sur les ensembles de la premiere classe et les ensembles abstraits, C. R. Acad. Paris 178 (1924),185-187. \\
+[1924]  & Sur les ensembles de la premiere classe et les ensembles abstraits, C. R. Acad. Paris 178,185-187. \\
 \end{tabular}
 
 \vspace{1mm}
 \noindent Alexandroff, P. and Urysohn, P.
 
 \begin{tabular}{l p{145mm}}
-[AU23] & Une condition necessaire et suffisante pour qu'une class ($\mathscr{L}$) soit une class ($\mathscr{D}$), C. R. Acad. Paris 177 (1923), 1274-1276.\\
+[1923] & Une condition necessaire et suffisante pour quune class (L) soit une class (D), C. R. Acad. Paris 177, 1274-1276.
 \end{tabular}
 
+\noindent Alster, K.
+
 \begin{tabular}{l p{145mm}}
-[AU29] & Memoire sur les espaces topologiques compactes, Verh. Akad. Wetensch. Amsterdam 14 (1929) 1-96.\\
+	[1975] & Subparacompactness in cartesian products of generalized ordered topological spaces, Fund. Math. ,87,7-27.
+\end{tabular}
+
+\vspace{1mm}
+\noindent Alster, K. and Engelking, R.
+
+\begin{tabular}{l p{145mm}}
+[1972] & Subparacompactness and product spaces, Bull. Acad. Polon. Sci. Ser.Math. ,20,763-767.
 \end{tabular}
 
 \noindent Arens, R. and Dugundji,J.
 
 \begin{tabular}{l p{145mm}}
-	[AD50] & Remark on the concept of compactness, Portugaliae Math., 9 (1950), 141- 143.
+	[1950] & Remark on the concept of compactness, Portugaliae Math. ,9, 141- 143.
 \end{tabular}
 
-\noindent Arhangel'skit, A. V.
+\noindent Arhangelskit, A. V.
 
-\begin{tabular}{l p{145mm}}
-[Arh61] & New criteria for paracompactness and metrizability of an arbitrary $T_1$ space, DokI. Akad. Nauk SSSR,141 (1961),1051-1055.\\
-\end{tabular}
+[1961] New criteria for paracompactness and metrizability of an arbitrary $T_1$ space, DokI. Akad. Nauk SSSR,141,1051-1055.
 
-\begin{tabular}{l p{145mm}}
-[Arh66] & Mappings and spaces, Russian Math. Surveys 21, no.4 (1966),115-162.
-\end{tabular}
+[1962] Open and almost open mappings of topological space, Soviet Math. Dokl.,3,1738-1741.
 
-\noindent Bing, R. H.
+[1963] On a class of spaces containing all metric spaces and all locally bi-compact spaces, Sov. Math. Dokl. , 4,751-754. 1154
+[1966] Mappings and spaces, Russian Math. Surveys 21, no. ,4,115-162.
 
-\begin{tabular}{l p{145mm}}
-[Bin51] & Metrization of topological spaces, Canad. J. Math., 3 (1951),175-186.
-\end{tabular}
+[1966] Mappings and spaces, Russian Math. Surveys 21, no.4,115-162.
+	
+%--- p232
+[1972] The property of paracompactness in the class of perfectly normal locally bicompact spaces ,Soviet. Math. Dokl. , 13,517-520.
 
-\noindent Boone, J. R.
+\noindent Aull, C. E.
+
+[1965]
+A note on countably paracompact spaces and metrization. Proc.
+Amer. Math. Soc., 16,1316-1317.
+
+[1973]
+A generalization of a theorem of Aquaro, Bull, Austral. Math. Soc.
+9,105-108.
+
+\noindent Bennett, H. R. and Lutzer, D. L.
+
+[1972] A note on weake 8-refinability , Gen. Topology Appl. , 2, 49-54.
+Bing, R. H.
+
+[1951] Metrization of topological spaces, Canad. J. Math. ,3,175-y186.
+
+Boone, J. R.
 
 [1971]
 Some characterizations of paracompactness in k-spaces, Fund.
