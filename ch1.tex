@@ -438,7 +438,8 @@ $\square$
 	\textnormal{(i)}  $D\delta$覆盖$\Rightarrow L\delta \Rightarrow C\delta$.
 	
 	\textnormal{(ii)} 仿定义$\S$\ref{def1.2.5},称开覆盖$\mathscr{U}$是一个
-	\underline{$B(P,\delta)$覆盖},如果$\mathscr{U}$有一个$B(P,\delta)$加细,则
+	\underline{$B(P,\delta)$覆盖},如果$\mathscr{U}$有一个$B(P,\delta)$加细.
+	则
 	$B(D,\delta)$覆盖$\Rightarrow C\delta$. 
 	$B(LF,\delta)\Rightarrow L\delta$. 
 	$B(C,\delta)\Rightarrow C\delta$. 
@@ -483,6 +484,8 @@ $\longrightarrow$ & $L\omega^2$ & $\longrightarrow$ & $C\omega^2$ \\
 
 一个自然的问题是上面这些竖箭头是否可逆向?我猜测皆不可逆值得关注的是
 
+
+
 %----------------
 %----------------
 \section{可扩型空间}\label{ch1.3}
@@ -491,9 +494,26 @@ $\longrightarrow$ & $L\omega^2$ & $\longrightarrow$ & $C\omega^2$ \\
 Krajewski[1977].
 
 \begin{definition}
-	\textnormal{(i)} 设
+	\textnormal{(i)} 设$\mathscr{F}=\{F_\alpha:\alpha\in\Delta\}$是$X$的一个子集族.
+	$X$的子集$\mathscr{G}$称为$\mathscr{F}$的一个\underline{扩张},如果
+	$\mathscr{G}=\{G_\alpha:\alpha\in\Delta\}$使得$\forall\alpha\in\Delta$, $F_\alpha\subset G_\alpha$. 一个扩张称为\underline{开的}, 如果它的每个元是开集.
+	
+	\textnormal{(ii)} 设$\lambda\ge 2$, $X$ 是 \underline{$\lambda$集体正规的},如果$X$的每个势$\le\lambda$的离散闭子集族的有一个离散的开扩张.
+	
+	\textnormal{(iii)} 设$\lambda\ge \omega$, $X$是 \underline{$\lambda$可扩的}
+	\textnormal{(}\underline{$\lambda$ 几乎可扩的}\textnormal{)},如果$X$的每个势$\le\lambda$的局部有限子集族有一个局部有限的\textnormal{(}点有限的\textnormal{)}开扩张.
 \end{definition}
 
+\begin{note}
+	显然, $X$是$\lambda$可扩的$\Leftrightarrow X$内的每个势$\le\lambda$的局部有限闭子集族有一个局部有限的开扩张.
+\end{note}
 
+\begin{fact}
+	\textnormal{(i)} 	$X$是$\lambda$集体正规的$\Leftrightarrow X$内的每个势$\le\lambda$的离散闭子集族有一个非交的开扩张.
+	
+	\textnormal{(ii)} $X$是$\lambda$可数集体正规的$\Leftrightarrow X$是集体正规的.
+\end{fact}
+
+证明. (i), (ii)可分别参见[Eng77]的 $\S$5.1.17以及$\S$2.1.14. $\square$
 
 \end{document} 
