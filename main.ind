@@ -3,13 +3,16 @@
   \item 元, element, 1
   \item 势, power, 1
   \item 基数, cardinal, 1
+  \item 幂集. power set, 1
 
   \indexspace
 
+  \item 映射, map, 1
   \item 有序对, ordered pair, 1
 
   \indexspace
 
+  \item 空间, space, 2
   \item 空集,  empty set, 1
 
   \indexspace

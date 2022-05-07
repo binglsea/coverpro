@@ -4,15 +4,15 @@
 覆盖性质有一类型的刻画是把它们分解成另两类较弱的拓扑性质的和.
 其中一类是可扩型性质，另一类是较弱的其它覆盖性质.
 例如,一个拓扑空间是仿紧的当且仅当它是可扩的和次亚紧的.
-我们把这种类型的刻画叫分解定理.本章第2节介绍用于各种
-分解定理的弱覆盖性质.第3节则介绍用作另一分解因子的可扩型性质.
+我们把这种类型的刻画叫分解定理.本章$\S$\ref{ch1.2} 介绍用于各种
+分解定理的弱覆盖性质. $\S$\ref{ch1.3} 则介绍用作另一分解因子的可扩型性质.
 它们的应用将在后面的章节中介绍.
 	
 %----------------
 \section{记号、术语与基本事实}\label{ch1.1}
-集合简称\begin{kaishu}集\end{kaishu}\index{集, set},集的元素
-简称\begin{kaishu}元\end{kaishu}\index{元, element}.本书中的全称量词“对每一个”
-或符号“$\forall$”经常省略.倒如, “对每一个
+集合简称\underline{集}\index{集, set},集的元素
+简称\underline{元}\index{元, element}.本书中的全称量词“对每一个”
+或符号“$\forall$”经常省略.例如, “对每一个
 $\alpha\in\Delta$, $A_\alpha \subset B_\alpha$”,
 常简述为“$A_\alpha \subset B_\alpha$”.
 但存在量词$\exists$不可省略.等号
@@ -22,13 +22,14 @@ $P=Q$可以表示$P$是$Q$的一个名称(暂用的或专用的).
 例如$A=\{x,y\}$,这里$A$是右边那个无序对的暂用名称.
 $\mathbb{R} = \{x: x$ 是一个实数\}表示我们总用$\mathbb{R}$表示实数
 直线並赋予区间拓扑.
-$\phi=\{u: u\ne u\}$表示唯一的\begin{kaishu}空集\end{kaishu}\index{空集,  empty set}.
-$P$也可以是$Q$的一个缩写或简记. 如$\mathscr{P}(X)=\{A:A\subset X\}$, 叫$X$的幂集.
-$(x, y) = \{ \{x\}, \{x, y\}\}$ 叫一个\begin{kaishu}有序对\end{kaishu}\index{有序对, ordered pair}. 
+$\phi=\{u: u\ne u\}$表示唯一的\underline{空集}\index{空集,  empty set}.
+$P$也可以是$Q$的一个缩写或简记. 如$\mathscr{P}(X)=\{A:A\subset X\}$, 
+叫$X$的\underline{幂集}\index{幂集. power set}.
+$(x, y) = \{ \{x\}, \{x, y\}\}$ 叫一个\underline{有序对}\index{有序对, ordered pair}. 
 当 $A\ne \phi$且$B\ne \phi$时, $A\times B = \{(x, y): x\in A, y\in B\}$.
 $B^A = \{f\subset A\times B: f$ 是从 $A$ 到 $B$ 内的一个函数\}.
 $A\times \phi = \phi$. $B^\phi = \{\phi\}$.
-映射与函数同义.  若$f\in B^A$, 常记 $f: A\to B$. 称 $f$ 是一个
+\underline{映射}\index{映射, map}与函数同义.  若$f\in B^A$, 常记 $f: A\to B$. 称 $f$ 是一个
 单射或者$1$-$1$的, 如果$A$内不同的元在  $f$下有不同的像.
 称为$f$是一个满射或到上的,如果$B$的每个元皆是
 $A$内某个元的像. 既是单射又是满射则称为一个双射.
@@ -47,7 +48,7 @@ $[A]^{<\omega} = \bigcup_{n<\omega}[A]^n$.
 \subsection{集族}\label{ch1.1.1}
 设$\Delta$是以序数为元的一个集.
 符号$\{D_\alpha : \alpha\in\Delta\}$称为集$X$的一个子集\begin{kaishu}族\end{kaishu}或
-$X$内的一个\begin{kaishu}集族\end{kaishu}是指存在
+$X$内的一个\begin{kaishu}集族\end{kaishu},是指存在
 一个函数$f:\Delta \to \mathscr{P}(X)$
 使得$\forall \alpha \in \Delta, f(\alpha)=D_\alpha$.
 $\Delta$叫这个集族的指标集. $\mathscr{P}(X)$
@@ -75,7 +76,8 @@ $(x_0, x_1, \dots)$. 0 序列是$\phi$.为了免与开区间混淆, $(x_0, x_1)$
 
 %----------------
 \subsection{空间与覆盖}\label{ch1.1.2}
-拓扑空间简称为空间.不附加任何分离公理.正规、正则空间也不必是$T_1$的.此后的,凡$X$,$Y$皆表空间.
+拓扑空间简称为\underline{空间}\index{空间, space}, 不附加任何分离公理.
+正规、正则空间也不必是$T_1$的.此后,凡$X$,$Y$皆表空间.
 设$x\in X$, 记
 $\textrm{top}(x) = \{W: W$是$X$的开集, 使得$ x\in W\}$.
 此即$x$的开邻域系.设$A\subset X$, $A^\circ$与$\overline{A}$分别表示$A$ 在$X$中的内部和闭包.
@@ -119,7 +121,7 @@ $\mathscr{V}=\{V_\beta: \beta\in\lambda\}$的开覆盖有一个开收缩.
 
 事实上, 若$\mathscr{U}=\{U_\alpha: \alpha\in\Delta\}$
 是合条件$|\Delta|\le\lambda$的开覆盖.设$f: \Delta\to\lambda$
-是双射
+是双射.若$\beta=f(\alpha), \alpha\in\Delta$,令$V_\alpha=U_\alpha$.若不令
 \end{songti}
 \end{note}
 
