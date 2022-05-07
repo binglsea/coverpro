@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  7 MAY 2022 08:06
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  7 MAY 2022 08:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1944,7 +1944,7 @@ available
 (Font)              Font shape `TU/SongtiSCLight(0)/m/it' tried instead on inpu
 t line 152.
 [2] [3]) (./ch1.2.tex [4] [5]
-Overfull \hbox (15.51476pt too wide) in paragraph at lines 141--145
+Overfull \hbox (15.51476pt too wide) in paragraph at lines 140--144
 []\T1/lmr/m/n/12.045 (iii) $\U/rsfs/m/n/12 U$ \TU/SongtiSCLight(0)/m/it/12.045 
 有 一 个 加 细 $\U/rsfs/m/n/12 P \OT1/cmr/m/n/12.045 = [][] \U/rsfs/m/n/12 P[]$ \TU/
 SongtiSCLight(0)/m/it/12.045 使 得 $\OMS/cmsy/m/n/12.045 8\OML/cmm/m/it/12.045 ^^
@@ -2128,7 +2128,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  44707 strings out of 476919
  889918 string characters out of 5821839
- 1740970 words of memory out of 5000000
+ 1740971 words of memory out of 5000000
  63890 multiletter control sequences out of 15000+600000
  490214 words of font info for 160 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
