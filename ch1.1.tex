@@ -121,7 +121,11 @@ $\mathscr{V}=\{V_\beta: \beta\in\lambda\}$的开覆盖有一个开收缩.
 
 事实上, 若$\mathscr{U}=\{U_\alpha: \alpha\in\Delta\}$
 是合条件$|\Delta|\le\lambda$的开覆盖.设$f: \Delta\to\lambda$
-是双射.若$\beta=f(\alpha), \alpha\in\Delta$,令$V_\alpha=U_\alpha$.若不令
+是单射.若$\beta=f(\alpha), \alpha\in\Delta$,令$V_\beta=U_\alpha$.若
+$\beta\in \lambda\backslash f(\Delta)$,令$V_\beta=\phi$. 
+令$\mathscr{V}=\{V_\beta: \beta < \lambda\}$
+则$\mathscr{V}=\mathscr{U}\bigcup\{\phi\}$, 且$\mathscr{V}$与$\mathscr{U}$有相同的开收缩.
+这个注释对本书的所有覆盖性质皆是成立.
 \end{songti}
 \end{note}
 
@@ -154,23 +158,27 @@ $\Delta_\beta = \{\alpha\in\Delta: D_\alpha\bigcap D_\beta \ne \phi\}$.
 $\Delta(x) = \{\alpha\in\Delta: x\in D_\alpha\}$.
 称$\mathscr{D}$在$X$内是点有限的 
 \textnormal{(}点非交的\textnormal{)}, 如果$\mathscr{D}$在$X$的每一点处是点有限的\textnormal{(}点非交的\textnormal{)}.
-\end{definition}
-易见:
 
-1) $\mathscr{D}$在$X$内是非交的$\Leftrightarrow$$\mathscr{D}$在$X$内是点非交的.
+\textnormal{
+易见:}
 
-2)若 $\mathscr{D}$在$X$内是非交的, 则
-$$\forall \alpha,\beta\in\Delta \,(D_\alpha \ne D_\beta
-\Rightarrow D_\alpha\cap D_\beta = \phi).$$
-
-{\kaishu
-(iii) 设$n\ge 1$, 称$\mathscr{D}$在$X$内是局部有限的($n$局部有限的),
-如果
-$$\forall x\in X\, \exists\,W\in\textrm{top}(x), |\Delta(W)| \le \omega\,\,\, (|\Delta(W)| \le n).$$
-此处$\Delta(W)= \{\alpha\in \Delta: W\cap D_\alpha \ne \phi\}$.
-称$\mathscr{D}$在$X$内是有界局部有限的(离散的),如果存在$n\ge 1$, 
-$\mathscr{D}$在$X$內是$n$局部有限(1局部有限)的.
+\textnormal{1) $\mathscr{D}$在$X$内是非交的$\Leftrightarrow$$\mathscr{D}$在$X$内是点非交的.
 }
+
+\textnormal{2) 若 $\mathscr{D}$在$X$内是非交的, 则
+$\forall \alpha,\beta\in\Delta \,(D_\alpha \ne D_\beta
+\Rightarrow D_\alpha\cap D_\beta = \phi).$
+}
+
+\textnormal{(iii)} 设$n\ge 1$, 称$\mathscr{D}$在$X$内是局部有限的($n$局部有限的),
+如果
+$\forall x\in X\, \exists\,W\in\textrm{top}(x), |\Delta(W)| \le \omega\,\,\, (|\Delta(W)| \le n)$.
+此处$\Delta(W)= \{\alpha\in \Delta: W\cap D_\alpha \ne \phi\}$.
+称$\mathscr{D}$在$X$内是有界局部有限的\textnormal{(}离散的\textnormal{)},
+如果存在$n\ge 1$, 
+$\mathscr{D}$在$X$內是$n$局部有限\textnormal{(}$1$局部有限\textnormal{)}的,
+
+\end{definition}
 
 \begin{fact}
 $\mathscr{D}=\{D_\alpha: \alpha\in \Delta\}$是$X$内的离散闭集族

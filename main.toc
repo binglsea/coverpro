@@ -10,7 +10,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.1.2}空间与覆盖}{2}{subsection.1.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.3}内部保持族与半开覆盖}{4}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.3}内部保持族与半开覆盖}{3}{subsection.1.1.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.1.4}函数开集}{4}{subsection.1.1.4}%
 \defcounter {refsection}{0}\relax 
