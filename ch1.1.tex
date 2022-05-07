@@ -120,10 +120,10 @@ $X$是$\lambda$可缩的 $\Leftrightarrow X$的每一个形如
 $\mathscr{V}=\{V_\beta: \beta\in\lambda\}$的开覆盖有一个开收缩. 
 
 事实上, 若$\mathscr{U}=\{U_\alpha: \alpha\in\Delta\}$
-是合条件$|\Delta|\le\lambda$的开覆盖.设$f: \Delta\to\lambda$
+是符合条件$|\Delta|\le\lambda$的开覆盖.设$f: \Delta\to\lambda$
 是单射.若$\beta=f(\alpha), \alpha\in\Delta$,令$V_\beta=U_\alpha$.若
 $\beta\in \lambda\backslash f(\Delta)$,令$V_\beta=\phi$. 
-令$\mathscr{V}=\{V_\beta: \beta < \lambda\}$
+令$\mathscr{V}=\{V_\beta: \beta < \lambda\}$,
 则$\mathscr{V}=\mathscr{U}\bigcup\{\phi\}$, 且$\mathscr{V}$与$\mathscr{U}$有相同的开收缩.
 这个注释对本书的所有覆盖性质皆是成立.
 \end{songti}
@@ -149,8 +149,8 @@ $\Leftrightarrow \mathscr{D}^F$ 加细$\mathscr{D}$.
 \begin{definition}
 设$\mathscr{D}=\{D_\alpha: \alpha\in \Delta\}$是$X$内的子集族.
 
-\textnormal{(i)} $\mathscr{D}$在$X$内是星形有限的\textnormal{(}非交的
-的\textnormal{)}, 如果$\forall\beta\in\Delta, |\Delta_\beta| < \omega$ $(|\Delta_\beta| \le 1)$, 此处
+\textnormal{(i)} $\mathscr{D}$在$X$内是星形有限的\textnormal{(}非交的\textnormal{)}, 
+如果$\forall\beta\in\Delta, |\Delta_\beta| < \omega$ $(|\Delta_\beta| \le 1)$, 此处
 $\Delta_\beta = \{\alpha\in\Delta: D_\alpha\bigcap D_\beta \ne \phi\}$.
  
 \textnormal{(ii)} $\mathscr{D}$在$x\in X$处是点有限的
@@ -170,9 +170,9 @@ $\forall \alpha,\beta\in\Delta \,(D_\alpha \ne D_\beta
 \Rightarrow D_\alpha\cap D_\beta = \phi).$
 }
 
-\textnormal{(iii)} 设$n\ge 1$, 称$\mathscr{D}$在$X$内是局部有限的($n$局部有限的),
-如果
-$\forall x\in X\, \exists\,W\in\textrm{top}(x), |\Delta(W)| \le \omega\,\,\, (|\Delta(W)| \le n)$.
+\textnormal{(iii)} 设$n\ge 1$, 称$\mathscr{D}$在$X$内是局部有限
+的\textnormal{(}$n$局部有限的\textnormal{)}, 如果
+$\forall x\in X\, \exists\,W\in\textnormal{top}(x), |\Delta(W)| < \omega\,\,\, (|\Delta(W)| \le n)$.
 此处$\Delta(W)= \{\alpha\in \Delta: W\cap D_\alpha \ne \phi\}$.
 称$\mathscr{D}$在$X$内是有界局部有限的\textnormal{(}离散的\textnormal{)},
 如果存在$n\ge 1$, 
@@ -185,11 +185,11 @@ $\mathscr{D}=\{D_\alpha: \alpha\in \Delta\}$是$X$内的离散闭集族
 $\Leftrightarrow\bigcup\mathscr{D}$闭于$X$ 
 且$\mathscr{D}$在每一点$x\in\bigcup\mathscr{D}$处是离散的.
 \end{fact}
-证明. ($\Leftarrow)$是平凡的.
-($\Rightarrow$). 设$\bigcup\mathscr{D}$是闭集,且$\mathscr{D}$在每点
+证明. ($\Rightarrow$)是平凡的.
+($\Leftarrow)$. 设$\bigcup\mathscr{D}$是闭集,且$\mathscr{D}$在每点
 $x\in\bigcup\mathscr{D}$处是离散的,则显然$\mathscr{D}$是离散的.
 只需再证它的任意元$D_\alpha$是闭集.设$x\in\overline{D_\alpha}$,则
-$\exists\beta\in\Delta \, (x\in D_\beta)$.
+$\exists\beta\in\Delta, x\in D_\beta$.
 依前一定义(iii) 的记号,存$x$的邻域$W$使得$|\Delta(W)|\le 1$. 
 因$W\cap D_\alpha \ne \phi$且$x\in W\cap D_\beta$, 则
 $\alpha = \beta, x\in D_\alpha$.
@@ -201,7 +201,7 @@ $\square$
 \textnormal{(i)} 若$\mathscr{D}$有局部有限开加细,则$\mathscr{D}$有局部有限的精确开加细.
 
 \textnormal{(ii)} 若$X$有局部有限开覆$\mathscr{V}$使得$\mathscr{\overline{V}}$加细
-$\mathscr{D}$,则$\mathscr{D}$,有局部有限开收缩.
+$\mathscr{D}$,则$\mathscr{D}$有局部有限开收缩.
 
 \textnormal{(iii)} 若$\mathscr{D}$有垫状加细,则$\mathscr{D}$有精确的垫状加细.
 
@@ -241,7 +241,7 @@ $(\bigcap_{\alpha\in B}D_\alpha)^\circ=\bigcap_{\alpha\in B}D_\alpha^\circ,
 ).$
 \end{definition}
 熟知每个局部有限族是闭包保持的,由下面的事实知,每个点有限的或上升的开覆盖是内部保持的.
-显然,$\mathscr{D}$是内部保持的,当且仅当集族
+显然, $\mathscr{D}$是内部保持的,当且仅当集族
 $\{X\backslash D_\alpha: \alpha\in\Delta \}$
 是闭包保持的.
 
@@ -286,7 +286,7 @@ $X$的覆盖$\mathscr{D}$是半开的$\Leftrightarrow \forall A\subset X, \overl
 易见,对于任意的$a, 0\le a\le1$, 形如$f^{-1}(a,1]$或$f^{-1}[0,a)$的集皆是函数开集.由 Engelking[1977]知,两个函数开集之交是函数开的,可数多个函数开集的并是函数开的.
 $X$的子集族称为函数开的,如果它的每个元是函数开集.
 设$\mathscr{U}$是$X$内的一个函数开的局部有限族,则$\bigcup \mathscr{U}$是函数开集.
-完全(perfect)正规空间内的每个开集是函数开集.因为伪度量空间是完全正规的,我们有下到的
+完全(perfect)正规空间内的每个开集是函数开集.因为伪度量空间是完全正规的,我们有下列的
 
 \begin{fact}
 伪度量空间的每个开集是函数开集. $\square$
