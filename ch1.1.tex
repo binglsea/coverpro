@@ -48,7 +48,7 @@ $[A]^{<\omega} = \bigcup_{n<\omega}[A]^n$.
 \subsection{集族}\label{ch1.1.1}
 设$\Delta$是以序数为元的一个集.
 符号$\{D_\alpha : \alpha\in\Delta\}$称为集$X$的一个子集\begin{kaishu}族\end{kaishu}或
-$X$内的一个\begin{kaishu}集族\end{kaishu},是指存在
+$X$内的一个\underline{集族}\index{集族, family of sets},是指存在
 一个函数$f:\Delta \to \mathscr{P}(X)$
 使得$\forall \alpha \in \Delta, f(\alpha)=D_\alpha$.
 $\Delta$叫这个集族的指标集. $\mathscr{P}(X)$
@@ -80,7 +80,7 @@ $(x_0, x_1, \dots)$. 0 序列是$\phi$.为了免与开区间混淆, $(x_0, x_1)$
 正规、正则空间也不必是$T_1$的.此后,凡$X$,$Y$皆表空间.
 设$x\in X$, 记
 $\textrm{top}(x) = \{W: W$是$X$的开集, 使得$ x\in W\}$.
-此即$x$的开邻域系.设$A\subset X$, $A^\circ$与$\overline{A}$分别表示$A$ 在$X$中的内部和闭包.
+此即$x$的开邻域系.设$A\subset X$, $A^\circ$与$\overline{A}$分别表示$A$ 在$X$内的内部和闭包.
 设$\mathscr{D}=\{D_\alpha:\alpha\in\Delta\}$是$X$的一个子集族,则记
 $\mathscr{D}^\circ=\{D^\circ_\alpha:\alpha\in\Delta\}$,
 $\overline{\mathscr{D}}=\{\overline{D}_\alpha:\alpha\in\Delta\}$.当$\bigcup\mathscr{D} = X$
@@ -104,7 +104,7 @@ $\bigcup\mathscr{W}  = \bigcup \mathscr{D}$.
 称$\mathscr{W}$是$\mathscr{D}$的精确垫状加细,
 如果$\bigcup\mathscr{W}  = \bigcup \mathscr{D}$且
 对每个$B\subset \Delta$, 
-$\overline{\bigcup_{\alpha\in B}W_\alpha}  = \bigcup_{\alpha\in B}D_\alpha$.
+$\overline{\bigcup_{\alpha\in B}W_\alpha}  \subset \bigcup_{\alpha\in B}D_\alpha$.
 族$\mathscr{D}$称为开的(闭的),如果它每个元是$X$的开(闭)子集.
 
 \begin{definition}
