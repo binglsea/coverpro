@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  7 MAY 2022 08:27
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  9 MAY 2022 19:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1629,10 +1629,22 @@ Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/import/import.sty
 Package: import 2020/04/01  v 6.2
 ))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box126
+\beforetitleunit=\skip106
+\aftertitleunit=\skip107
+\ttl@plus=\dimen335
+\ttl@minus=\dimen336
+\ttl@toksa=\toks54
+\titlewidth=\dimen337
+\titlewidthlast=\dimen338
+\titlewidthfirst=\dimen339
+)
 (/usr/local/texlive/2021/texmf-dist/tex/xelatex/xecjk/xunicode-addon.sty
 Package: xunicode-addon 2020/10/19 v3.8.6 addon file for xunicode
-\l__xunadd_tmp_coffin=\box126
-\l__xunadd_circle_coffin=\box127
+\l__xunadd_tmp_coffin=\box127
+\l__xunadd_circle_coffin=\box128
 \l_xunadd_slot_int=\count537
 )
 (/usr/local/texlive/2021/texmf-dist/tex/xelatex/xunicode/xunicode.sty
@@ -1649,101 +1661,101 @@ Package csquotes Info: ... none found.
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OT2/cmr/m/n on input line 130.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OT2/cmr/m/n on input line 132.
 LaTeX Font Info:    Trying to load font information for OT2+cmr on input line 1
-30.
+32.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/cyrillic/ot2cmr.fd
 File: ot2cmr.fd 2001/08/11 v3.2c Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 132.
 LaTeX Font Info:    Trying to load font information for T3+cmr on input line 13
-0.
+2.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 130.
+LaTeX Info: Redefining \selectfont on input line 132.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 130.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 130.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 130.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 130.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 130.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 130.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 130.
-LaTeX Font Info:    Redeclaring math accent \check on input line 130.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 130.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 130.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 130.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 130.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 132.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 132.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 132.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 132.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 132.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 132.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 132.
+LaTeX Font Info:    Redeclaring math accent \check on input line 132.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 132.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 132.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 132.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 132.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 130.
+(Font)              `operators' in the math version `normal' on input line 132.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 130.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 132.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 130.
+(Font)              `operators' in the math version `bold' on input line 132.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 130.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 132.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 130.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 132.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 130.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 132.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 130.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 132.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 130.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 132.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 130.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 132.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 130.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 132.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 130.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 132.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 130.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 132.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 130.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 132.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1786,7 +1798,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 130.
+Package hyperref Info: Link coloring ON on input line 132.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1799,9 +1811,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count538
 )
-LaTeX Info: Redefining \ref on input line 130.
-LaTeX Info: Redefining \pageref on input line 130.
-LaTeX Info: Redefining \nameref on input line 130.
+LaTeX Info: Redefining \ref on input line 132.
+LaTeX Info: Redefining \pageref on input line 132.
+LaTeX Info: Redefining \nameref on input line 132.
  (./main.out) (./main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
@@ -1831,8 +1843,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 130.
-Package biblatex Info: Reference segment=0 on input line 130.
+Package biblatex Info: Reference section=0 on input line 132.
+Package biblatex Info: Reference segment=0 on input line 132.
 \c@lstlisting=\count539
 
 
@@ -1865,26 +1877,26 @@ Package fontspec Info: Font family 'KaitiSC(0)' created for font 'Kaiti SC'
 (fontspec)             Bold/OT:language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 133
+LaTeX Font Info:    Trying to load font information for U+msa on input line 135
 .
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 133
+LaTeX Font Info:    Trying to load font information for U+msb on input line 135
 .
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 13
-3.
+5.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <15.05624> not available
-(Font)              size <14.4> substituted on input line 133.
+(Font)              size <14.4> substituted on input line 135.
 
 [1
 
@@ -1901,7 +1913,20 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <15.05624> not available
 
 ]
 第一章
-(./ch1.1.tex [1
+(./ch1.1.tex
+
+LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
+(Font)              using `T1/lmr/bx/n' instead on input line 12.
+
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <18.06749> not available
+(Font)              size <17.28> substituted on input line 12.
+
+
+LaTeX Font Warning: Font shape `TU/SongtiSCLight(0)/b/sc' undefined
+(Font)              using `TU/SongtiSCLight(0)/b/n' instead on input line 12.
+
+[1
 
 
 ]
@@ -1953,35 +1978,31 @@ SongtiSCLight(0)/m/it/12.045 是 子 空 间 $\OML/cmm/m/it/12.045 X\OMS/cmsy/m/
 5 n [][]\OT1/cmr/m/n/12.045 ([] \U/rsfs/m/n/12 P[]\OT1/cmr/m/n/12.045 )$
  []
 
-[6]) (./ch1.3.tex) [7]
+[6]) (./ch1.3.tex [7]) [8]
 第二章
-(./ch2.1.tex) (./ch2.2.tex) (./ch2.3.tex) [8
+(./ch2.1.tex) (./ch2.2.tex) (./ch2.3.tex) [9
 
 ]
 第三章
-(./ch3.1.tex) (./ch3.2.tex) [9
+(./ch3.1.tex) (./ch3.2.tex) [10
 
 ]
 第四章
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 159.
+(hyperref)                removing `math shift' on input line 161.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\lambda' on input line 159.
+(hyperref)                removing `\lambda' on input line 161.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 159.
+(hyperref)                removing `math shift' on input line 161.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <24.09> not available
-(Font)              size <24.88> substituted on input line 159.
-
-
-LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <18.06749> not available
-(Font)              size <17.28> substituted on input line 159.
+(Font)              size <24.88> substituted on input line 161.
 
 (./ch4.1.tex
 
@@ -2008,7 +2029,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 10.
 
-) [10
+) [11
 
 ] (./ref.tex
 Overfull \hbox (7.54195pt too wide) in paragraph at lines 5--8
@@ -2045,9 +2066,9 @@ Overfull \hbox (8.36401pt too wide) in paragraph at lines 38--41
 [][] 
  []
 
-[11
+[12
 
-] [12]
+] [13]
 Missing character: There is no ⑧ ("2467) in font ec-lmr12!
 
 ! You can't use `macro parameter character #' in horizontal mode.
@@ -2059,13 +2080,13 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 Missing character: There is no ≥ ("2265) in font ec-lmr12!
-[13] [14]
+[14] [15]
 Overfull \hbox (7.10344pt too wide) in paragraph at lines 450--457
 []\T1/lmr/m/n/12.045 [1970] Meta-com-pact spaces and well-ordered open cov-er-i
 ngs, No-tices Amer Math. Soc..18,230
  []
 
-[15]
+[16]
 Missing character: There is no • ("2022) in font ec-lmr12!
 
 ! Missing $ inserted.
@@ -2098,15 +2119,15 @@ Overfull \hbox (4.1122pt too wide) in paragraph at lines 551--555
 metriz-able space, LOpolo by Appl.,12,331-
  []
 
-[16]
+[17]
 Missing character: There is no • ("2022) in font ec-lmr12!
-) [17]
+) [18]
 
-LaTeX Warning: Empty bibliography on input line 170.
+LaTeX Warning: Empty bibliography on input line 172.
 
 runsystem(makeindex main.idx)...executed safely (allowed).
 
-(./main.ind) [18
+(./main.ind) [19
 
 
 
@@ -2126,12 +2147,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44707 strings out of 476919
- 889918 string characters out of 5821839
- 1740971 words of memory out of 5000000
- 63890 multiletter control sequences out of 15000+600000
- 490214 words of font info for 160 fonts, out of 8000000 for 9000
+ 44996 strings out of 476919
+ 893688 string characters out of 5821839
+ 1748211 words of memory out of 5000000
+ 64172 multiletter control sequences out of 15000+600000
+ 489994 words of font info for 160 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  101i,12n,104p,1185b,844s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (21 pages).
+Output written on main.pdf (22 pages).
