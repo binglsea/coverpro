@@ -16,5 +16,77 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{LivioM}{book}{}
+      \name{author}{1}{}{%
+        {{hash=0bef1e5af6e7f69bc8f406556ee5354b}{%
+           family={Livio},
+           familyi={L\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {Simon \& Schuster}%
+      }
+      \strng{namehash}{0bef1e5af6e7f69bc8f406556ee5354b}
+      \strng{fullhash}{0bef1e5af6e7f69bc8f406556ee5354b}
+      \strng{bibnamehash}{0bef1e5af6e7f69bc8f406556ee5354b}
+      \strng{authorbibnamehash}{0bef1e5af6e7f69bc8f406556ee5354b}
+      \strng{authornamehash}{0bef1e5af6e7f69bc8f406556ee5354b}
+      \strng{authorfullhash}{0bef1e5af6e7f69bc8f406556ee5354b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780743294058}
+      \field{langid}{english}
+      \field{lansortorder}{4}
+      \field{title}{Is God a Mathematician?}
+      \field{usera}{M}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \keyw{LivioM}
+    \endentry
+    \entry{HuaL}{book}{}
+      \name{author}{1}{}{%
+        {{hash=23939d649f05284eb9c05474adecd362}{%
+           family={华罗庚},
+           familyi={华\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {chinese}%
+      }
+      \list{publisher}{1}{%
+        {科学出版社}%
+      }
+      \strng{namehash}{23939d649f05284eb9c05474adecd362}
+      \strng{fullhash}{23939d649f05284eb9c05474adecd362}
+      \strng{bibnamehash}{23939d649f05284eb9c05474adecd362}
+      \strng{authorbibnamehash}{23939d649f05284eb9c05474adecd362}
+      \strng{authornamehash}{23939d649f05284eb9c05474adecd362}
+      \strng{authorfullhash}{23939d649f05284eb9c05474adecd362}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{lansortorder}{1}
+      \field{title}{数论导引}
+      \field{usera}{M}
+      \field{userd}{chinese}
+      \field{userf}{chinese}
+      \field{year}{1957}
+      \field{dateera}{ce}
+      \keyw{HuaL}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
