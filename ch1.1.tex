@@ -22,33 +22,33 @@ $P=Q$可以表示$P$是$Q$的一个名称(暂用的或专用的).
 例如$A=\{x,y\}$,这里$A$是右边那个无序对的暂用名称.
 $\mathbb{R} = \{x: x$ 是一个实数\}表示我们总用$\mathbb{R}$表示实数
 直线並赋予区间拓扑.
-$\phi=\{u: u\ne u\}$表示唯一的\underline{空集}\index{空集,  empty set}.
+$\phi=\{u: u\ne u\}$表示唯一的\underline{空集}\index{空集  empty set}.
 $P$也可以是$Q$的一个缩写或简记. 如$\mathscr{P}(X)=\{A:A\subset X\}$, 
 叫$X$的\underline{幂集}\index{幂集 power set}.
-$(x, y) = \{ \{x\}, \{x, y\}\}$ 叫一个\underline{有序对}\index{有序对, ordered pair}. 
+$(x, y) = \{ \{x\}, \{x, y\}\}$ 叫一个\underline{有序对}\index{有序对 ordered pair}. 
 当 $A\ne \phi$且$B\ne \phi$时, $A\times B = \{(x, y): x\in A, y\in B\}$.
 $B^A = \{f\subset A\times B: f$ 是从 $A$ 到 $B$ 内的一个函数\}.
 $A\times \phi = \phi$. $B^\phi = \{\phi\}$.
-\underline{映射}\index{映射, map}与函数同义.  若$f\in B^A$, 常记 $f: A\to B$. 称 $f$ 是一个
+\underline{映射}\index{映射 map}与函数同义.  若$f\in B^A$, 常记 $f: A\to B$. 称 $f$ 是一个
 单射或者$1$-$1$的, 如果$A$内不同的元在  $f$下有不同的像.
 称为$f$是一个满射或到上的,如果$B$的每个元皆是
 $A$内某个元的像. 既是单射又是满射则称为一个双射.
 设$C\subset A$, 则 $A\vert{}_C = f\cap (C\times B)$ 叫 $f$
-在$C$上的\begin{kaishu}限制\end{kaishu}\index{限制, restriction}.
+在$C$上的\underline{限制}\index{限制 restriction}.
 
 我们用$\alpha, \beta, \gamma$等表示序数. $\alpha = \{\beta: \beta < \alpha\}$. $\beta \in \alpha \Leftrightarrow\beta<\alpha$. 基数是
 初始序数,用$\kappa,\lambda$ 等表示. $\omega = \{0, 1, 2, \dots\}$ 表
 最小无限基数.它的元,即自然数,用$m, n, i , k$等表示.
 对$n>0, n = \{0,1,2, \dots, n-1\}$. 我们用$|A|$表示$A$ 
-的\begin{kaishu}势\end{kaishu}\index{势, power}或\begin{kaishu}基数\end{kaishu}\index{基数, cardinal}.
+的\underline{势}\index{势 power}或\underline{基数}\index{基数 cardinal}.
 记$[A]^0=\{\phi\}$. 对$n\ge1, [A]^n = \{S\subset A: |S| = n\}$.
 $[A]^{<\omega} = \bigcup_{n<\omega}[A]^n$.
 
 %----------------
 \subsection{集族}\label{ch1.1.1}
 设$\Delta$是以序数为元的一个集.
-符号$\{D_\alpha : \alpha\in\Delta\}$称为集$X$的一个子集\begin{kaishu}族\end{kaishu}或
-$X$内的一个\underline{集族}\index{集族, family of sets},是指存在
+符号$\{D_\alpha : \alpha\in\Delta\}$称为集$X$的一个\underline{子集族}\index{集族 family of subsets} 或
+$X$内的一个\underline{集族}\index{集族 family of sets},是指存在
 一个函数$f:\Delta \to \mathscr{P}(X)$
 使得$\forall \alpha \in \Delta, f(\alpha)=D_\alpha$.
 $\Delta$叫这个集族的指标集. $\mathscr{P}(X)$
@@ -70,13 +70,13 @@ st$(x, \mathscr{D}) = \bigcup(\mathscr{D})_x$.
 若$\Gamma\subset\Delta$, 则集族$\{D_\alpha : \alpha\in\Gamma\}$称$\mathscr{D}$的一个子族.当$\Delta$是空集时,我们认为所有的族$\{D_\alpha : \alpha\in\phi\}$皆等于单元集$\{\phi\}$.
 
 与集族类似,以序数$\beta$为定义域的函数
-$x: \beta\to X$称集$X$内的的一个序列或点列, 记为$x=\{x_\alpha : \alpha\in\beta\}$.
+$x: \beta\to X$称为集$X$内的的一个\underline{序列}\index{序列 sequence}或点列, 记为$x=\{x_\alpha : \alpha\in\beta\}$.
 此处$x_\alpha=x(\alpha)$称一个$\beta$序列. $\omega$序列也记为
 $(x_0, x_1, \dots)$. 0 序列是$\phi$.为了免与开区间混淆, $(x_0, x_1)$也常记为$<x_0, x_1>$.
 
 %----------------
 \subsection{空间与覆盖}\label{ch1.1.2}
-拓扑空间简称为\underline{空间}\index{空间, space}, 不附加任何分离公理.
+拓扑空间简称为\underline{空间}\index{空间 space}, 不附加任何分离公理.
 正规、正则空间也不必是$T_1$的.此后,凡$X$,$Y$皆表空间.
 设$x\in X$, 记
 $\textrm{top}(x) = \{W: W$是$X$的开集, 使得$ x\in W\}$.
@@ -84,7 +84,8 @@ $\textrm{top}(x) = \{W: W$是$X$的开集, 使得$ x\in W\}$.
 设$\mathscr{D}=\{D_\alpha:\alpha\in\Delta\}$是$X$的一个子集族,则记
 $\mathscr{D}^\circ=\{D^\circ_\alpha:\alpha\in\Delta\}$,
 $\overline{\mathscr{D}}=\{\overline{D}_\alpha:\alpha\in\Delta\}$.当$\bigcup\mathscr{D} = X$
-时,称$\mathscr{D}$是$X$的一个覆盖.二覆盖之间的一个基本关系叫加细.
+时,称$\mathscr{D}$是$X$的一个覆盖.二覆盖之间的一个基本关系
+叫\underline{加细}\index{加细 refinement}.
 设$\mathscr{V}=\{V_\beta:\beta\in\Gamma\}$是$X$的另一子集族,
 称$\mathscr{V}$加细$\mathscr{D}$,如果$\forall\beta\in\Gamma$, 
 $\exists\, \delta (\beta)\in\Delta, V_\beta\subset D_{\delta(\beta)}$.

@@ -1,24 +1,27 @@
 \begin{theindex}
 
   \item 元 element, 1
-  \item 势, power, 1
-  \item 基数, cardinal, 1
+  \item 加细 refinement, 2
+  \item 势 power, 1
+  \item 基数 cardinal, 1
   \item 幂集 power set, 1
+  \item 序列 sequence, 2
 
   \indexspace
 
-  \item 映射, map, 1
-  \item 有序对, ordered pair, 1
+  \item 映射 map, 1
+  \item 有序对 ordered pair, 1
 
   \indexspace
 
-  \item 空间, space, 2
-  \item 空集,  empty set, 1
+  \item 空间 space, 2
+  \item 空集  empty set, 1
 
   \indexspace
 
-  \item 限制, restriction, 1
+  \item 限制 restriction, 1
   \item 集 set, 1
-  \item 集族, family of sets, 1
+  \item 集族 family of sets, 1
+  \item 集族 family of subsets, 1
 
 \end{theindex}
