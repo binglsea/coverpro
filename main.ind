@@ -1,8 +1,11 @@
 \begin{theindex}
 
   \item 元 element, 1
+  \item 到上的 onto, 1
   \item 加细 refinement, 2
   \item 势 power, 1
+  \item 单射 injective, 1
+  \item 双射 bijective, 1
   \item 基数 cardinal, 1
   \item 幂集 power set, 1
   \item 序列 sequence, 2
@@ -11,6 +14,7 @@
 
   \item 映射 map, 1
   \item 有序对 ordered pair, 1
+  \item 满射 surjective, 1
 
   \indexspace
 
