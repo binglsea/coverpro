@@ -40,7 +40,7 @@ $A$内某个元的像. 既是单射又是满射则称为一个\underline{双射}
 我们用$\alpha, \beta, \gamma$等表示序数. $\alpha = \{\beta: \beta < \alpha\}$. $\beta \in \alpha \Leftrightarrow\beta<\alpha$. 基数是
 初始序数,用$\kappa,\lambda$ 等表示. $\omega = \{0, 1, 2, \dots\}$ 表
 最小无限基数.它的元,即自然数,用$m, n, i , k$等表示.
-对$n>0, n = \{0,1,2, \dots, n-1\}$. 我们用$|A|$表示$A$ 
+对$n>0, \, n = \{0,1,2, \dots, n-1\}$. 我们用$|A|$表示$A$ 
 的\underline{势}\index{势 power}或\underline{基数}\index{基数 cardinal}.
 记$[A]^0=\{\phi\}$. 对$n\ge1, [A]^n = \{S\subset A: |S| = n\}$.
 $[A]^{<\omega} = \bigcup_{n<\omega}[A]^n$.
@@ -72,7 +72,7 @@ st$(x, \mathscr{D}) = \bigcup(\mathscr{D})_x$.
 
 与集族类似,以序数$\beta$为定义域的函数
 $x: \beta\to X$称为集$X$内的的一个\underline{序列}\index{序列 sequence}或点列, 记为$x=\{x_\alpha : \alpha\in\beta\}$.
-此处$x_\alpha=x(\alpha)$称一个$\beta$序列. $\omega$序列也记为
+此处$x_\alpha=x(\alpha)$,称一个$\beta$序列. $\omega$序列也记为
 $(x_0, x_1, \dots)$. 0 序列是$\phi$.为了免与开区间混淆, $(x_0, x_1)$也常记为$<x_0, x_1>$.
 
 %----------------
@@ -98,7 +98,8 @@ $\overline{\bigcup_{\beta\in B}V_\beta}\subset \bigcup_{\beta\in B}D_{\delta(\be
 则称$\mathscr{V}$是$\mathscr{D}$的一个部分加细(部分垫状加细).
 若进一步合条件$\bigcup\mathscr{V}=\bigcup\mathscr{D}$,
 则称$\mathscr{V}$是$\mathscr{D}$的一个加细(垫状加细).
-称$\mathscr{W}$是$\mathscr{D}$的一个收缩(精确加细),
+称$\mathscr{W}$是$\mathscr{D}$的一个\underline{收缩}\index{收缩 contraction}(
+\underline{精确加细}\index{精确加细 precise refinement}),
 如果$\mathscr{W}=\{W_\alpha: \alpha\in\Delta\}$使得
 $\forall\alpha\in \Delta, \overline{W_\alpha}\subset D_\alpha$
 ($W_\alpha\subset D_\alpha$)且
@@ -202,7 +203,7 @@ $\square$
 
 \textnormal{(i)} 若$\mathscr{D}$有局部有限开加细,则$\mathscr{D}$有局部有限的精确开加细.
 
-\textnormal{(ii)} 若$X$有局部有限开覆$\mathscr{V}$使得$\mathscr{\overline{V}}$加细
+\textnormal{(ii)} 若$X$有局部有限开覆盖$\mathscr{V}$使得$\mathscr{\overline{V}}$加细
 $\mathscr{D}$,则$\mathscr{D}$有局部有限开收缩.
 
 \textnormal{(iii)} 若$\mathscr{D}$有垫状加细,则$\mathscr{D}$有精确的垫状加细.
@@ -215,7 +216,7 @@ $\mathscr{D}$,则$\mathscr{D}$有局部有限开收缩.
 
 证明. (i) 和 (ii) 的基本证法同(iii).下面我们只证(iii).
 设$\mathscr{D}$有一个垫状加细$\mathscr{W}=\{W_\beta: \beta\in\Gamma\}$.
-$\forall\beta\in\Gamma\,\exists \delta(\beta)\in \Delta$满足$W_\beta\subset D_{\delta(\beta)}$并使得
+$\forall\beta\in\Gamma,\exists \delta(\beta)\in \Delta$满足$W_\beta\subset D_{\delta(\beta)}$并使得
 $\forall B\subset\Gamma, \overline{\bigcup_{\beta\in B}W_\beta}\subset 
 	\bigcup_{\beta\in B}D_{\delta(\beta)}$.
 $\forall \alpha\in \Delta$,令
@@ -288,7 +289,7 @@ $X$的覆盖$\mathscr{D}$是半开的$\Leftrightarrow \forall A\subset X, \overl
 易见,对于任意的$a, 0\le a\le1$, 形如$f^{-1}(a,1]$或$f^{-1}[0,a)$的集皆是函数开集.由 Engelking[1977]知,两个函数开集之交是函数开的,可数多个函数开集的并是函数开的.
 $X$的子集族称为函数开的,如果它的每个元是函数开集.
 设$\mathscr{U}$是$X$内的一个函数开的局部有限族,则$\bigcup \mathscr{U}$是函数开集.
-完全(perfect)正规空间内的每个开集是函数开集.因为伪度量空间是完全正规的,我们有下列的
+完全正规(perfectly normal)空间内的每个开集是函数开集.因为伪度量空间是完全正规的,我们有下列的
 
 \begin{fact}
 伪度量空间的每个开集是函数开集. $\square$
