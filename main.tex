@@ -62,10 +62,6 @@
 \usepackage{perpage}
 \MakePerPage{footnote} 
 
-% packages for bibliography
-%\bibliographystyle{plain}
-%\bibliography{references}
-
 \usepackage[backend=biber,style=numeric,sorting=nyt]{biblatex}
 %\usepackage[backend=biber,style=gb7714-2015,gbpub=false,sorting=none]{biblatex}
 \addbibresource{ref.bib}
@@ -90,7 +86,7 @@
 % packages for definitions, theorems, proofs.
 \usepackage{amsthm}
 \newtheorem{definition}{定义}
-\newtheorem*{definition*}{定义}
+%\newtheorem*{definition*}{定义}
 \newtheorem{note}{注释}
 \newtheorem*{note*}{注释}
 \newtheorem{fact}{事实}
@@ -104,17 +100,18 @@
 \renewcommand{\proof}{\color{gray}\oldproof}
 % counter controlling
 \usepackage{chngcntr}
-\counterwithin{note}{section}
+\counterwithin{note}{subsection}
 \counterwithin{fact}{section}
 \counterwithin{proposition}{section}
 \counterwithin{figure}{section}
 \counterwithin{equation}{section}
-\counterwithin{definition}{section}
+\counterwithin{definition}{subsection}
 \counterwithin{theorem}{section}
 \counterwithin{lemma}{section}
 \counterwithin{example}{section}
 %\counterwithin{section}{part}
 \setcounter{tocdepth}{1}
+%\setcounter{tocdepth}{3}
 
 % package for subfiles
 \usepackage{subfiles}
