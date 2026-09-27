@@ -55,6 +55,7 @@
 \hypersetup{colorlinks=true, linkcolor=black}
 
 \usepackage[T1]{fontenc}
+\usepackage[normalem]{ulem}
 
 % packages for footnotes
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
@@ -62,7 +63,9 @@
 \MakePerPage{footnote} 
 
 % packages for bibliography
-%\bibliographystyle{alpha}
+%\bibliographystyle{plain}
+%\bibliography{references}
+
 \usepackage[backend=biber,style=numeric,sorting=nyt]{biblatex}
 %\usepackage[backend=biber,style=gb7714-2015,gbpub=false,sorting=none]{biblatex}
 \addbibresource{ref.bib}
@@ -159,14 +162,14 @@
 \subfile{ch4.tex}
 
 \newpage
-\chapter*{参考文献}\label{chap5}
+%\chapter*{参考文献}\label{chap5}
 %\subfile{ref.tex}
 
 
 
 \backmatter
 
-\printbibliography
+\printbibliography[title={参考文献}]
 
 \begin{small}
 	\thispagestyle{empty}

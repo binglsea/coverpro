@@ -9,10 +9,11 @@
 它们的应用将在后面的章节中介绍.
 	
 %----------------
-\section{记号、术语与基本事实}\label{ch1.1}
-集合简称\begin{kaishu}集\end{kaishu}\index{集, set},集的元素
-简称\begin{kaishu}元\end{kaishu}\index{元, element}.本书中的全称量词“对每一个”
-或符号“$\forall$”经常省略.倒如, “对每一个
+\section{记号、术语与基本事实}\label{sec:1.1}
+
+集合简称\begin{kaishu}集\end{kaishu}\index{集, set| \$\ref{sec:1.1}\hfill},
+集的元素简称\begin{kaishu}元\end{kaishu}\index{元, element| \S\ref{sec:1.1}\hfill}.
+本书中的全称量词``对每一个''或符号``$\forall$”经常省略.例如, “对每一个
 $\alpha\in\Delta$, $A_\alpha \subset B_\alpha$”,
 常简述为“$A_\alpha \subset B_\alpha$”.
 但存在量词$\exists$不可省略.等号
@@ -22,10 +23,13 @@ $P=Q$可以表示$P$是$Q$的一个名称(暂用的或专用的).
 例如$A=\{x,y\}$,这里$A$是右边那个无序对的暂用名称.
 $\mathbb{R} = \{x: x$ 是一个实数\}表示我们总用$\mathbb{R}$表示实数
 直线並赋予区间拓扑.
-$\phi=\{u: u\ne u\}$表示唯一的\begin{kaishu}空集\end{kaishu}\index{空集,  empty set}.
-$P$也可以是$Q$的一个缩写或简记. 如$\mathscr{P}(X)=\{A:A\subset X\}$, 叫$X$的幂集.
-$(x, y) = \{ \{x\}, \{x, y\}\}$ 叫一个\begin{kaishu}有序对\end{kaishu}\index{有序对, ordered pair}. 
-当 $A\ne \phi$且$B\ne \phi$时, $A\times B = \{(x, y): x\in A, y\in B\}$.
+$\emptyset=\{u: u\ne u\}$表示唯一的
+\begin{kaishu}空集\end{kaishu}\index{空集,  empty set| \S\ref{sec:1.1}\hfill}.
+$P$也可以是$Q$的一个缩写或简记. 如$\mathscr{P}(X)=\{A:A\subset X\}$, 叫$X$的
+\begin{kaishu}幂集\end{kaishu}\index{幂集, power set| \$\ref{sec:1.1}\hfill}.
+$(x, y) = \{ \{x\}, \{x, y\}\}$ 叫一个
+\begin{kaishu}有序对\end{kaishu}\index{有序对, ordered pair| \$\ref{sec:1.1}\hfill}. 
+当 $A\ne \emptyset$且$B\ne \emptyset$时, $A\times B = \{(x, y): x\in A, y\in B\}$.
 $B^A = \{f\subset A\times B: f$ 是从 $A$ 到 $B$ 内的一个函数\}.
 $A\times \phi = \phi$. $B^\phi = \{\phi\}$.
 映射与函数同义.  若$f\in B^A$, 常记 $f: A\to B$. 称 $f$ 是一个
@@ -44,7 +48,8 @@ $A$内某个元的像. 既是单射又是满射则称为一个双射.
 $[A]^{<\omega} = \bigcup_{n<\omega}[A]^n$.
 
 %----------------
-\subsection{集族}\label{ch1.1.1}
+\subsection{集族}\label{subsec:1.1.1}
+
 设$\Delta$是以序数为元的一个集.
 符号$\{D_\alpha : \alpha\in\Delta\}$称为集$X$的一个子集\begin{kaishu}族\end{kaishu}或
 $X$内的一个\begin{kaishu}集族\end{kaishu}是指存在
