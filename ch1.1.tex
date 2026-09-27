@@ -31,7 +31,7 @@ $(x, y) = \{ \{x\}, \{x, y\}\}$ 叫一个
 \underline{有序对}\index{有序对, ordered pair| \$\ref{sec:1.1}\hfill}. 
 当 $A\ne \emptyset$且$B\ne \emptyset$时, $A\times B = \{(x, y): x\in A, y\in B\}$.
 $B^A = \{f\subset A\times B: f$ 是从 $A$ 到 $B$ 内的一个函数\}.
-$A\times \phi = \phi$. $B^\phi = \{\phi\}$.
+$A\times \emptyset = \emptyset$. $B^\emptyset = \{\emptyset\}$.
 \underline{映射}\index{映射, mapping| \$\ref{sec:1.1}\hfill}与函数同义.  
 若$f\in B^A$, 常记 $f: A\to B$. 称 $f$ 是一个
 \underline{单射}\index{单射, injective| \$\ref{sec:1.1}\hfill}或者
@@ -48,15 +48,16 @@ $A$内某个元的像. 既是单射又是满射则称为一个双射.
 对$n>0, n = \{0,1,2, \dots, n-1\}$. 我们用$|A|$表示$A$ 
 的\underline{势}\index{势, power| \S\ref{sec:1.1}\hfill}或
 \underline{基数}\index{基数, cardinal| \S\ref{sec:1.1}\hfill}.
-记$[A]^0=\{\phi\}$. 对$n\ge1, [A]^n = \{S\subset A: |S| = n\}$.
+记$[A]^0=\{\\emptyset\}$. 对$n\ge1, [A]^n = \{S\subset A: |S| = n\}$.
 $[A]^{<\omega} = \bigcup_{n<\omega}[A]^n$.
 
 %----------------
 \subsection{集族}\label{subsec:1.1.1}
 
 设$\Delta$是以序数为元的一个集.
-符号$\{D_\alpha : \alpha\in\Delta\}$称为集$X$的一个子集\begin{kaishu}族\end{kaishu}或
-$X$内的一个\begin{kaishu}集族\end{kaishu}是指存在
+符号$\{D_\alpha : \alpha\in\Delta\}$称为集$X$的一个
+\underline{子集族}\index{子集族, family of subsets| \S\ref{sec:1.1}\hfill}或
+$X$内的一\underline{集族}\index{集族, family of subsets| \S\ref{sec:1.1}\hfill}, 是指存在
 一个函数$f:\Delta \to \mathscr{P}(X)$
 使得$\forall \alpha \in \Delta, f(\alpha)=D_\alpha$.
 $\Delta$叫这个集族的指标集. $\mathscr{P}(X)$
@@ -69,18 +70,18 @@ $|\Delta|$称为族$\mathscr{D}$的势.设$E\subset X$.下列记号是常用的.
 
 $\mathscr{D}|_E= \{D_\alpha\cap E: \alpha\in\Delta\}$.
 
-$(\mathscr{D})_E= \{D_\alpha: \alpha\in\Delta, D_\alpha\cap E \ne\phi\}$,
+$(\mathscr{D})_E= \{D_\alpha: \alpha\in\Delta, D_\alpha\cap E \ne\emptyset\}$,
 st$(E, \mathscr{D}) = \bigcup(\mathscr{D})_E$.
 
 设$x\in X$. $(\mathscr{D})_x= \{D_\alpha: \alpha\in\Delta, x\in D_\alpha\}$,
 st$(x, \mathscr{D}) = \bigcup(\mathscr{D})_x$.
 
-若$\Gamma\subset\Delta$, 则集族$\{D_\alpha : \alpha\in\Gamma\}$称$\mathscr{D}$的一个子族.当$\Delta$是空集时,我们认为所有的族$\{D_\alpha : \alpha\in\phi\}$皆等于单元集$\{\phi\}$.
+若$\Gamma\subset\Delta$, 则集族$\{D_\alpha : \alpha\in\Gamma\}$称$\mathscr{D}$的一个子族.当$\Delta$是空集时,我们认为所有的族$\{D_\alpha : \alpha\in\emptyset\}$皆等于单元集$\{\emptyset\}$.
 
 与集族类似,以序数$\beta$为定义域的函数
 $x: \beta\to X$称集$X$内的的一个序列或点列, 记为$x=\{x_\alpha : \alpha\in\beta\}$.
 此处$x_\alpha=x(\alpha)$称一个$\beta$序列. $\omega$序列也记为
-$(x_0, x_1, \dots)$. 0 序列是$\phi$.为了免与开区间混淆, $(x_0, x_1)$也常记为$<x_0, x_1>$.
+$(x_0, x_1, \dots)$. 0 序列是$\emptyset$.为了免与开区间混淆, $(x_0, x_1)$也常记为$<x_0, x_1>$.
 
 %----------------
 \subsection{空间与覆盖}\label{ch1.1.2}
@@ -146,15 +147,15 @@ $\mathscr{D}^F = \{\bigcup_{\alpha\in S} D_\alpha: S\in [\Delta]^{<\omega}\}$,
 易见$\mathscr{D}^F$总是定向的.并且$\mathscr{D}$是定向
 $\Leftrightarrow \mathscr{D}^F$ 加细$\mathscr{D}$.
 \end{definition}
-二集$A$与$B$是相交的如果$A\bigcap B\ne \phi$, 
-是非交的如果$A\bigcap B=\phi$.
+二集$A$与$B$是相交的如果$A\bigcap B\ne \emptyset$, 
+是非交的如果$A\bigcap B=\emptyset$.
 
 \begin{definition}
 设$\mathscr{D}=\{D_\alpha: \alpha\in \Delta\}$是$X$内的子集族.
 
 \textnormal{(i)} $\mathscr{D}$在$X$内是星形有限的\textnormal{(}非交的
 的\textnormal{)}, 如果$\forall\beta\in\Delta, |\Delta_\beta| < \omega$ $(|\Delta_\beta| \le 1)$, 此处
-$\Delta_\beta = \{\alpha\in\Delta: D_\alpha\bigcap D_\beta \ne \phi\}$.
+$\Delta_\beta = \{\alpha\in\Delta: D_\alpha\bigcap D_\beta \ne \emptyset\}$.
  
 \textnormal{(ii)} $\mathscr{D}$在$x\in X$处是点有限的
 \textnormal{(}点非交的\textnormal{)},如果$|\Delta(x)| < \omega$ $(|\Delta(x)| \le 1)$, 此处
@@ -168,13 +169,13 @@ $\Delta(x) = \{\alpha\in\Delta: x\in D_\alpha\}$.
 
 2)若 $\mathscr{D}$在$X$内是非交的, 则
 $$\forall \alpha,\beta\in\Delta \,(D_\alpha \ne D_\beta
-\Rightarrow D_\alpha\cap D_\beta = \phi).$$
+\Rightarrow D_\alpha\cap D_\beta = \emptyset).$$
 
 {\kaishu
 (iii) 设$n\ge 1$, 称$\mathscr{D}$在$X$内是局部有限的($n$局部有限的),
 如果
 $$\forall x\in X\, \exists\,W\in\textrm{top}(x), |\Delta(W)| \le \omega\,\,\, (|\Delta(W)| \le n).$$
-此处$\Delta(W)= \{\alpha\in \Delta: W\cap D_\alpha \ne \phi\}$.
+此处$\Delta(W)= \{\alpha\in \Delta: W\cap D_\alpha \ne \emptyset\}$.
 称$\mathscr{D}$在$X$内是有界局部有限的(离散的),如果存在$n\ge 1$, 
 $\mathscr{D}$在$X$內是$n$局部有限(1局部有限)的.
 }
@@ -190,7 +191,7 @@ $x\in\bigcup\mathscr{D}$处是离散的,则显然$\mathscr{D}$是离散的.
 只需再证它的任意元$D_\alpha$是闭集.设$x\in\overline{D_\alpha}$,则
 $\exists\beta\in\Delta \, (x\in D_\beta)$.
 依前一定义(iii) 的记号,存$x$的邻域$W$使得$|\Delta(W)|\le 1$. 
-因$W\cap D_\alpha \ne \phi$且$x\in W\cap D_\beta$, 则
+因$W\cap D_\alpha \ne \emptyset$且$x\in W\cap D_\beta$, 则
 $\alpha = \beta, x\in D_\alpha$.
 $\square$
 

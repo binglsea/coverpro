@@ -8,6 +8,7 @@
   \item 势, power, \ \S\ref{sec:1.1}\hfill{1}
   \item 单射, injective, \ \$\ref{sec:1.1}\hfill{1}
   \item 基数, cardinal, \ \S\ref{sec:1.1}\hfill{1}
+  \item 子集族, family of subsets, \ \S\ref{sec:1.1}\hfill{1}
   \item 幂集, power set, \ \$\ref{sec:1.1}\hfill{1}
 
   \indexspace
@@ -23,5 +24,6 @@
 
   \item 限制, restriction, \ \S\ref{sec:1.1}\hfill{1}
   \item 集, set, \ \$\ref{sec:1.1}\hfill{1}
+  \item 集族, family of subsets, \ \S\ref{sec:1.1}\hfill{1}
 
 \end{theindex}
