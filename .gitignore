@@ -1,0 +1,13 @@
+*.aux
+*.idx
+*.gz
+*.xml
+*.bbl
+*.ilg
+*.pdf
+*.ind
+*.log
+*.out
+.gitinore
+*.bcf
+*.blg
