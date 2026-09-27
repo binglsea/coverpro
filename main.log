@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.9.10)  27 SEP 2026 10:15
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.9.10)  27 SEP 2026 10:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -502,15 +502,7 @@ Package fontspec Info:
 ))) (/usr/local/texlive/2026/texmf-dist/tex/latex/ctex/config/ctex.cfg
 File: ctex-scheme.cfg 2026/08/11 v2.6.5 Configuration file (CTEX)
 )
-(/usr/local/texlive/2026/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks17
-\inpenc@posthook=\toks18
-
-
-Package inputenc Warning: inputenc package ignored with utf8 based engines.
-
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/cyrillic/ot2enc.def
@@ -528,7 +520,7 @@ Package: geometry 2026/03/07 v6.0 Page Geometry
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2026-05-17 v1.15 key=value parser (DPC)
-\KV@toks@=\toks19
+\KV@toks@=\toks17
 )
 (/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
@@ -547,7 +539,7 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layoutheight=\dimen198
 \Gm@layouthoffset=\dimen199
 \Gm@layoutvoffset=\dimen256
-\Gm@dimlist=\toks20
+\Gm@dimlist=\toks18
 )
 (/usr/local/texlive/2026/texmf-dist/tex/xelatex/xltxtra/xltxtra.sty
 Package: xltxtra 2018/12/31 v0.7 Improvements for the "XeLaTeX" format
@@ -586,8 +578,8 @@ File: xetex.def 2025/11/01 v5.0p Graphics/color driver for xetex
 \Gin@req@height=\dimen258
 \Gin@req@width=\dimen259
 )
-\xl@everylogo=\toks21
-\xl@@everylogo=\toks22
+\xl@everylogo=\toks19
+\xl@@everylogo=\toks20
 LaTeX Info: Redefining \TeX on input line 193.
 LaTeX Info: Redefining \LaTeX on input line 202.
 LaTeX Info: Redefining \LaTeXe on input line 219.
@@ -601,9 +593,6 @@ LaTeX Info: Redefining \LaTeXe on input line 219.
 File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
 other characters in Unicode lower plane
 
-*** you should *not* be loading the inputenc package
-*** XeTeX expects the source to be in UTF8 encoding
-*** some features of other encodings may conflict, resulting in poor output.
 (/usr/local/texlive/2026/texmf-dist/tex/latex/tipa/t3enc.def
 File: t3enc.def 2001/12/31 T3 encoding
 
@@ -634,8 +623,8 @@ Package fontspec Info:
 
 )
 \tipaTiiicode=\count320
-\tipasavetokens=\toks23
-\tipachecktokens=\toks24
+\tipasavetokens=\toks21
+\tipachecktokens=\toks22
 )
 (/usr/local/texlive/2026/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
@@ -665,7 +654,7 @@ Package: amstext 2024/11/17 v2.01 AMS text
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks25
+\@emptytoks=\toks23
 \ex@=\dimen260
 ))
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -705,21 +694,21 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \dotsspace@=\muskip17
 \c@parentequation=\count328
 \dspbrk@lvl=\count329
-\tag@help=\toks26
+\tag@help=\toks24
 \row@=\count330
 \column@=\count331
 \maxfields@=\count332
-\andhelp@=\toks27
+\andhelp@=\toks25
 \eqnshift@=\dimen263
 \alignsep@=\dimen264
 \tagshift@=\dimen265
 \tagwidth@=\dimen266
 \totwidth@=\dimen267
 \lineht@=\dimen268
-\@envbody=\toks28
+\@envbody=\toks26
 \multlinegap=\skip65
 \multlinetaggap=\skip66
-\mathdisplay@stack=\toks29
+\mathdisplay@stack=\toks27
 LaTeX Info: Redefining \[ on input line 2965.
 LaTeX Info: Redefining \] on input line 2966.
 )
@@ -749,7 +738,7 @@ LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 \WF@size=\dimen270
 \c@WF@wrappedlines=\count333
 \WF@box=\box67
-\WF@everypar=\toks30
+\WF@everypar=\toks28
 Package: wrapfig 2003/01/31  v 3.6
 )
 (/usr/local/texlive/2026/texmf-dist/tex/latex/caption/subcaption.sty
@@ -791,8 +780,8 @@ Package: cutwin 2021/10/13 v0.2 cutout windows
 \c@twrtside=\dimen280
 \c@twtopht=\dimen281
 \c@twvsilg=\dimen282
-\c@twtoka=\toks31
-\c@twtokb=\toks32
+\c@twtoka=\toks29
+\c@twtokb=\toks30
 \c@twrawtext=\box68
 \c@twholdwin=\box69
 \c@twwindow=\box70
@@ -896,7 +885,7 @@ Package: ocgbase 2024/09/15 v0.24 support package for ocgx2.sty
 (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks33
+\pgfutil@everybye=\toks31
 \pgfutil@tempdima=\dimen289
 \pgfutil@tempdimb=\dimen290
 )
@@ -913,12 +902,12 @@ Package: pgf 2026-08-01 v3.1.12 (3.1.12)
 (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2026-08-01 v3.1.12 (3.1.12)
 (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks34
-\pgfkeys@temptoks=\toks35
+\pgfkeys@pathtoks=\toks32
+\pgfkeys@temptoks=\toks33
 
 (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
 tered.code.tex
-\pgfkeys@tmptoks=\toks36
+\pgfkeys@tmptoks=\toks34
 ))
 \pgf@x=\dimen291
 \pgf@y=\dimen292
@@ -936,9 +925,9 @@ tered.code.tex
 \c@pgf@countb=\count361
 \c@pgf@countc=\count362
 \c@pgf@countd=\count363
-\t@pgf@toka=\toks37
-\t@pgf@tokb=\toks38
-\t@pgf@tokc=\toks39
+\t@pgf@toka=\toks35
+\t@pgf@tokb=\toks36
+\t@pgf@tokc=\toks37
 \pgf@sys@id@count=\count364
 
 (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
@@ -978,9 +967,9 @@ Package: pgfcore 2026-08-01 v3.1.12 (3.1.12)
 \pgfmath@dimen=\dimen301
 \pgfmath@count=\count368
 \pgfmath@box=\box77
-\pgfmath@toks=\toks40
-\pgfmath@stack@operand=\toks41
-\pgfmath@stack@operation=\toks42
+\pgfmath@toks=\toks38
+\pgfmath@stack@operand=\toks39
+\pgfmath@stack@operation=\toks40
 )
 (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex)
@@ -1131,8 +1120,8 @@ Package: pgfcomp-version-1-18 2026-08-01 v3.1.12 (3.1.12)
 Package: pgffor 2026-08-01 v3.1.12 (3.1.12)
 \pgffor@iter=\dimen328
 \pgffor@skip=\dimen329
-\pgffor@stack=\toks43
-\pgffor@toks=\toks44
+\pgffor@stack=\toks41
+\pgffor@toks=\toks42
 ))
 (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -1195,7 +1184,7 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthL=\skip81
 \f@nch@widthC=\skip82
 \f@nch@widthR=\skip83
-\@temptokenb=\toks45
+\@temptokenb=\toks43
 )
 (/usr/local/texlive/2026/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2026-05-19 v5.2p context-sensitive quotations (JAW)
@@ -1210,7 +1199,7 @@ Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \csq@qlevel=\count386
 \csq@maxlvl=\count387
 \csq@tshold=\count388
-\csq@ltx@everypar=\toks46
+\csq@ltx@everypar=\toks44
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2026-05-19 v5.2p csquotes generic definitions (JAW)
@@ -1225,7 +1214,7 @@ File: csquotes.cfg
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip84
 \enit@outerparindent=\dimen339
-\enit@toks=\toks47
+\enit@toks=\toks45
 \enit@inbox=\box87
 \enit@count@id=\count389
 \enitdp@description=\count390
@@ -1430,7 +1419,7 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2026/08/13 v3.22 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'gb7714-2015.dbx' not found.
+Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count452
@@ -1544,18 +1533,9 @@ File: biblatex.def 2026/08/13 v3.22 biblatex compatibility (PK/MW)
 \biburllcskip=\muskip22
 \c@smartand=\count528
 )
-Package biblatex Info: Trying to load bibliography style 'gb7714-2015'...
-Package biblatex Info: ... file 'gb7714-2015.bbx' found.
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex-gb7714-2015/gb7714-2015.
-bbx
-File: gb7714-2015.bbx 2026/06/10 v1.1xbiblatex bibliography style
-Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
-Package biblatex Info: ... file 'numeric-comp.bbx' found.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
-File: numeric-comp.bbx 2026/08/13 v3.22 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
+
 (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
 File: numeric.bbx 2026/08/13 v3.22 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
@@ -1565,42 +1545,12 @@ Package biblatex Info: ... file 'standard.bbx' found.
 File: standard.bbx 2026/08/13 v3.22 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count529
 \c@bbx:relatedtotal=\count530
-)))
-(/usr/local/texlive/2026/texmf-dist/tex/generic/xstring/xstring.sty
-(/usr/local/texlive/2026/texmf-dist/tex/generic/xstring/xstring.tex
-\xs_counta=\count531
-\xs_countb=\count532
-)
-Package: xstring 2023/08/22 v1.86 String manipulations (CT)
-)
-\BracketLift=\skip108
-\footbibmargin=\skip109
-\footbiblabelsep=\skip110
-\c@gbnamefmtcase=\count533
-\c@gbalignlabel=\count534
-\c@gbcitelocalcase=\count535
-\c@gbbiblocalcase=\count536
-\c@lanordernum=\count537
-\bibitemindent=\skip111
-\biblabelextend=\skip112
-\bibextramargin=\skip113
-Package biblatex Info: Delimiter 'finalnamedelim' in context '' already defined
-, overwriting.
-)
-Package biblatex Info: Trying to load citation style 'gb7714-2015'...
-Package biblatex Info: ... file 'gb7714-2015.cbx' found.
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
 
-(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex-gb7714-2015/gb7714-2015.
-cbx
-File: gb7714-2015.cbx a biblatex citation style for GB/T 7714-2015
-Package biblatex Info: Trying to load citation style 'numeric-comp'...
-Package biblatex Info: ... file 'numeric-comp.cbx' found.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
-File: numeric-comp.cbx 2026/08/13 v3.22 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count538
-\c@cbx@tempcntb=\count539
-\c@cbx@tempcntc=\count540
-\c@cbx@tempcntd=\count541
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2026/08/13 v3.22 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -1613,14 +1563,10 @@ Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Redefining '\parencites'.
 Package biblatex Info: Redefining '\smartcites'.
 )
-\c@gbrefcompress=\count542
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\cbx@textcite'.
-)
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.cfg
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )
 Package biblatex Info: XeTeX detected.
@@ -1646,29 +1592,29 @@ Package: xkeyval 2025/11/04 v2.10 package option processing (HA)
 
 (/usr/local/texlive/2026/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/local/texlive/2026/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks48
-\XKV@tempa@toks=\toks49
-\XKV@tempb@toks=\toks50
+\XKV@toks=\toks46
+\XKV@tempa@toks=\toks47
+\XKV@tempb@toks=\toks48
 )
-\XKV@depth=\count543
+\XKV@depth=\count531
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/local/texlive/2026/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
-\c@tracingmulticols=\count544
+\c@tracingmulticols=\count532
 \mult@box=\box89
 \multicol@leftmargin=\dimen344
-\c@unbalance=\count545
-\c@collectmore=\count546
-\doublecol@number=\count547
-\multicoltolerance=\count548
-\multicolpretolerance=\count549
+\c@unbalance=\count533
+\c@collectmore=\count534
+\doublecol@number=\count535
+\multicoltolerance=\count536
+\multicolpretolerance=\count537
 \full@width=\dimen345
 \page@free=\dimen346
 \premulticols=\dimen347
 \postmulticols=\dimen348
-\multicolsep=\skip114
-\multicolbaselineskip=\skip115
+\multicolsep=\skip108
+\multicolbaselineskip=\skip109
 \partial@page=\box90
 \last@line=\box91
 \mc@boxedresult=\box92
@@ -1713,16 +1659,16 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \@tempa=\box130
 \@tempa=\box131
 \@tempa=\box132
-\c@minrows=\count550
-\c@columnbadness=\count551
-\c@finalcolumnbadness=\count552
+\c@minrows=\count538
+\c@columnbadness=\count539
+\c@finalcolumnbadness=\count540
 \last@try=\dimen350
 \multicolovershoot=\dimen351
 \multicolundershoot=\dimen352
 \mult@nat@firstbox=\box133
 \colbreak@box=\box134
-\mc@col@check@num=\count553
-\g__mc_curr_col_int=\count554
+\mc@col@check@num=\count541
+\g__mc_curr_col_int=\count542
 ))
 \main@idxfile=\write5
 \openout5 = `main.idx'.
@@ -1730,17 +1676,17 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 
 Writing index file main.idx
 (/usr/local/texlive/2026/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count555
+\lst@mode=\count543
 \lst@gtempboxa=\box135
-\lst@token=\toks51
-\lst@length=\count556
+\lst@token=\toks49
+\lst@length=\count544
 \lst@currlwidth=\dimen353
-\lst@column=\count557
-\lst@pos=\count558
+\lst@column=\count545
+\lst@pos=\count546
 \lst@lostspace=\dimen354
 \lst@width=\dimen355
-\lst@newlines=\count559
-\lst@lineno=\count560
+\lst@newlines=\count547
+\lst@lineno=\count548
 \lst@maxwidth=\dimen356
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/listings/lstpatch.sty
@@ -1748,8 +1694,8 @@ File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
 )
 (/usr/local/texlive/2026/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-\c@lstnumber=\count561
-\lst@skipnumbers=\count562
+\c@lstnumber=\count549
+\lst@skipnumbers=\count550
 \lst@framebox=\box136
 )
 (/usr/local/texlive/2026/texmf-dist/tex/latex/listings/listings.cfg
@@ -1759,32 +1705,32 @@ Package: listings 2025/11/14 1.11b (Carsten Heinz)
 
 (/usr/local/texlive/2026/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
 Package: xeCJK-listings 2026/08/21 v3.10.6 xeCJK patch file for listings
-\l__xeCJK_listings_max_char_int=\count563
-\l__xeCJK_listings_flag_int=\count564
+\l__xeCJK_listings_max_char_int=\count551
+\l__xeCJK_listings_flag_int=\count552
 )
 (/usr/local/texlive/2026/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks52
-\thm@bodyfont=\toks53
-\thm@headfont=\toks54
-\thm@notefont=\toks55
-\thm@headpunct=\toks56
-\thm@preskip=\skip116
-\thm@postskip=\skip117
-\thm@headsep=\skip118
-\dth@everypar=\toks57
+\thm@style=\toks50
+\thm@bodyfont=\toks51
+\thm@headfont=\toks52
+\thm@notefont=\toks53
+\thm@headpunct=\toks54
+\thm@preskip=\skip110
+\thm@postskip=\skip111
+\thm@headsep=\skip112
+\dth@everypar=\toks55
 )
-\c@definition=\count565
-\c@note=\count566
-\c@fact=\count567
-\c@proposition=\count568
-\c@theorem=\count569
-\c@lemma=\count570
-\c@corollary=\count571
-\c@example=\count572
+\c@definition=\count553
+\c@note=\count554
+\c@fact=\count555
+\c@proposition=\count556
+\c@theorem=\count557
+\c@lemma=\count558
+\c@corollary=\count559
+\c@example=\count560
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/chngcntr/chngcntr.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
@@ -1801,7 +1747,7 @@ Package: import 2020/04/01  v 6.2
 Package: xunicode-addon 2026/08/21 v3.10.6 addon file for xunicode
 \l__xunadd_tmp_coffin=\box137
 \l__xunadd_circle_coffin=\box138
-\l_xunadd_slot_int=\count573
+\l_xunadd_slot_int=\count561
 )
 (/usr/local/texlive/2026/texmf-dist/tex/xelatex/xunicode/xunicode.sty
 File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
@@ -3625,41 +3571,41 @@ Package csquotes Info: ... none found.
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OT2/cmr/m/n on input line 130.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OT2/cmr/m/n on input line 131.
 LaTeX Font Info:    Trying to load font information for OT2+cmr on input line 1
-30.
+31.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/cyrillic/ot2cmr.fd
 File: ot2cmr.fd 2001/08/11 v3.2c Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 131.
 LaTeX Font Info:    Trying to load font information for T3+cmr on input line 13
-0.
+1.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -3667,57 +3613,57 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 130.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 130.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 130.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 130.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 130.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 130.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 130.
-LaTeX Font Info:    Redeclaring math accent \check on input line 130.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 130.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 130.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 130.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 130.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 131.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 131.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 131.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 131.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 131.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 131.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 131.
+LaTeX Font Info:    Redeclaring math accent \check on input line 131.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 131.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 131.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 131.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 131.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 130.
+(Font)              `operators' in the math version `normal' on input line 131.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 130.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 131.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 130.
+(Font)              `operators' in the math version `bold' on input line 131.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 130.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 131.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 130.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 131.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 130.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 131.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 130.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 131.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 130.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 131.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 130.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 131.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 130.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 131.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 130.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 131.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 130.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 131.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 130.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 131.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -3753,14 +3699,11 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-*** you should *not* be loading the inputenc package
-*** XeTeX expects the source to be in UTF8 encoding
-*** some features of other encodings may conflict, resulting in poor output.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 130.
+Package hyperref Info: Link coloring ON on input line 131.
 (./main.out) (./main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
@@ -3781,9 +3724,9 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 130.
-Package biblatex Info: Reference segment=0 on input line 130.
-\c@lstlisting=\count574
+Package biblatex Info: Reference section=0 on input line 131.
+Package biblatex Info: Reference segment=0 on input line 131.
+\c@lstlisting=\count562
 
 Package fontspec Info: 
 (fontspec)             Script 'CJK' not explicitly supported within font
@@ -3883,27 +3826,27 @@ U/SongtiSCRegular(0)/m/it/12.045 使 得 $\OMS/cmsy/m/n/12.045 8\OML/cmm/m/it/12
 第四章
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 157.
+(hyperref)                removing `math shift' on input line 158.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\lambda' on input line 157.
+(hyperref)                removing `\lambda' on input line 158.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 157.
+(hyperref)                removing `math shift' on input line 158.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <24.09> not available
-(Font)              size <24.88> substituted on input line 157.
+(Font)              size <24.88> substituted on input line 158.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <18.06749> not available
-(Font)              size <17.28> substituted on input line 157.
+(Font)              size <17.28> substituted on input line 158.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <15.05624> not available
-(Font)              size <14.4> substituted on input line 157.
+(Font)              size <14.4> substituted on input line 158.
 
 (./ch4.tex
 
@@ -3936,7 +3879,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 168.
+LaTeX Warning: Empty bibliography on input line 169.
 
 runsystem(makeindex main.idx)...executed safely (allowed).
 
@@ -3955,19 +3898,27 @@ L3 programming layer <2026/08/21>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.79001pt have occurred.
 
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: BE80B579DBFDC11D5C22C6438B971E6E;1609.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48133 strings out of 467745
- 992042 string characters out of 5422257
- 1933319 words of memory out of 5000000
- 76495 multiletter control sequences out of 15000+600000
+ 47274 strings out of 467745
+ 975984 string characters out of 5422257
+ 1804044 words of memory out of 5000000
+ 75654 multiletter control sequences out of 15000+600000
  713548 words of font info for 169 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,11n,111p,1181b,902s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,11n,111p,1181b,854s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on main.pdf (16 pages).
