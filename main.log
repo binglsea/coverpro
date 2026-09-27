@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.9.10)  27 SEP 2026 09:51
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.9.10)  27 SEP 2026 10:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3857,50 +3857,11 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 
 ]
-
-Package fontspec Info: 
-(fontspec)             Script 'CJK' not explicitly supported within font
-(fontspec)             'Songti SC Regular'. Check the typeset output, and if
-(fontspec)             it is okay then ignore this warning. Otherwise a
-(fontspec)             different font should be chosen.
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "Songti SC Bold/I" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "Songti SC Regular/I" (it
-(fontspec)             probably doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Font family 'SongtiSCRegular(1)' created for font
-(fontspec)             'Songti SC Regular' with options
-(fontspec)             [Script={CJK},BoldFont={Songti SC Bold}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Songti SC
-(fontspec)             Regular/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Songti SC
-(fontspec)             Bold/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Songti SC
-(fontspec)             Regular/BI/OT:script=hani;language=dflt;"
-
-
-
-LaTeX Font Warning: Font shape `TU/SongtiSCRegular(1)/m/it' undefined
-(Font)              using `TU/SongtiSCRegular(1)/m/n' instead on input line 116
-.
-
 LaTeX Font Info:    Font shape `TU/SongtiSCRegular(0)/m/sl' in size <12.045> no
 t available
 (Font)              Font shape `TU/SongtiSCRegular(0)/m/it' tried instead on in
 put line 150.
-[2] [3]) (./ch1.2.tex [4] [5]
+ [2] [3]) (./ch1.2.tex [4] [5]
 Overfull \hbox (15.12437pt too wide) in paragraph at lines 141--145
 []\T1/lmr/m/n/12.045 (iii) $\U/rsfs/m/n/12 U$ \TU/SongtiSCRegular(0)/m/it/12.04
 5 有 一 个 加 细 $\U/rsfs/m/n/12 P \OT1/cmr/m/n/12.045 = [][] \U/rsfs/m/n/12 P[]$ \T
@@ -3971,101 +3932,15 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 ) [11
 
-] (./ref.tex
-Overfull \hbox (7.54195pt too wide) in paragraph at lines 5--8
-[][] 
- []
+] [12
 
-
-Overfull \hbox (7.53754pt too wide) in paragraph at lines 12--15
-[][] 
- []
-
-
-Overfull \hbox (7.53754pt too wide) in paragraph at lines 16--19
-[][] 
- []
-
-
-Overfull \hbox (8.03178pt too wide) in paragraph at lines 22--25
-[][] 
- []
-
-
-Overfull \hbox (10.16309pt too wide) in paragraph at lines 28--31
-[][] 
- []
-
-
-Overfull \hbox (10.16309pt too wide) in paragraph at lines 32--35
-[][] 
- []
-
-
-Overfull \hbox (8.36401pt too wide) in paragraph at lines 38--41
-[][] 
- []
-
-[12
-
-] [13]
-Missing character: There is no ⑧ ("2467) in font ec-lmr12!
-! You can't use `macro parameter character #' in horizontal mode.
-l.178 \noindent Huang Haoran (#
-                                7 18)
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-Missing character: There is no ≥ ("2265) in font ec-lmr12!
-[14] [15]
-Overfull \hbox (7.10365pt too wide) in paragraph at lines 450--457
-[]\T1/lmr/m/n/12.045 [1970] Meta-com-pact spaces and well-ordered open cov-er-i
-ngs, No-tices Amer Math. Soc..18,230
- []
-
-[16]
-Missing character: There is no • ("2022) in font ec-lmr12!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.525 [_
-        1951 Uber Funktionen, die auf einer abgeschlossenen Menge stetig sind.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.527 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (122.39105pt too wide) in paragraph at lines 525--527
-[]\T1/lmr/m/n/12.045 [$[]\OT1/cmr/m/n/12.045 951\OML/cmm/m/it/12.045 UberFunkti
-onen; dieaufeinerabgeschlossenenMengestetigsind:Journ:furdiereineandangew:Math:
-\OT1/cmr/m/n/12.045 145\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 9 \OMS/cmsy/m
-/n/12.045 ^^@
- []
-
-
-Overfull \hbox (4.1122pt too wide) in paragraph at lines 551--555
-[]\T1/lmr/m/n/12.045 [1981] The ra-tio-nal line par-ti-tions ev-ery selt-dense 
-metriz-able space, LOpolo by Appl.,12,331-
- []
-
-[17]
-Missing character: There is no • ("2022) in font ec-lmr12!
-) [18]
+]
 
 LaTeX Warning: Empty bibliography on input line 168.
 
 runsystem(makeindex main.idx)...executed safely (allowed).
 
-(./main.ind) [19
+(./main.ind) [13
 
 
 
@@ -4080,9 +3955,6 @@ L3 programming layer <2026/08/21>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.79001pt have occurred.
 
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: BE80B579DBFDC11D5C22C6438B971E6E;1609.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -4090,12 +3962,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48294 strings out of 467745
- 1002432 string characters out of 5422257
+ 48133 strings out of 467745
+ 992042 string characters out of 5422257
  1933319 words of memory out of 5000000
- 76649 multiletter control sequences out of 15000+600000
- 713564 words of font info for 171 fonts, out of 8000000 for 9000
+ 76495 multiletter control sequences out of 15000+600000
+ 713548 words of font info for 169 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,11n,111p,1181b,902s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (22 pages).
+Output written on main.pdf (16 pages).
