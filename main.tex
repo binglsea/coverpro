@@ -82,7 +82,8 @@
 \usepackage{setspace}
 
 % packages for definitions, theorems, proofs.
-\newtheorem{definition}{定义}
+\theoremstyle{definition}
+\newtheorem{definition}{定义}[section]
 %\newtheorem*{definition*}{定义}
 \newtheorem{note}{注释}
 \newtheorem*{note*}{注释}
@@ -109,6 +110,14 @@
 %\counterwithin{section}{part}
 \setcounter{tocdepth}{1}
 %\setcounter{tocdepth}{3}
+
+\renewcommand{\thedefinition}{%
+	\ifnum\value{section}>0
+	\thesection.\arabic{definition}% e.g., 2.1.1
+	\else
+	\thechapter.\arabic{definition}% e.g., 1.1
+	\fi
+}
 
 % package for subfiles
 \usepackage{subfiles}
