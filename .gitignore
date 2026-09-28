@@ -8,6 +8,6 @@
 *.ind
 *.log
 *.out
-.gitinore
+.gitignore
 *.bcf
 *.blg
