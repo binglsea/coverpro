@@ -85,12 +85,14 @@
 \theoremstyle{definition}
 \newtheorem{definition}{定义}[section]
 %\newtheorem*{definition*}{定义}
+
+\theoremstyle{plain}
+\newtheorem{theorem}[definition]{定理}
 \newtheorem{note}{注释}
 \newtheorem*{note*}{注释}
 \newtheorem{fact}{事实}
-\newtheorem{proposition}{命题}
-\newtheorem{theorem}{定理}
-\newtheorem*{theorem*}{定理}
+\newtheorem{proposition}[definition]{命题}
+%\newtheorem*{theorem*}[definition]{定理}
 \newtheorem{lemma}{引理}
 \newtheorem{corollary}{推论}[theorem]
 \newtheorem{example}{例}
@@ -118,6 +120,9 @@
 	\thechapter.\arabic{definition}% e.g., 1.1
 	\fi
 }
+
+\renewcommand{\thetheorem}{\thedefinition}
+\renewcommand{\theproposition}{\thedefinition}
 
 % package for subfiles
 \usepackage{subfiles}
