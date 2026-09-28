@@ -8,14 +8,11 @@
 \contentsline {section}{\numberline {1.5}弱覆盖性质}{6}{section.1.5}%
 \contentsline {section}{\numberline {1.6}可扩型空间}{9}{section.1.6}%
 \contentsline {chapter}{\numberline {第二章\hspace {.3em}}仿紧空间与次亚紧空间}{10}{chapter.2}%
-\contentsline {section}{\numberline {2.1}次亚紧空间}{10}{section.2.1}%
-\contentsline {section}{\numberline {2.2}亚紧空间}{10}{section.2.2}%
-\contentsline {section}{\numberline {2.3}仿紧空间}{10}{section.2.3}%
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}正规覆盖与集体正规空间}{11}{chapter.3}%
-\contentsline {section}{\numberline {3.1}正规覆盖}{11}{section.3.1}%
-\contentsline {section}{\numberline {3.2}集体正规空间}{11}{section.3.2}%
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}$\lambda $完满正规与次仿紧空间}{12}{chapter.4}%
-\contentsline {section}{\numberline {4.1}次仿紧空间}{12}{section.4.1}%
-\contentsline {section}{\numberline {4.2}$\lambda $完满正规空间}{12}{section.4.2}%
-\contentsline {section}{\numberline {4.3}正规 $\lambda $强仿紧空间}{12}{section.4.3}%
-\contentsline {chapter}{名词索引}{14}{chapter*.3}%
+\contentsline {section}{\numberline {2.1}弱覆盖性质}{10}{section.2.1}%
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}正规覆盖与集体正规空间}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}可扩型空间}{13}{section.3.1}%
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}$\lambda $完满正规与次仿紧空间}{14}{chapter.4}%
+\contentsline {section}{\numberline {4.1}次仿紧空间}{14}{section.4.1}%
+\contentsline {section}{\numberline {4.2}$\lambda $完满正规空间}{14}{section.4.2}%
+\contentsline {section}{\numberline {4.3}正规 $\lambda $强仿紧空间}{14}{section.4.3}%
+\contentsline {chapter}{名词索引}{16}{chapter*.3}%
