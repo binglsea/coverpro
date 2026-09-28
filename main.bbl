@@ -166,6 +166,41 @@
       \field{pages}{977\bibrangedash 982}
       \range{pages}{6}
     \endentry
+    \entry{WorrellWicke}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=3678c2cfc0da5c224dc815eca69fc1eb}{%
+           family={Worrell},
+           familyi={W\bibinitperiod},
+           given={J.\bibnamedelimi M},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           suffix={Jr.},
+           suffixi={J\bibinitperiod}}}%
+        {{hash=e57029c1930e08babaff2fe16e1e5180}{%
+           family={Wicke},
+           familyi={W\bibinitperiod},
+           given={H.\bibnamedelimi H.},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{bb3bef0b3c44d5547b429fa35d9dab00}
+      \strng{fullhash}{bb3bef0b3c44d5547b429fa35d9dab00}
+      \strng{fullhashraw}{bb3bef0b3c44d5547b429fa35d9dab00}
+      \strng{bibnamehash}{bb3bef0b3c44d5547b429fa35d9dab00}
+      \strng{authorbibnamehash}{bb3bef0b3c44d5547b429fa35d9dab00}
+      \strng{authornamehash}{bb3bef0b3c44d5547b429fa35d9dab00}
+      \strng{authorfullhash}{bb3bef0b3c44d5547b429fa35d9dab00}
+      \strng{authorfullhashraw}{bb3bef0b3c44d5547b429fa35d9dab00}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Canad. J. Math.}
+      \field{title}{Characterizations of developable spaces}
+      \field{type}{Journal Article}
+      \field{volume}{17}
+      \field{year}{1965}
+      \field{pages}{826\bibrangedash 830}
+      \range{pages}{5}
+    \endentry
     \entry{Yasui1989}{inbook}{}{}
       \name{author}{1}{}{%
         {{hash=e38b8c0302e8641912d55c791877bb4b}{%

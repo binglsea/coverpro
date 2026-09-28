@@ -90,7 +90,7 @@
 \newtheorem{theorem}[definition]{定理}
 \newtheorem{note}{注释}
 \newtheorem*{note*}{注释}
-\newtheorem{fact}{事实}
+\newtheorem{fact}[definition]{事实}
 \newtheorem{proposition}[definition]{命题}
 %\newtheorem*{theorem*}[definition]{定理}
 \newtheorem{lemma}{引理}
@@ -123,6 +123,7 @@
 
 \renewcommand{\thetheorem}{\thedefinition}
 \renewcommand{\theproposition}{\thedefinition}
+\renewcommand{\thefact}{\thedefinition}
 
 % package for subfiles
 \usepackage{subfiles}
