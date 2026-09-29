@@ -92,17 +92,21 @@
 \theoremstyle{definition}
 \newtheorem{definition}{定义}[section]
 %\newtheorem*{definition*}{定义}
+\newtheorem{note}[definition]{注释}
+\newtheorem{fact}[definition]{事实}
+\newtheorem{example}{例}
 
+% songti
 \theoremstyle{plain}
 \newtheorem{theorem}[definition]{定理}
-\newtheorem{note}{注释}
-\newtheorem*{note*}{注释}
-\newtheorem{fact}[definition]{事实}
+%\newtheorem{note}{注释}
+%\newtheorem*{note*}{注释}
+%\newtheorem{fact}[definition]{事实}
 \newtheorem{proposition}[definition]{命题}
 %\newtheorem*{theorem*}[definition]{定理}
 \newtheorem{lemma}{引理}
 \newtheorem{corollary}{推论}[theorem]
-\newtheorem{example}{例}
+%\newtheorem{example}{例}
 \let\oldproof\proof
 \renewcommand{\proof}{\color{gray}\oldproof}
 % counter controlling
