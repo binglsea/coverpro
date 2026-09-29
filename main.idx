@@ -1,11 +1,11 @@
-\indexentry{集, set| \$1\hfill}{3}
+\indexentry{集, set| \$\ref{ch1}\hfill}{3}
 \indexentry{元, element| \S1\hfill}{3}
 \indexentry{空集,  empty set| \S1\hfill}{3}
-\indexentry{幂集, power set| \$1\hfill}{3}
-\indexentry{有序对, ordered pair| \$1\hfill}{3}
-\indexentry{映射, mapping| \$1\hfill}{3}
-\indexentry{单射, injective| \$1\hfill}{3}
-\indexentry{$1$-$1$| \S1\hfill}{3}
+\indexentry{幂集, power set| \$\ref{ch1}\hfill}{3}
+\indexentry{有序对, ordered pair| \$\ref{ch1}\hfill}{3}
+\indexentry{映射, mapping| \$\ref{ch1}\hfill}{3}
+\indexentry{单射, injective| \$\ref{ch1}\hfill}{3}
+\indexentry{$\ref{ch1}$-$\ref{ch1}$| \S1\hfill}{3}
 \indexentry{满射, surjective| \S1\hfill}{3}
 \indexentry{到上的, onto| \S1\hfill}{3}
 \indexentry{双射, bijective| \S1\hfill}{3}
@@ -16,6 +16,8 @@
 \indexentry{集族, family of subsets| \S\ref{sec:1.1}\hfill}{3}
 \indexentry{子族, subfamily| \S\ref{sec:1.1}\hfill}{3}
 \indexentry{序列, sequence| \S\ref{sec:1.1}\hfill}{4}
-\indexentry{空间, space| \S\ref{sec:1.1}\hfill}{4}
+\indexentry{空间, space| \S\ref{sec:1.2}\hfill}{4}
+\indexentry{覆盖, cover| \S\ref{sec:1.2}\hfill}{4}
+\indexentry{加细, refinement| \S\ref{sec:1.2}\hfill}{4}
 \indexentry{$\theta$序列, $\theta$-sequence| \S 2\hfill}{7}
 \indexentry{$\theta$覆盖, $\theta$-cover| \S 2\hfill}{7}

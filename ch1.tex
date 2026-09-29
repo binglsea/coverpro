@@ -13,7 +13,7 @@
 %\section{记号、术语与基本事实}\label{sec:1.1}
 %\indexchap{记号、术语与基本事实}
 
-集合简称\underline{集}\index{集, set| \$1\hfill},
+集合简称\underline{集}\index{集, set| \$\ref{ch1}\hfill},
 集的元素简称\underline{元}\index{元, element| \S1\hfill}.
 本书中的全称量词``对每一个''或符号``$\forall$”经常省略.例如, “对每一个
 $\alpha\in\Delta$, $A_\alpha \subset B_\alpha$”,
@@ -28,17 +28,17 @@ $\mathbb{R} = \{x: x$ 是一个实数\}表示我们总用$\mathbb{R}$表示实�
 $\emptyset=\{u: u\ne u\}$表示唯一的
 \underline{空集}\index{空集,  empty set| \S1\hfill}.
 $P$也可以是$Q$的一个缩写或简记. 如$\mathscr{P}(X)=\{A:A\subset X\}$, 叫$X$的
-\underline{幂集}\index{幂集, power set| \$1\hfill}.
+\underline{幂集}\index{幂集, power set| \$\ref{ch1}\hfill}.
 $(x, y) = \{ \{x\}, \{x, y\}\}$ 叫一个
-\underline{有序对}\index{有序对, ordered pair| \$1\hfill}. 
+\underline{有序对}\index{有序对, ordered pair| \$\ref{ch1}\hfill}. 
 当 $A\ne \emptyset$且$B\ne \emptyset$时, $A\times B = \{(x, y): x\in A, y\in B\}$.
 $B^A = \{f\subset A\times B: f$ 是从 $A$ 到 $B$ 内的一个函数\}.
 $A\times \emptyset = \emptyset$. $B^\emptyset = \{\emptyset\}$.
 当$A\ne\emptyset$时, $\emptyset^A=\emptyset$.
-\underline{映射}\index{映射, mapping| \$1\hfill}与函数同义.  
+\underline{映射}\index{映射, mapping| \$\ref{ch1}\hfill}与函数同义.  
 若$f\in B^A$, 常记 $f: A\to B$. 称 $f$ 是一个
-\underline{单射}\index{单射, injective| \$1\hfill}或者
-\underline{$1$-$1$}\index{$1$-$1$| \S1\hfill}的,
+\underline{单射}\index{单射, injective| \$\ref{ch1}\hfill}或者
+\underline{$\ref{ch1}$-$\ref{ch1}$}\index{$\ref{ch1}$-$\ref{ch1}$| \S1\hfill}的,
 如果$A$内不同的元在  $f$下有不同的像.
 称为$f$是一个
 \underline{满射}\index{满射, surjective| \S1\hfill}
@@ -98,14 +98,18 @@ $(x_0, x_1, \dots)$. 0 序列是$\emptyset$.为了免与开区间混淆, $(x_0, 
 %----------------
 \section{空间与覆盖}\label{sec:1.2}
 拓扑空间简称为
-\underline{空间}\index{空间, space| \S\ref{sec:1.1}\hfill}, 不附加任何分离公理.正规、正则空间也不必是$T_1$的.此后的,凡$X$,$Y$皆表空间.
+\underline{空间}\index{空间, space| \S\ref{sec:1.2}\hfill}, 不附加任何分离公理.正规、正则空间也不必是$T_1$的.此后的,凡$X$,$Y$皆表空间.
 设$x\in X$, 记
 $$\operatorname{top}(x) = \{W: W \textup{是}X\textup{的开集, 使得 }\: x\in W\}.$$
 \noindent 此即$x$的开邻域系.设$A\subset X$, $A^\circ$与$\overline{A}$分别表示$A$ 在$X$中的内部和闭包.
 设$\mathscr{D}=\{D_\alpha:\alpha\in\Delta\}$是$X$的一个子集族,则记
 $\mathscr{D}^\circ=\{D^\circ_\alpha:\alpha\in\Delta\}$,
 $\overline{\mathscr{D}}=\{\overline{D}_\alpha:\alpha\in\Delta\}$.当$\bigcup\mathscr{D} = X$
-时,称$\mathscr{D}$是$X$的一个覆盖.二覆盖之间的一个基本关系叫加细.
+时,称$\mathscr{D}$是$X$的一个
+\underline{覆盖}\index{覆盖, cover| \S\ref{sec:1.2}\hfill}.
+二覆盖之间的一个基本关系叫
+\underline{加细}\index{加细, refinement| \S\ref{sec:1.2}\hfill}.
+加细.
 设$\mathscr{V}=\{V_\beta:\beta\in\Gamma\}$是$X$的另一子集族,
 称$\mathscr{V}$加细$\mathscr{D}$,如果$\forall\beta\in\Gamma$, 
 $\exists\, \delta (\beta)\in\Delta, V_\beta\subset D_{\delta(\beta)}$.

@@ -1,42 +1,42 @@
 \vspace {3mm}\leftline {\bf \large 序言}\vspace {3mm}
 \contentsline {part}{第一部分\hspace {1em}预备}{1}{part.1}%
-\contentsline {chapter}{\numberline {第一章\hspace {.3em}}记号、术语与基本事实}{3}{chapter.1}%
+\contentsline {chapter}{\numberline {第1章\hspace {.3em}}记号、术语与基本事实}{3}{chapter.1}%
 \contentsline {section}{\numberline {1.1}集族}{3}{section.1.1}%
 \contentsline {section}{\numberline {1.2}空间与覆盖}{4}{section.1.2}%
 \contentsline {section}{\numberline {1.3}内部保持族与半开覆盖}{6}{section.1.3}%
 \contentsline {section}{\numberline {1.4}函数开集}{6}{section.1.4}%
-\contentsline {chapter}{\numberline {第二章\hspace {.3em}}弱覆盖性质}{7}{chapter.2}%
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}可扩型空间}{10}{chapter.3}%
+\contentsline {chapter}{\numberline {第2章\hspace {.3em}}弱覆盖性质}{7}{chapter.2}%
+\contentsline {chapter}{\numberline {第3章\hspace {.3em}}可扩型空间}{10}{chapter.3}%
 \contentsline {part}{第二部分\hspace {1em}仿紧与次亚紧空间}{11}{part.2}%
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}次亚紧空间}{12}{chapter.4}%
+\contentsline {chapter}{\numberline {第4章\hspace {.3em}}次亚紧空间}{12}{chapter.4}%
 \contentsline {section}{\numberline {4.1}次仿紧空间}{12}{section.4.1}%
 \contentsline {section}{\numberline {4.2}$\lambda $完满正规空间}{12}{section.4.2}%
 \contentsline {section}{\numberline {4.3}正规 $\lambda $强仿紧空间}{12}{section.4.3}%
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}亚紧空间}{13}{chapter.5}%
+\contentsline {chapter}{\numberline {第5章\hspace {.3em}}亚紧空间}{13}{chapter.5}%
 \contentsline {section}{\numberline {5.1}次仿紧空间}{13}{section.5.1}%
 \contentsline {section}{\numberline {5.2}$\lambda $完满正规空间}{13}{section.5.2}%
 \contentsline {section}{\numberline {5.3}正规 $\lambda $强仿紧空间}{13}{section.5.3}%
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}仿紧空间}{14}{chapter.6}%
+\contentsline {chapter}{\numberline {第6章\hspace {.3em}}仿紧空间}{14}{chapter.6}%
 \contentsline {section}{\numberline {6.1}正规 $\lambda $强仿紧空间}{14}{section.6.1}%
 \contentsline {part}{第三部分\hspace {1em}正规覆盖与集体正规空间}{15}{part.3}%
-\contentsline {chapter}{\numberline {第七章\hspace {.3em}}正规覆盖}{16}{chapter.7}%
+\contentsline {chapter}{\numberline {第7章\hspace {.3em}}正规覆盖}{16}{chapter.7}%
 \contentsline {section}{\numberline {7.1}次仿紧空间}{16}{section.7.1}%
 \contentsline {section}{\numberline {7.2}$\lambda $完满正规空间}{16}{section.7.2}%
 \contentsline {section}{\numberline {7.3}正规 $\lambda $强仿紧空间}{16}{section.7.3}%
-\contentsline {chapter}{\numberline {第八章\hspace {.3em}}集体正规空间}{17}{chapter.8}%
+\contentsline {chapter}{\numberline {第8章\hspace {.3em}}集体正规空间}{17}{chapter.8}%
 \contentsline {section}{\numberline {8.1}次仿紧空间}{17}{section.8.1}%
 \contentsline {section}{\numberline {8.2}$\lambda $完满正规空间}{17}{section.8.2}%
 \contentsline {section}{\numberline {8.3}正规 $\lambda $强仿紧空间}{17}{section.8.3}%
 \contentsline {part}{第四部分\hspace {1em}$\lambda $完满正规与次仿紧空间}{18}{part.4}%
-\contentsline {chapter}{\numberline {第九章\hspace {.3em}}次仿紧空间}{19}{chapter.9}%
+\contentsline {chapter}{\numberline {第9章\hspace {.3em}}次仿紧空间}{19}{chapter.9}%
 \contentsline {section}{\numberline {9.1}次仿紧空间}{19}{section.9.1}%
 \contentsline {section}{\numberline {9.2}$\lambda $完满正规空间}{19}{section.9.2}%
 \contentsline {section}{\numberline {9.3}正规 $\lambda $强仿紧空间}{19}{section.9.3}%
-\contentsline {chapter}{\numberline {第十章\hspace {.3em}}$\lambda $完满正规空间}{20}{chapter.10}%
+\contentsline {chapter}{\numberline {第10章\hspace {.3em}}$\lambda $完满正规空间}{20}{chapter.10}%
 \contentsline {section}{\numberline {10.1}次仿紧空间}{20}{section.10.1}%
 \contentsline {section}{\numberline {10.2}$\lambda $完满正规空间}{20}{section.10.2}%
 \contentsline {section}{\numberline {10.3}正规 $\lambda $强仿紧空间}{20}{section.10.3}%
-\contentsline {chapter}{\numberline {第十一章\hspace {.3em}}正规 $\lambda $强仿紧空间}{21}{chapter.11}%
+\contentsline {chapter}{\numberline {第11章\hspace {.3em}}正规 $\lambda $强仿紧空间}{21}{chapter.11}%
 \contentsline {section}{\numberline {11.1}次仿紧空间}{21}{section.11.1}%
 \contentsline {section}{\numberline {11.2}$\lambda $完满正规空间}{21}{section.11.2}%
 \contentsline {section}{\numberline {11.3}正规 $\lambda $强仿紧空间}{21}{section.11.3}%
