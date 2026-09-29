@@ -3,7 +3,7 @@
 \contentsline {chapter}{\numberline {第一章\hspace {.3em}}记号、术语与基本事实}{3}{chapter.1}%
 \contentsline {section}{\numberline {1.1}集族}{3}{section.1.1}%
 \contentsline {section}{\numberline {1.2}空间与覆盖}{4}{section.1.2}%
-\contentsline {section}{\numberline {1.3}内部保持族与半开覆盖}{5}{section.1.3}%
+\contentsline {section}{\numberline {1.3}内部保持族与半开覆盖}{6}{section.1.3}%
 \contentsline {section}{\numberline {1.4}函数开集}{6}{section.1.4}%
 \contentsline {chapter}{\numberline {第二章\hspace {.3em}}弱覆盖性质}{7}{chapter.2}%
 \contentsline {chapter}{\numberline {第三章\hspace {.3em}}可扩型空间}{10}{chapter.3}%
