@@ -121,7 +121,7 @@ $\overline{\bigcup_{\beta\in B}V_\beta}\subset \bigcup_{\beta\in B}D_{\delta(\be
 则称$\mathscr{V}$是$\mathscr{D}$的一个
 \underline{部分加细}
 \index{部分加细, partial refinement| \S\ref{sec:1.2}\hfill}
-(\underline{部分垫状加细}
+(\underline{部分垫状加细}.
 \index{部分垫状加细, partial cushioned refinement| \S\ref{sec:1.2}\hfill})
 若进一步合条件$\bigcup\mathscr{V}=\bigcup\mathscr{D}$,
 则称$\mathscr{V}$是$\mathscr{D}$的一个
@@ -148,9 +148,9 @@ $\overline{\bigcup_{\alpha\in B}W_\alpha}  = \bigcup_{\alpha\in B}D_\alpha$.
 
 \begin{definition} \label{def:1.2.1}
 设$\lambda \ge2$. $X$是
-\underline{$\lambda$可缩的}
-\index{$\lambda$可缩的, $\lambda$-shrinkable| \S\ref{def:1.2.1}\hfill},
-$\lambda$可缩的,如果$X$的每个势$\le \lambda$
+\underline{$\lambda$可缩的},
+\index{$\lambda$可缩的, $\lambda$-shrinkable| \S\ref{def:1.2.1}\hfill}
+如果$X$的每个势$\le \lambda$
 的开覆盖有一个开收缩, $\omega$可缩常称为
 \underline{可数可缩}
 \index{可数可缩, countably shrinkable| \S\ref{def:1.2.1}\hfill}.
@@ -193,11 +193,11 @@ $\Leftrightarrow \mathscr{D}^F$ 加细$\mathscr{D}$.
 二集$A$与$B$是
 \underline{相交的},
 \index{相交的, intersects| \S\ref{def:1.2.3}\hfill}
-如果$A\bigcap B\ne \emptyset$, 
+如果$A\bigcap B\ne \emptyset$;
 是
 \underline{非交的},
 \index{非交的, disjoint| \S\ref{def:1.2.3}\hfill}
-的如果$A\bigcap B=\emptyset$.
+如果$A\bigcap B=\emptyset$.
 
 \begin{definition} \label{def:1.2.4}
 设$\mathscr{D}=\{D_\alpha: \alpha\in \Delta\}$是$X$内的子集族.
@@ -205,7 +205,7 @@ $\Leftrightarrow \mathscr{D}^F$ 加细$\mathscr{D}$.
 \textnormal{(i)} $\mathscr{D}$在$X$内是
 \underline{星形有限的}
 \index{星形有限的, star-finite| \S\ref{def:1.2.4}\hfill}
-\underline{(非交的)},
+(\underline{非交的}),
 \index{非交的, disjoint (family)| \S\ref{def:1.2.4}\hfill}
 如果$\forall\beta\in\Delta, |\Delta_\beta| < \omega$ $(|\Delta_\beta| \le 1)$, 此处
 $\Delta_\beta = \{\alpha\in\Delta: D_\alpha\bigcap D_\beta \ne \emptyset\}$.
@@ -219,14 +219,6 @@ $\Delta_\beta = \{\alpha\in\Delta: D_\alpha\bigcap D_\beta \ne \emptyset\}$.
 $\Delta(x) = \{\alpha\in\Delta: x\in D_\alpha\}$.
 称$\mathscr{D}$在$X$内是\underline{点有限的}
 (\underline{点非交的}), 如果$\mathscr{D}$在$X$的每一点处是点有限的\textnormal{(}点非交的\textnormal{)}.
-\end{definition}
-易见:
-
-1) $\mathscr{D}$在$X$内是非交的$\Leftrightarrow$$\mathscr{D}$在$X$内是点非交的.
-
-2)若 $\mathscr{D}$在$X$内是非交的, 则
-$$\forall \alpha,\beta\in\Delta \,(D_\alpha \ne D_\beta
-\Rightarrow D_\alpha\cap D_\beta = \emptyset).$$
 
 (iii) 设$n\ge 1$, 称$\mathscr{D}$在$X$内是
 \underline{局部有限的}
@@ -238,23 +230,33 @@ $$\forall x\in X\, \exists\,W\in\textrm{top}(x), |\Delta(W)| \le \omega\,\,\, (|
 此处$\Delta(W)= \{\alpha\in \Delta: W\cap D_\alpha \ne \emptyset\}$.
 称$\mathscr{D}$在$X$内是有界局部有限的(离散的),如果存在$n\ge 1$, 
 $\mathscr{D}$在$X$內是$n$局部有限(1局部有限)的.
+\end{definition}
 
-\begin{fact}
+易见:
+
+1) $\mathscr{D}$在$X$内是非交的$\Leftrightarrow$$\mathscr{D}$在$X$内是点非交的.
+
+2)若 $\mathscr{D}$在$X$内是非交的, 则
+$$\forall \alpha,\beta\in\Delta \,(D_\alpha \ne D_\beta
+\Rightarrow D_\alpha\cap D_\beta = \emptyset).$$
+
+\begin{fact} \label{fact:1.2.5}
 $\mathscr{D}=\{D_\alpha: \alpha\in \Delta\}$是$X$内的离散闭集族
 $\Leftrightarrow\bigcup\mathscr{D}$闭于$X$ 
 且$\mathscr{D}$在每一点$x\in\bigcup\mathscr{D}$处是离散的.
 \end{fact}
-证明. ($\Leftarrow)$是平凡的.
-($\Rightarrow$). 设$\bigcup\mathscr{D}$是闭集,且$\mathscr{D}$在每点
+\begin{proof}
+($\Rightarrow$)是平凡的.
+证($\Leftarrow$). 设$\bigcup\mathscr{D}$是闭集,且$\mathscr{D}$在每点
 $x\in\bigcup\mathscr{D}$处是离散的,则显然$\mathscr{D}$是离散的.
 只需再证它的任意元$D_\alpha$是闭集.设$x\in\overline{D_\alpha}$,则
 $\exists\beta\in\Delta \, (x\in D_\beta)$.
 依前一定义(iii) 的记号,存$x$的邻域$W$使得$|\Delta(W)|\le 1$. 
 因$W\cap D_\alpha \ne \emptyset$且$x\in W\cap D_\beta$, 则
 $\alpha = \beta, x\in D_\alpha$.
-$\square$
+\end{proof}
 
-\begin{fact}
+\begin{fact} \label{fact:1.2.6}
 设$\mathscr{D}=\{D_\alpha: \alpha\in \Delta\}$是$X$的覆盖.
 
 \textnormal{(i)} 若$\mathscr{D}$有局部有限开加细,则$\mathscr{D}$有局部有限的精确开加细.
@@ -270,29 +272,35 @@ $\mathscr{D}$,则$\mathscr{D}$,有局部有限开收缩.
 结论也成立.
 \end{fact}
 
-证明. (i) 和 (ii) 的基本证法同(iii).下面我们只证(iii).
+\begin{proof}
+(i) 和 (ii) 的基本证法同(iii).下面我们只证(iii).
 设$\mathscr{D}$有一个垫状加细$\mathscr{W}=\{W_\beta: \beta\in\Gamma\}$.
-$\forall\beta\in\Gamma\,\exists \delta(\beta)\in \Delta$满足$W_\beta\subset D_{\delta(\beta)}$并使得
-$\forall B\subset\Gamma, \overline{\bigcup_{\beta\in B}W_\beta}\subset 
+$\forall\beta\in\Gamma,\exists\: \delta(\beta)\in \Delta$满足$W_\beta\subset D_{\delta(\beta)}$并使得
+$\forall B\subset\Gamma,\: \overline{\bigcup_{\beta\in B}W_\beta}\subset 
 	\bigcup_{\beta\in B}D_{\delta(\beta)}$.
 $\forall \alpha\in \Delta$,令
 $V_\alpha=\bigcup\{W_\beta: \beta\in\Gamma, \delta(\beta) = \alpha\}$.
-$\forall C\subset\Delta$,
+$\forall \, C\subset\Delta$,
 
-\begin{equation}
+\begin{equation*}
 \begin{aligned}
 \overline{\bigcup_{\alpha\in C}V_\alpha}
 	&= \overline{\bigcup \{W_\beta: \beta\in\Gamma, \delta(\beta)=\alpha, \alpha\in C\}}   \\
-	&\subset\bigcup \{D_{\delta(\beta)}: \beta\in\Gamma, \delta(\beta)=\alpha, \alpha\in C\} = \bigcup_{\alpha\in C}D_\alpha. \quad\square
+	&\subset\bigcup \{D_{\delta(\beta)}: \beta\in\Gamma, \delta(\beta)=\alpha, \alpha\in C\} = \bigcup_{\alpha\in C}D_\alpha.
 \end{aligned}
-\end{equation}
-
+\end{equation*}
+\end{proof} 
 
 %----------------
 \section{内部保持族与半开覆盖}\label{sec:1.3}
-\begin{definition}
-$X$ 的子集族 $\mathscr{D}=\{D_\alpha:\alpha\in\Delta\}$称为\underline{内部保持的}\textnormal{(Junnila)}
-\textnormal{(}或\underline{闭包保持的}\textnormal{)},如果$\forall B\subset \Delta$,
+
+\begin{definition} \label{def:1.3.1}
+$X$ 的子集族 $\mathscr{D}=\{D_\alpha:\alpha\in\Delta\}$称为
+\underline{内部保持的}(Junnila)
+\index{内部保持的, interior-preserving| \S\ref{def:1.3.1}\hfill}
+(或\underline{闭包保持的}),
+\index{闭包保持的, closure-preserving| \S\ref{def:1.3.1}\hfill}
+如果$\forall \, B\subset \Delta$,
 $$(\bigcap_{\alpha\in B}D_\alpha)^\circ=\bigcap_{\alpha\in B}D_\alpha^\circ, 
 \qquad\textnormal{(}\textrm{或} \quad
 \overline{\bigcup_{\alpha\in B}D_\alpha} = 
@@ -300,37 +308,42 @@ $$(\bigcap_{\alpha\in B}D_\alpha)^\circ=\bigcap_{\alpha\in B}D_\alpha^\circ,
 ).$$
 \end{definition}
 熟知每个局部有限族是闭包保持的,由下面的事实知,每个点有限的或上升的开覆盖是内部保持的.
-显然,$\mathscr{D}$是内部保持的,当且仅当集族
+显然, $\mathscr{D}$是内部保持的,当且仅当集族
 $\{X\backslash D_\alpha: \alpha\in\Delta \}$
 是闭包保持的.
 
-\begin{fact}
+\begin{fact} \label{fact:1.3.2}
 设$\mathscr{U}=\{U_\alpha:\alpha\in\Delta\}$是$X$的开集族,则下列各条等价.
 
-\textnormal{(i)} $\mathscr{U}$是内部保持的.
+(i) $\mathscr{U}$是内部保持的.
 
-\textnormal{(ii)} $\forall x\in\bigcup\mathscr{U}$, $\bigcap(\mathscr{U})_x$是开集.
+(ii) $\forall \, x\in\bigcup\mathscr{U}$, $\bigcap(\mathscr{U})_x$是开集.
 
-\textnormal{(iii)} $\forall B\subset\Delta$, $\bigcap_{\alpha\in B}U_\alpha$是开集.
+(iii) $\forall \, B\subset\Delta$, $\bigcap_{\alpha\in B}U_\alpha$是开集.
 \end{fact}
-证明. 由定义可直接推出. $\square$
+\begin{proof}
+由定义可直接推出.
+\end{proof}
 
-\begin{fact}
+\begin{fact} \label{fact:1.3.3}
 设$\mathscr{U}=\{U_\alpha:\alpha\in\Delta\}$是$X$的一个内部保持开集族.
 $B$是以序数为元的集.设$\forall \beta\in B$, $\Delta_\beta\subset \Delta$.则集族
 $\{\bigcap_{\alpha\in\Delta_\beta}U_\alpha: \beta\in B\}$与
 $\{\bigcup_{\alpha\in\Delta_\beta}U_\alpha: \beta\in B\}$
-皆是$X$內的内部保持开集族. $\square$
+皆是$X$內的内部保持开集族.
 \end{fact}
 
-\begin{definition}
-\textnormal{(Junnila)} $X$的覆盖$\mathscr{D}$是\underline{半开的},如果
-$\forall x\in X, x\in(\textnormal{st}(x, \mathscr{D}))^\circ$, 即, 
-$\textnormal{st}(x, \mathscr{D})\in\textnormal{top}(x)$.
+\begin{definition} \label{def:1.3.4}
+\textnormal{(Junnila)} $X$的覆盖$\mathscr{D}$是
+\underline{半开的},
+\index{半开的, semi-open| \S\ref{def:1.3.1}\hfill}
+如果
+$\forall x\in X, x\in(\textnormal{st}(x, \mathscr{D}))^\circ$, 
+即 $\operatorname{st}(x, \mathscr{D})\in \operatorname{top}(x)$.
 \end{definition}
 
-\begin{fact}
-$X$的覆盖$\mathscr{D}$是半开的$\Leftrightarrow \forall A\subset X, \overline{A} \subset\textnormal{st}(A, \mathscr{D})$. $\square$
+\begin{fact} \label{fact:1.3.5}
+$X$的覆盖$\mathscr{D}$是半开的$\Leftrightarrow \forall A\subset X, \overline{A} \subset\textnormal{st}(A, \mathscr{D})$. 
 \end{fact}
 
 由上述事实知,每个闭包保持闭覆盖是半开的,开覆盖显然是半开的.
@@ -338,16 +351,25 @@ $X$的覆盖$\mathscr{D}$是半开的$\Leftrightarrow \forall A\subset X, \overl
 
 %----------------
 \section{函数开集}\label{sec:1.4}
-\begin{definition}
-	$X$在的子集$A$称\underline{函数开的},或是一个\underline{补零集},如果存在一个连续函数$f:X\rightarrow [0,1]$使得$A=f^{-1}(0,1]=\{x\in X: 0<f(x)\le 1\}$.
+
+\begin{definition} \label{def:1.4.1}
+$X$在的子集$A$称
+\underline{函数开的},
+\index{函数开的, functionally open| \S\ref{def:1.4.1}\hfill}
+或是一个
+\underline{补零集},
+\index{补零集, cozero set| \S\ref{def:1.4.1}\hfill}
+如果存在一个连续函数$f:X\rightarrow [0,1]$使得$A=f^{-1}(0,1]=\{x\in X: 0<f(x)\le 1\}$.
 \end{definition}
 
-易见,对于任意的$a, 0\le a\le1$, 形如$f^{-1}(a,1]$或$f^{-1}[0,a)$的集皆是函数开集.由 Engelking[1977]知,两个函数开集之交是函数开的,可数多个函数开集的并是函数开的.
+易见,对于任意的$a, 0\le a\le1$, 形如$f^{-1}(a,1]$或$f^{-1}[0,a)$的集皆是函数开集.由 Engelking[1977]\textsuperscript{\cite{Engelking1977}}
+知,两个函数开集之交是函数开的,可数多个函数开集的并是函数开的.
 $X$的子集族称为函数开的,如果它的每个元是函数开集.
 设$\mathscr{U}$是$X$内的一个函数开的局部有限族,则$\bigcup \mathscr{U}$是函数开集.
-完全(perfect)正规空间内的每个开集是函数开集.因为伪度量空间是完全正规的,我们有下到的
+完全(perfect)正规空间内的每个开集是函数开集.
+因为伪度量空间是完全正规的, 我们有下到的
 
-\begin{fact}
+\begin{fact} \label{fact:1.4.2}
 伪度量空间的每个开集是函数开集. $\square$
 \end{fact}
 
