@@ -174,34 +174,52 @@ $\mathscr{V}=\{V_\beta: \beta<\lambda\}$的开覆盖有一个开收缩.
 \end{note}
 
 \begin{definition} \label{def:1.2.3}
-(i)  集族$\mathscr{D}=\{D_\alpha: \alpha<\lambda\}$是上升的,
+(i)  集族$\mathscr{D}=\{D_\alpha: \alpha<\lambda\}$是
+\underline{上升的},
+\index{上升的, increasing| \S\ref{def:1.2.3}\hfill}
 如果
 $\forall\alpha, \beta \,(\alpha < \beta < \lambda \Rightarrow D_\alpha \subset D_\beta )$.
 
-\textnormal{(ii)}  集族$\mathscr{D}=\{D_\alpha: \alpha\in\Delta\}$是定向的,
+\textnormal{(ii)}  集族$\mathscr{D}=\{D_\alpha: \alpha\in\Delta\}$是
+\underline{定向的},
+\index{定向的, directed| \S\ref{def:1.2.3}\hfill}
 如果
-$\forall\alpha, \beta\in\Delta\,\exists \gamma\in \Delta\,
+$\forall\alpha, \beta\in\Delta\,\exists \, \gamma\in \Delta\,
 (D_\alpha \bigcup D_\beta \subset D_\gamma)$.
 对此$\mathscr{D}$, 我们记
 $\mathscr{D}^F = \{\bigcup_{\alpha\in S} D_\alpha: S\in [\Delta]^{<\omega}\}$,
 易见$\mathscr{D}^F$总是定向的.并且$\mathscr{D}$是定向
 $\Leftrightarrow \mathscr{D}^F$ 加细$\mathscr{D}$.
 \end{definition}
-二集$A$与$B$是相交的如果$A\bigcap B\ne \emptyset$, 
-是非交的如果$A\bigcap B=\emptyset$.
+二集$A$与$B$是
+\underline{相交的},
+\index{相交的, intersects| \S\ref{def:1.2.3}\hfill}
+如果$A\bigcap B\ne \emptyset$, 
+是
+\underline{非交的},
+\index{非交的, disjoint| \S\ref{def:1.2.3}\hfill}
+的如果$A\bigcap B=\emptyset$.
 
-\begin{definition}
+\begin{definition} \label{def:1.2.4}
 设$\mathscr{D}=\{D_\alpha: \alpha\in \Delta\}$是$X$内的子集族.
 
-\textnormal{(i)} $\mathscr{D}$在$X$内是星形有限的\textnormal{(}非交的
-的\textnormal{)}, 如果$\forall\beta\in\Delta, |\Delta_\beta| < \omega$ $(|\Delta_\beta| \le 1)$, 此处
+\textnormal{(i)} $\mathscr{D}$在$X$内是
+\underline{星形有限的}
+\index{星形有限的, star-finite| \S\ref{def:1.2.4}\hfill}
+\underline{(非交的)},
+\index{非交的, disjoint (family)| \S\ref{def:1.2.4}\hfill}
+如果$\forall\beta\in\Delta, |\Delta_\beta| < \omega$ $(|\Delta_\beta| \le 1)$, 此处
 $\Delta_\beta = \{\alpha\in\Delta: D_\alpha\bigcap D_\beta \ne \emptyset\}$.
  
-\textnormal{(ii)} $\mathscr{D}$在$x\in X$处是点有限的
-\textnormal{(}点非交的\textnormal{)},如果$|\Delta(x)| < \omega$ $(|\Delta(x)| \le 1)$, 此处
+\textnormal{(ii)} $\mathscr{D}$在$x\in X$处是
+\underline{点有限的}
+\index{点有限的, point-finite| \S\ref{def:1.2.4}\hfill}
+(\underline{点非交的}),
+\index{点非交的, disjoint at a point| \S\ref{def:1.2.4}\hfill}
+如果$|\Delta(x)| < \omega$ $(|\Delta(x)| \le 1)$, 此处
 $\Delta(x) = \{\alpha\in\Delta: x\in D_\alpha\}$.
-称$\mathscr{D}$在$X$内是点有限的 
-\textnormal{(}点非交的\textnormal{)}, 如果$\mathscr{D}$在$X$的每一点处是点有限的\textnormal{(}点非交的\textnormal{)}.
+称$\mathscr{D}$在$X$内是\underline{点有限的}
+(\underline{点非交的}), 如果$\mathscr{D}$在$X$的每一点处是点有限的\textnormal{(}点非交的\textnormal{)}.
 \end{definition}
 易见:
 
@@ -211,14 +229,16 @@ $\Delta(x) = \{\alpha\in\Delta: x\in D_\alpha\}$.
 $$\forall \alpha,\beta\in\Delta \,(D_\alpha \ne D_\beta
 \Rightarrow D_\alpha\cap D_\beta = \emptyset).$$
 
-{\kaishu
-(iii) 设$n\ge 1$, 称$\mathscr{D}$在$X$内是局部有限的($n$局部有限的),
+(iii) 设$n\ge 1$, 称$\mathscr{D}$在$X$内是
+\underline{局部有限的}
+\index{局部有限的, locally finite| \S\ref{def:1.2.4}\hfill}
+(\underline{$n$局部有限的}),
+\index{$n$局部有限的, $n$-locally finite| \S\ref{def:1.2.4}\hfill}
 如果
 $$\forall x\in X\, \exists\,W\in\textrm{top}(x), |\Delta(W)| \le \omega\,\,\, (|\Delta(W)| \le n).$$
 此处$\Delta(W)= \{\alpha\in \Delta: W\cap D_\alpha \ne \emptyset\}$.
 称$\mathscr{D}$在$X$内是有界局部有限的(离散的),如果存在$n\ge 1$, 
 $\mathscr{D}$在$X$內是$n$局部有限(1局部有限)的.
-}
 
 \begin{fact}
 $\mathscr{D}=\{D_\alpha: \alpha\in \Delta\}$是$X$内的离散闭集族
